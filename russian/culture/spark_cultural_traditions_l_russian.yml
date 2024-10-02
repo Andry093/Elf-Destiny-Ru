@@ -1,0 +1,197 @@
+﻿l_russian:
+   # ========= TRADITIONS ========= 
+  
+ elf_tradition_not_discovered: "Вы еще не открыли для себя эту традицию.. Попробуйте отправиться в Экспедицию!"
+ elf_blessing_not_given: "Божественная Искра еще не даровала вам это благословение."
+ elf_blessing_not_given_by_vana: "Вана еще не даровала вам это благословение."
+ elf_blessing_not_given_by_tulkas: "Тулкас Асталдо еще не даровал вам это благословение."
+  
+   # Elf Craftsmanship 
+ tradition_elf_craftsmanship_name: "Эльфийское Мастерство"
+ tradition_elf_craftsmanship_desc: "Эта культура имеет давнюю традицию совершенствования ремесел, а ее мастера славятся мастерством и вниманием к деталям. Их работы часто пользуются большим спросом, и поэтому их мастера часто пользуются большим спросом."
+  
+   # Adventure Guilds 
+ tradition_adventurer_guilds_name: "Гильдии искателей приключений"
+ tradition_adventurer_guilds_desc: "Эта культура жаждет исследований и удовлетворения от открытий. Они институционализировали это желание в сети гильдий, которые спонсируют искателей приключений и исследователей, которые ищут новые земли и заново открывают то, что было потеряно."
+  
+ culture_parameter_better_expeditions: "Экспедиции стоят меньше золота, имеют больше шансов сделать важные открытия и дают дополнительный опыт с чертой [GetTrait('adventurer').GetName( GetNullCharacter )]."
+ culture_parameter_elf_unlock_varangian_adventurers_innovation: "Открывает [varangian_adventure|E] [casus_belli|E] во время [tribal|E] [era|E]."
+  
+ culture_parameter_two_trials_per_expedition: "Искатели приключений могут столкнуться с двумя испытаниями за экспедицию и с большей вероятностью столкнутся с ними."
+  
+   # Fey Strategics 
+ tradition_fey_strategics_name: "Фейская Стратегия"
+ tradition_fey_strategics_desc: "$innovation_fey_strategics_desc$"
+ innovation_fey_strategics_desc: "Эльфийских кавалерийских лучников с рождения воспитывают в привязанности к своим скакунам. $fey_riders$ наносит удары с идеальной точностью и бешеной скоростью."
+ culture_parameter_unlock_maa_fey_riders: "Можно нанять [GetMaA('fey_riders').GetName] в качестве [men_at_arms|E]"
+  
+ fey_riders: "Фейские наездники"
+ fey_riders_flavor: "#F Идеально связанные со своими скакунами и верные своим лукам, мистические $fey_riders$ кавалерийские лучники Фей уничтожают армии невероятной скоростью и преследованием.#!"
+  
+   # The Old Ways 
+ tradition_the_old_ways_name: "Старые пути"
+ tradition_the_old_ways_desc: "Эта культура древняя и загадочная, она обращается к прошлому за руководством. Он знает, что в прошлом можно найти секреты и что старые пути часто являются лучшими."
+  
+ culture_parameter_unlock_maa_fey_archers: "Можно нанять [GetMaA('fey_archers').GetName] в качестве [men_at_arms|E]"
+  
+   # The Rut 
+ tradition_the_rut_name: "Колея"
+ tradition_the_rut_desc: "Божественная Искра обретает силу через создание жизни и, продвигая это дело, раскрывает свою волю. Плодородные представители этой культуры не так тонко подталкиваются Божественной Искрой к процветанию и размножению."
+  
+ culture_parameter_the_rut_enabled: "Каждые несколько лет молодых представителей этой культуры охватывает сильная жара, которая заставляет их спариваться. Члены, подвергшиеся воздействию, получают черту [GetTrait('lustful').GetName( GetNullCharacter )], пока колея не пройдет."
+  
+ culture_parameter_fecund_festival_enabled: "Разблокирует праздник Белого Кролика. Активность | (ЕЩЕ В СТРОИТЕЛЬСТВЕ, ВОЗВРАЩАЙТЕСЬ ПОЗЖЕ)"
+  
+ culture_parameter_multi_birthing: "Представители этой культуры с гораздо большей вероятностью будут иметь несколько детей за одно рождение."
+  
+   # Noble Husbandry 
+ tradition_noble_husbandry_name: "Благородное Хозяйство"
+ tradition_noble_husbandry_desc: "Эта культура одержима их родословными и чистотой их происхождения. Их тщательная практика евгеники привела к появлению культуры дворян, которые физически и умственно превосходят простой народ."
+  
+ culture_parameter_higher_level_base_genetics_unlocked: "При тщательном разведении эльфы смогут еще больше раскрыть свой генетический потенциал и стать [GetTrait('beauty_good_4').GetName( GetNullCharacter )], [GetTrait('intellect_good_4').GetName( GetNullCharacter )] и [GetTrait('physique_good_4').GetName( GetNullCharacter )]."
+  
+   # Divine Inspirations 
+ tradition_divine_inspirations_name: "Божественное вдохновение"
+ tradition_divine_inspirations_desc: "Ремесленники этой культуры относятся к высочайшему классу. Божественная Искра благословила их способностью создавать поистине божественные произведения искусства. Их работы часто наделены магическими свойствами и пользуются большим спросом у богатых и влиятельных людей."
+  
+   # Tempered Spark Veins 
+ tradition_tempered_spark_veins_name: "Закаленные искровые жилы"
+ tradition_tempered_spark_veins_desc: "Представители этой культуры наделены более сильной способностью владеть Божественной Искрой. Их вены закалены силой Искры, и они способны направлять ее с большей легкостью и силой."
+  
+   # The Common Song 
+ tradition_the_common_song_name: "Общая песня"
+ tradition_the_common_song_desc: "Эта культура практикует магию песенных заклинаний. Их подсознание постоянно гудит в едином ритме, который разделяют все представители культуры. Они работают и сражаются в полной гармонии, как будто ими руководит один разум."
+  
+   # Divine Hierarchy 
+ tradition_divinic_hierarchy_name: "Божественная Иерархия"
+ tradition_divinic_hierarchy_desc: "Те, кто больше всего связан с Божественной Искрой, превосходят других. Люди должны служить эльфам, это естественный порядок вещей."
+  
+   # Open Hearted 
+ tradition_open_hearted_name: "Открытое сердце"
+ tradition_open_hearted_desc: "Люди, эльфы, мы все дети божественной искры. Ко всем нам следует относиться как к равным."
+  
+ culture_parameter_humans_always_accept_elf_marriage: "Люди будут открыты для брака с эльфами этой культуры независимо от их религии."
+  
+   # Elven Superiority 
+ tradition_elf_superiority_name: "Эльфийское превосходство"
+ tradition_elf_superiority_desc: "Сама Божественная Искра помазывает эльфов в качестве своих избранных последователей. Судьба эльфов — управлять судьбами народов королевства. А Люди? Их место — служить и подчиняться"
+ culture_parameter_gain_a_superior_elf_ruler_modifier: "Эльфийские правители этой культуры получают модификатор, дающий ежемесячную славу и престиж."
+  
+   # People Of The Bow 
+ tradition_people_of_the_bow_name: "Люди Лука"
+ tradition_people_of_the_bow_desc: "В этой культуре нет более фундаментального критерия мастерства, чем владение луком. Большинство из них неустанно тренировались с раннего детства, и элитная гвардия, которую этот народ выставляет в бою, действительно не имеет себе равных."
+  
+ culture_parameter_people_of_the_bow_archer_bonus: "По достижении совершеннолетия эльфы этой культуры получают первый уровень Лука [trait_level_track|E] из [GetTrait('tourney_participant').GetName( GetNullCharacter )] [trait|E]."
+ culture_parameter_unlock_maa_elite_bow_knights: "Можно нанять [GetMaA('elite_bow_knights').GetName] в качестве [men_at_arms|E]"
+  
+   # Heroic Courage 
+ tradition_heroic_courage_name: "Героическое мужество"
+ tradition_heroic_courage_desc: "Эта культура ценит храбрость и мужество превыше всего. Божественная Искра проникла в сердца людей и благословила их яростным огнём. Их воины бесстрашны, и ожидается, что их лидеры будут вести их с фронта."
+  
+ culture_parameter_heroic_trait_unlocked: "Персонажи этой культуры автоматически получают [GetTrait('brave').GetName( GetNullCharacter )] после убийства 2 врагов в бою и [GetTrait('heroic').GetName( GetNullCharacter )] после убийства 5 врагов."
+  
+   # Divinators 
+ tradition_divinators_name: "Предсказатели"
+ tradition_divinators_desc: "Великая Искра позаботилась о том, чтобы одарить некоторых избранных волхвов прорицанием. Их прорицатели способны заглядывать в будущее и предсказывать исход событий. С ними часто консультируются знать и богатые люди, чтобы помочь им принять решения."
+  
+   # Familial Familiarity 
+ tradition_familial_familiarity_name: "Семейное знакомство"
+ tradition_familial_familiarity_desc: "В поисках чистейшей родословной Божественная Искра устранила все ментальные барьеры и табу. Представители этой культуры всегда предпочитают вступать в брак внутри своей семьи. #italic Кровь сильна #!."
+  
+ culture_parameter_allows_unrestricted_marriage: ""
+ culture_parameter_culture_allows_incest: "Представители этой культуры могут вступать в браки со своими семьями."
+ culture_parameter_familial_familiarity_purer_blood: "Дети от этого могут родиться с [GetTrait('purer_blooded').GetName( GetNullCharacter )]"
+ culture_parameter_familial_familiarity_purest_blood: "У парных близнецов этой культуры есть небольшой шанс родить детей [GetTrait('purest_blooded').GetName( GetNullCharacter )]."
+  
+   # Archonic Amplification 
+ tradition_archonic_amplification_name: "Архоническое усиление"
+ tradition_archonic_amplification_desc: "Сила стоит любой цены: благодаря использованию контрольных ошейников, одержимости духом и наделению магов огромным количеством искры создается новый класс обладателей искры. Первобытные существа с простыми намерениями и огромной силой, эти Архонты необходимо контролировать, но они являются мощным инструментом на поводке опытного Мага."
+  
+   # Endless Lord 
+ tradition_endless_lord_name: "Бесконечный Лорд"
+ tradition_endless_lord_desc: "Людьми этой культуры управляют совершенные лорды, и их правление должно жить вечно. Первый наследник, рожденный от лорда, всегда является идеальной копией своего лорда-родителя."
+  
+ culture_parameter_endless_lord_active: "Первенцы-наследники правителей этой культуры всегда будут точной генетической копией своего лорда-родителя."
+  
+   # Blood Benders 
+ tradition_blood_benders_name: "Маги крови"
+ tradition_blood_benders_desc: "Эта культура уважает практику магии крови и высоко ценит тех, кто может ею владеть."
+  
+   # Beguiling Nature 
+ tradition_beguiling_nature_name: "Манящая природа"
+ tradition_beguiling_nature_desc: "Божественная Искра слегка влияет на личности Эльфов этой культуры и даже заставляет их излучать легкую ауру Искры, придавая им легкое магическое очарование, перед которым трудно устоять."
+  
+ culture_parameter_passionate_trait_unlocked: "Персонажи этой культуры получат [GetTrait('lustful').GetName( GetNullCharacter )] после соблазнения 2 других правителей и [GetTrait('passionate').GetName( GetNullCharacter )] после соблазнения 5 других правителей."
+ culture_parameter_entrance_scheme_unlocked: "Открывает вход #bold#! [personal_scheme|E]."
+ culture_parameter_enchantress_trait_unlocked: "Персонажи этой культуры с чертой образа жизни [GetTrait('seducer').GetName(GetPlayer)] разовьют ее до [GetTrait('enchantress').GetName(GetPlayer)] после успешного завершения 3-го входа [schemes|E]."
+ culture_parameter_intrigue_diplo_bow_unlocked: "Открывает возможность использовать комбинацию @skill_intrigue_icon! и @skill_diplomacy_icon! в #BOL Битва за воли#!"
+  
+  
+   # Human Shepherds 
+ tradition_human_shepherds_name: "Человеческие пастыри"
+ tradition_human_shepherds_desc: "Эта культура имеет долгую историю одомашнивания и разведения людей. Их часто используют в качестве вьючных животных, а иногда даже используют в пищу."
+  
+   # Aeluran Etiquette 
+ tradition_aeluran_etiquette_name: "Элуранский этикет"
+ tradition_aeluran_etiquette_desc: "Эта культура находится под контролем Элуранских Ткачей. Сестрам Ордена подчиняются беспрекословно, и их слово — закон. Людей приучили подчиняться Сестрам, а подчиняться Сестрам — значит подчиняться Божественной Искре."
+  
+ culture_parameter_aeluran_improved_religion_conversion_speed: "Время преобразования религиозного округа\: #P -33%#!"
+ culture_parameter_aeluran_improved_culture_conversion_speed: "Время преобразования округа Культура\: #P -33%#!"
+ culture_parameter_aeluran_converting_counties_increases_fervor: "[faith|E] правителей этой культуры получат [fervor|E] после того, как графства завершат религиозное обращение."
+  
+   # Desert Power 
+ tradition_desert_power_name: "Сила пустыни"
+ tradition_desert_power_desc: "В этой культуре выросла высочайшая склонность к жизни в пустыне. Они научились обуздать силу пустыни и использовать ее в своих интересах."
+  
+   # Mountain Folk 
+ tradition_mountain_folk_name: "Горный народ"
+ tradition_mountain_folk_desc: "В этой культуре выросла высочайшая склонность к жизни в горах. Они научились обуздать силу гор и использовать ее в своих интересах."
+  
+   # Sea Men 
+ tradition_sea_men_name: "Морские люди"
+ tradition_sea_men_desc: "В этой культуре выросла высочайшая склонность к жизни на морях. Они научились обуздать силу морей и использовать ее в своих интересах."
+  
+   # Princes of the Plains 
+ tradition_princes_of_the_plains_name: "Принцы равнин"
+ tradition_princes_of_the_plains_desc: "Эта культура приобрела высочайшую склонность к жизни на равнинах. Они научились использовать силу равнин и использовать ее в своих интересах."
+  
+   # Council of Queens 
+ tradition_council_of_queens_name: "Совет Квинса"
+ tradition_council_of_queens_desc: "Последнее слово может быть за королем, но ему советует совет жен королевы. Королевы считаются обладателями божественных должностей и влиятельными представителями культуры. Некоторые шепчут, что они и есть истинная сила."
+  
+   # Beast Tamers 
+ tradition_beast_tamers_name: "Укротители зверей"
+ tradition_beast_tamers_desc: "Эта культура имеет долгую историю одомашнивания и разведения животных."
+  
+ culture_parameter_unlock_maa_wolf_riders: "Можно нанять [GetMaA('wolf_riders').GetName] в качестве [men_at_arms|E]"
+ culture_parameter_unlock_maa_elk_archers: "Можно нанять [GetMaA('elk_archers').GetName] в качестве [men_at_arms|E]"
+  
+   # Woodland Bounty 
+ tradition_woodland_bounty_name: "Лесная награда"
+ tradition_woodland_bounty_desc: "Эта культура имеет долгую историю проживания в лесу. Они научились использовать силу леса в своих интересах."
+  
+ culture_parameter_build_farms_in_forests_and_taiga: "Можно строить фермы в лесных и таежных провинциях."
+  
+   # Fey Agoras 
+ tradition_fey_agoras_name: "Фей Агорас"
+ tradition_fey_agoras_desc: "Эльфы этой культуры очень уважают своих идейных лидеров. Большие толпы людей ежедневно собираются на городских Агорах, чтобы послушать философов и ученых, обсуждающих важные вопросы современности. Они видят мир с точки зрения логики и заблуждений."
+  
+ culture_parameter_advanced_shrewd: "Персонажи этой культуры автоматически получат [GetTrait('shrewd').GetName( GetNullCharacter )] на 15 уровне учености и [GetTrait('shrewd_2').GetName( GetNullCharacter )] на 20 уровне учености."
+  
+   # Tribal Ascension 
+ tradition_tribal_ascension_name: "Племенное Вознесение"
+ tradition_tribal_ascension_desc: "Только житель замка поверит, что жить по старым традициям ограниченно. Простой не значит слабый, это значит чистый. Люди этой культуры сильны и горды, и их не сдерживают атрибуты цивилизованного мира."
+  
+ culture_parameter_form_advanced_tribal_government: "Изменит правительство королевства на Вознесенное Племя."
+  
+   # Blessing of Vána 
+ tradition_blessing_of_vana_name: "Благословение Ваны"
+ tradition_blessing_of_vana_desc: "Одна из Высочайших Вознесенных Ван, Богиня Процветания и Плодородия благословила ваш народ. Чтобы питать Божественную Искру, должна быть жизнь. Вана служит Божественной Искре, постоянно расширяя ряды своих поклонников."
+  
+   # Blessing of Tulkas Astaldo 
+ tradition_blessing_of_tulkas_astaldo_name: "Благословение Тулкаса Астальдо"
+ tradition_blessing_of_tulkas_astaldo_desc: "Один из Высочайших Вознесенных Тулкас Асталдо, Бог Войны и Соперничества, благословил ваш народ. Чтобы накормить Божественную Искру, необходимо собирать жизнь. Тулкас Асталдо служит Божественной Искре, увеличивая армии своих последователей. Ибо что такое война, как не великая коса, используемая для сбора душ?"
+  
+ culture_parameter_blessing_of_tulkas_astaldo: "#D Дар бесконечных армий #! - Люди этой культуры рожают шесть мальчиков на каждую рожденную девочку"
+  
+ culture_parameter_blessing_of_vana: "#D Дар многих матерей #! - Люди этой культуры рожают шесть девочек на каждого рожденного мальчика"

@@ -1,0 +1,79 @@
+﻿l_russian:
+   #Titan/Valkyrian 
+ trait_physique_good_4: "Титан"
+ trait_physique_good_male_4: "Титан"
+ trait_physique_good_female_4: "Валькирия"
+ trait_physique_good_4_desc: "Кости и мускулы подобны железу, и в то же время проворство ловкого танцора; Божественная Искра вмешалась, чтобы обеспечить уровень физического совершенства, которое раньше считалось всего лишь сказкой или мифом."
+ trait_physique_good_4_character_desc: "Кости и мускулы подобны железу, и в то же время проворство ловкого танцора; Божественная Искра вмешалась, чтобы предоставить уровень физического совершенства [ROOT.GetCharacter.GetFirstNameNoTooltip], который когда-то считался всего лишь мифической сказкой."
+   # Erudite 
+ trait_intellect_good_4: "Эрудит"
+ trait_intellect_good_4_desc: "Понимание тривиально, а стратегия подобна дыханию. Божественная Искра наполняет разум постоянным вдохновением; давая остроумие, чтобы соперничать с величайшими учеными истории."
+ trait_intellect_good_4_character_desc: "Понимание тривиально, а стратегия подобна дыханию. Божественная Искра наполняет разум постоянным вдохновением; предоставив [ROOT.GetCharacter.GetFirstNameNoTooltip] остроумие, способное соперничать с величайшими учеными истории."
+   # Adonis => Aphroditic 
+ trait_beauty_good_male_4: "Сияющий"
+ trait_beauty_good_female_4: "Сияющая"
+ trait_beauty_good_4_desc: "От них исходит аура гипнотической грации, и смотреть на них – значит потеряться во сне. Божественная Искра наделила их ангельским обликом, которому нет равных."
+ trait_beauty_good_4_character_desc: "От [ROOT.GetCharacter.GetHerHim] исходит аура гипнотической грации, и смотреть на [ROOT.GetCharacter.GetHerHim] — значит потеряться во сне. Божественная Искра наделила [ROOT.GetCharacter.GetFirstNameNoTooltip] несравненным ангельским обликом."
+  
+   # Shrewd lvl 2 
+ trait_shrewd_2: "Рациональный"
+ trait_shrewd_2_desc: "Этот персонаж использует логику для достижения своих интересов."
+ trait_shrewd_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] использует логику для достижения своих интересов."
+  
+   # Purer Blood 
+ trait_purer_blooded: "Чистокровный"
+ trait_purer_blooded_desc: "Этот персонаж имеет очень чистую родословную. Мало кто может претендовать на такое наследие."
+ trait_purer_blooded_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] имеет более чистую родословную. Мало кто может претендовать на такое наследие."
+  
+   # Purest Blood 
+ trait_purest_blooded: "Сияюще-чистокровный"
+ trait_purest_blooded_desc: "Чистота родословной этого персонажа не имеет себе равных. Некоторые говорят, что в них течет кровь самих богов."
+ trait_purest_blooded_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] отличается непревзойденной чистотой. Некоторые говорят, что в них течет кровь самих богов."
+  
+ trait_adventurer_1: "Искатель приключений"
+ trait_adventurer_1_desc: "Этот персонаж прожил жизнь, полную храбрости и действий, как искатель приключений."
+ trait_adventurer_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] провёл отважную и активную жизнь искателя приключений."
+ trait_adventurer_2: "Знаменитый авантюрист"
+ trait_adventurer_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] бесстрашен до безрассудства и вел отважную и активную жизнь искателя приключений."
+ trait_adventurer_3: "Легендарный авантюрист"
+ trait_adventurer_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] широко известен своими бесстрашными подвигами [ROOT.GetCharacter.GetHerHim], невероятной храбростью и действиями авантюриста."
+  
+ trait_track_adventurer: "Авантюрист"
+ trait_track_adventurer_desc: "Открывать мир с пламенной страстью и жаждой жизни – призвание искателя приключений."
+  
+ trait_magic_talent: "Искра таланта"
+  
+ trait_magic_talent_1: "Искра Одаренного"
+ trait_magic_talent_1_desc: "Этот персонаж родился с базовой способностью владеть Искрой."
+  
+ trait_magic_talent_2: "Искра Саванта"
+ trait_magic_talent_2_desc: "Этот персонаж родился с необычайно сильной способностью владеть Искрой."
+  
+ trait_magic_talent_3: "Искра Вундеркинда"
+ trait_magic_talent_3_desc: "Этот персонаж родился в бушующей буре Искры."
+  
+ trait_endless_lord: "Бесконечный Лорд"
+ trait_endless_lord_desc: "Этот персонаж является идеальной генетической копией своего лорда-родителя."
+  
+ trait_track_endless_lord: "Итерации"
+ trait_track_endless_lord_desc: "Сколько поколений подряд повторялась эта божественная форма."
+  
+ trait_triplet: "Триплет"
+ trait_triplet_desc: "Этот персонаж родился тройней."
+ trait_triplet_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] родилась тройней."
+  
+ trait_quadruplet: "Четырехместный номер"
+ trait_quadruplet_desc: "Этот персонаж родился четверным."
+ trait_quadruplet_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] родился четверным."
+  
+ trait_quintuplet: "Пятерка"
+ trait_quintuplet_desc: "Этот персонаж родился пятёркой."
+ trait_quintuplet_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] родился пятерней."
+  
+ trait_sextuplet: "Шестиплет"
+ trait_sextuplet_desc: "Этот персонаж родился шестеренком."
+ trait_sextuplet_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] родился шестеренком."
+  
+ trait_septuplet: "Семерка"
+ trait_septuplet_desc: "Этот персонаж родился семерым."
+ trait_septuplet_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] родился семерушкой."

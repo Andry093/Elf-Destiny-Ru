@@ -1,0 +1,29 @@
+﻿l_russian:
+ doctrine_parameter_tenet_aeluran_sisters: "Правители этой веры позволяют сестрам Элуранских ткачих помогать контролировать дела своего королевства."
+  
+   # todo: I think at lower control levels you should get some Unique MAA! 
+   # maybe aelurans vassals start to build special buildings at low control! spell power +1 
+  
+ doctrine_parameter_hostility_override_elf_hostility_doctrine: "Эльфы [faiths|E] считаются только [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+  
+ doctrine_parameter_is_elf_faith_bilateral_loc_override: "Считает Эльф [faiths|E], а Эльф $game_concept_faiths$ считает его [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
+  
+ doctrine_parameter_is_elf_faith_one_way_loc_override: "Считает эльфа [faiths|E] [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+  
+ doctrine_parameter_hostility_override_special_doctrine_is_elf_faith: "Считает Эльф [faiths|E], а Эльф $game_concept_faiths$ считает его [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
+  
+ doctrine_parameter_elf_syncretic_actor_opinion_active: "Взаимный бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] с Эльфом [faiths|E]"
+ doctrine_parameter_opinion_of_elf_syncretic_recipient_opinion_active: ""
+  
+ elf_syncretic_actor_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
+  
+ special_doctrine_is_elf_faith_name: "Эльфийская адаптивность"
+ is_elf_faith_name: "$special_doctrine_is_christian_faith_name$"
+ special_doctrine_is_elf_faith_desc: "В мире есть те, кто не понимает и не верит в волю Божественной Искры. Хотя это и кощунственно, нам все равно следует проявлять сострадание к этим заблудшим душам, поскольку однажды они могут обратиться в истинную веру."
+  
+ doctrine_parameter_hostility_override_tenet_elf_syncretism: "Неэльфийские [faiths|E] с принципом $tenet_elf_syncretism_name$ считаются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
+  
+ doctrine_parameter_opinion_of_elf_syncretic_recipient_opinion_active: ""
+ doctrine_parameter_opinion_of_elf_syncretic_actor_opinion_active: ""
+ doctrine_parameter_elf_syncretic_recipient_opinion_active: "Взаимный бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] с [faiths|E], имеющими $tenet_elf_syncretism_name$ [core_tenet|E]"
+ doctrine_parameter_faith_of_elves: ""

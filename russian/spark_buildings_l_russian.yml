@@ -1,0 +1,19 @@
+﻿l_russian:
+   # Universities 
+ building_type_deep_wood_sanctum_university: "Святилище глубокого леса"
+ building_type_deep_wood_sanctum_university_desc: "$building_type_generic_university_desc$\n\nСвятилище Глубокого Леса — это место, где формируются сестры Элуранских Ткачих. Его двери открыты только для многообещающих женщин, самые яркие умы королевства собираются для изучения тайных искусств."
+ building_deep_wood_sanctum_university: "$building_type_deep_wood_sanctum_university$"
+ building_deep_wood_sanctum_university_desc: "$building_type_deep_wood_sanctum_university_desc$"
+  
+   # Holy Sites 
+ building_type_holy_site_spark_grand_portal_01: "Руины древнего портала"
+ building_type_holy_site_spark_grand_portal_01_desc: "Массивные резные каменные скульптуры, разбросанные по всей сельской местности, наиболее освоены природой. В центре развалин до сих пор стоит массивный полумесяц скалы. Соседние фрагменты предполагают, что это мог быть полный круг.\n\n Легенды говорят, что эти руины когда-то служили вратами в другой мир."
+ building_holy_site_spark_grand_portal_01: "$building_type_holy_site_spark_grand_portal_01$"
+ building_holy_site_spark_grand_portal_01_desc: "$building_type_holy_site_spark_grand_portal_01_desc$"
+  
+ building_type_holy_site_spark_grand_portal_02: "Большой портал"
+ building_type_holy_site_spark_grand_portal_02_desc: "Колоссальный круг из камня с замысловатой резьбой поднимается в воздух, стоя на такой же искусно вырезанной платформе. Это перекованные ворота, соединяющие наш мир со звездами. Лестница поднимается к порталу и множеству построек у их основания. Для обслуживания растущего числа паломников и потенциальных путешественников появилось большое количество палаток и еще несколько постоянных построек.\n\n Лорд Королевства может использовать этот портал, чтобы сформировать мост между мирами."
+ building_holy_site_spark_grand_portal_02: "$building_type_holy_site_spark_grand_portal_02$"
+ building_holy_site_spark_grand_portal_02_desc: "$building_type_holy_site_spark_grand_portal_02_desc$"
+  
+ woodland_grove_farms_effect_desc: "Местодержатель"

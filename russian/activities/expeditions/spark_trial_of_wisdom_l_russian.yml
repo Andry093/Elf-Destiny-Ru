@@ -1,0 +1,315 @@
+﻿l_russian:
+   # Riddles 
+ expedition_riddles.title: "Испытание мудрости"
+  
+   # Trial of Wisdom 
+ expedition.00511.desc: "Древние люди оставили после себя испытание, чтобы бросить вызов тем, кто отправится в путешествие по их бывшим землям. Вы должны ответить на заданную загадку, чтобы доказать свою мудрость и увидеть, что ждет впереди."
+ expedition.00511.ok: "я готов"
+ expedition.00511.choice_tooltip: "Ты расшифровываешь слова на стене"
+  
+ expedition.00511.advisor_advice: "\n\n#bold [wisdom_advisor.GetFullName]\:#! #EMP \"M'[ROOT.Char.GetLadyLord] Я могу сузить это до#!"
+ expedition.00511.advisor_advice.best: "#EMP 2 варианта#!"
+ expedition.00511.advisor_advice.good: "#EMP 3 варианта#!"
+ expedition.00511.advisor_advice.mid: "#EMP 4 варианта#!"
+ expedition.00511.advisor_advice.lowest: "\n\n#bold [wisdom_advisor.GetFullName]\:#! #EMP \"Извините, М'[ROOT.Char.GetLadyLord], я вообще не могу сузить круг вопросов\"#!"
+  
+ expedition.005111.desc: "Дверь остается закрытой... кажется, вы ошиблись."
+ expedition.005111.ok: "Должно быть, это неправильно!"
+  
+ expedition.00511.wisdom_check: "\n\n#T Авантюрист с высшим образованием#! \: [wisdom_advisor.GetFullName]\n#bold Значение\:#! @skill_learning_icon!#V [wisdom_advisor.GetSkill( 'learning' )]#! | #bold Рейтинг\:#!"
+ expedition.00511.wisdom_check.rating.best: "#D Мудрец #!"
+ expedition.00511.wisdom_check.rating.good: "#P Мудрый #!"
+ expedition.00511.wisdom_check.rating.mid: "#P Среднее #!"
+ expedition.00511.wisdom_check.rating.lowest: "#N Дурак #!"
+  
+ expedition_riddles.0999.q: "Когда я жив, я не говорю. Любой, кто захочет, возьмет меня в плен и отрубит мне голову. Они кусают мое обнаженное тело. Я никому не причиняю вреда, если меня сначала не порежут. Тогда я вскоре заставлю их плакать."
+ expedition_riddles.0999.spacing: "None"
+ expedition_riddles.0999.julia: "\n\n\"Не бойся, M'[ROOT.Char.GetLadyLord], я знаю ответ. Это луковица!\""
+  
+ expedition_riddles.0999.a.c: "Лук"
+ expedition_riddles.0999.a.i1: "Статуя"
+ expedition_riddles.0999.a.i2: "Дерево"
+ expedition_riddles.0999.a.i3: "Змея"
+ expedition_riddles.0999.a.i4: "Страх сам по-себе"
+  
+ julia_already_solved_the_riddle: "Джулия уже решила это до того, как ты успел... Это лук."
+  
+ expedition_riddles.001.q: "Что всегда бежит, но никогда не ходит. Часто бормочет, никогда не разговаривает. Есть кровать, но никогда не спит. Открытый рот, который никогда не ест?"
+  
+ expedition_riddles.001.a.c: "Река"
+ expedition_riddles.001.a.i1: "Губы"
+ expedition_riddles.001.a.i2: "Червь"
+ expedition_riddles.001.a.i3: "Статуя"
+ expedition_riddles.001.a.i4: "Ложь"
+  
+ expedition_riddles.002.q: "У меня нет глаз, Но однажды я увидел. Когда-то у меня были мысли, Теперь белые и пустые."
+  
+ expedition_riddles.002.a.c: "Череп"
+ expedition_riddles.002.a.i1: "Очки"
+ expedition_riddles.002.a.i2: "Кролик"
+ expedition_riddles.002.a.i3: "Облака"
+ expedition_riddles.002.a.i4: "Время"
+  
+ expedition_riddles.003.q: "Яркий, как бриллианты, Громкий, как гром, Никогда не тихий, Чудо."
+  
+ expedition_riddles.003.a.c: "Водопад"
+ expedition_riddles.003.a.i1: "Солнце"
+ expedition_riddles.003.a.i2: "Золото"
+ expedition_riddles.003.a.i3: "Зеркало"
+ expedition_riddles.003.a.i4: "Толпа"
+  
+ expedition_riddles.004.q: "Живой без дыхания, Холодный, как смерть; Никогда не жаждал, никогда не пил, Все в почте никогда не звенело."
+  
+ expedition_riddles.004.a.c: "Рыба"
+ expedition_riddles.004.a.i1: "Живой мертвец"
+ expedition_riddles.004.a.i2: "Дракон"
+ expedition_riddles.004.a.i3: "Лед"
+ expedition_riddles.004.a.i4: "Океан"
+  
+ expedition_riddles.005.q: "Безгласное оно плачет, Бескрылое порхает, Беззубие кусает, Безмолвное бормочет."
+  
+ expedition_riddles.005.a.c: "Ветер"
+ expedition_riddles.005.a.i1: "Бита"
+ expedition_riddles.005.a.i2: "Горгулья"
+ expedition_riddles.005.a.i3: "Червь"
+ expedition_riddles.005.a.i4: "Призрак"
+  
+ expedition_riddles.006.q: "Моя жизнь может измеряться часами, я служу только для того, чтобы меня сожрали. Слим, я быстрый. Толстый, я медленный. Ветер — мой враг."
+  
+ expedition_riddles.006.a.c: "Свеча"
+ expedition_riddles.006.a.i1: "Муха"
+ expedition_riddles.006.a.i2: "Праздник"
+ expedition_riddles.006.a.i3: "Фазан"
+ expedition_riddles.006.a.i4: "Время"
+  
+ expedition_riddles.007.q: "Что значит, что если есть один, то будет либо два, либо ни одного?"
+  
+ expedition_riddles.007.a.c: "Выбор"
+ expedition_riddles.007.a.i1: "Гидра"
+ expedition_riddles.007.a.i2: "Двойняшки"
+ expedition_riddles.007.a.i3: "Золото"
+ expedition_riddles.007.a.i4: "Проблемы"
+  
+ expedition_riddles.008.q: "Если ты уронишь меня, я обязательно сломаюсь. Подари мне улыбку, и я всегда улыбнусь в ответ."
+  
+ expedition_riddles.008.a.c: "Зеркало"
+ expedition_riddles.008.a.i1: "Друг"
+ expedition_riddles.008.a.i2: "Ребенок"
+ expedition_riddles.008.a.i3: "Ваза"
+ expedition_riddles.008.a.i4: "Очки"
+  
+ expedition_riddles.009.q: "Никогда не отдыхая, никогда не останавливаясь. Бесшумно передвигаясь с холма на холм. Он не ходит, не бегает и не рысью. Все круто там, где его нет."
+  
+ expedition_riddles.009.a.c: "Солнечный свет"
+ expedition_riddles.009.a.i1: "Змея"
+ expedition_riddles.009.a.i2: "Смерть"
+ expedition_riddles.009.a.i3: "Лесной пожар"
+ expedition_riddles.009.a.i4: "Валун"
+  
+ expedition_riddles.010.q: "Произносится одной буквой, А пишется тремя, Две буквы есть, И две только у меня. Я двойной, я одинокий, Я чёрный, синий и серый, Меня читают с обоих концов, И в любом случае один и тот же."
+  
+ expedition_riddles.010.a.c: "Глаз"
+ expedition_riddles.010.a.i1: "драгоценный камень"
+ expedition_riddles.010.a.i2: "Чай"
+ expedition_riddles.010.a.i3: "Пчела"
+ expedition_riddles.010.a.i4: "Бумага"
+  
+ expedition_riddles.011.q: "Стоимость изготовления знает только производитель. Бесполезно, если его купить, но иногда продать. Бедняк может дать так же легко, как король. Когда человек сломлен, боль и обман неизбежны."
+  
+ expedition_riddles.011.a.c: "Обещание"
+ expedition_riddles.011.a.i1: "Меч"
+ expedition_riddles.011.a.i2: "Ложь"
+ expedition_riddles.011.a.i3: "Кольцо"
+ expedition_riddles.011.a.i4: "Еда"
+  
+ expedition_riddles.012.q: "Я рожден в страхе, воспитан в истине и прихожу к своему на деле. Когда приходит время, когда меня призывают, я прихожу служить делу нужды."
+  
+ expedition_riddles.012.a.c: "Храбрость"
+ expedition_riddles.012.a.i1: "Солдат"
+ expedition_riddles.012.a.i2: "Ложь"
+ expedition_riddles.012.a.i3: "История"
+ expedition_riddles.012.a.i4: "Меч"
+  
+ expedition_riddles.013.q: "Что падает, но никогда не ломается? Что ломается, но никогда не падает?"
+  
+ expedition_riddles.013.a.c: "День"
+ expedition_riddles.013.a.i1: "Алмаз"
+ expedition_riddles.013.a.i2: "Железо"
+ expedition_riddles.013.a.i3: "Обещание"
+ expedition_riddles.013.a.i4: "Буря"
+  
+ expedition_riddles.014.q: "Что проходит через дверь, но никогда не входит и не выходит?"
+  
+ expedition_riddles.014.a.c: "Замочная скважина"
+ expedition_riddles.014.a.i1: "Заключенный"
+ expedition_riddles.014.a.i2: "Простуда"
+ expedition_riddles.014.a.i3: "Мышь"
+ expedition_riddles.014.a.i4: "Призрак"
+  
+ expedition_riddles.015.q: "Что человек любит больше жизни, Боится больше смерти или смертельной борьбы, Что есть у бедных, чего нет у богатых, и чего желают довольные люди, Что скупой тратит, а расточитель сберегает И все люди несут в могилу?"
+  
+ expedition_riddles.015.a.c: "Ничего"
+ expedition_riddles.015.a.i1: "Женщина"
+ expedition_riddles.015.a.i2: "Истинная сила"
+ expedition_riddles.015.a.i3: "Время"
+ expedition_riddles.015.a.i4: "Золото"
+  
+ expedition_riddles.016.q: "У меня три жизни. Достаточно нежный, чтобы успокоить кожу, Достаточно легкий, чтобы ласкать небо, Достаточно твердый, чтобы раскалывать камни."
+  
+ expedition_riddles.016.a.c: "Вода"
+ expedition_riddles.016.a.i1: "Гусеница"
+ expedition_riddles.016.a.i2: "Железо"
+ expedition_riddles.016.a.i3: "Время"
+ expedition_riddles.016.a.i4: "Любовь"
+  
+ expedition_riddles.017.q: "Часто держат, но никогда не трогают, всегда мокрый, но никогда не ржавеет, часто кусается, но редко кусается, чтобы хорошо меня использовать, нужно иметь смекалка."
+  
+ expedition_riddles.017.a.c: "Язык"
+ expedition_riddles.017.a.i1: "Лук"
+ expedition_riddles.017.a.i2: "Перо"
+ expedition_riddles.017.a.i3: "Холодный"
+ expedition_riddles.017.a.i4: "Идея"
+  
+ expedition_riddles.018.q: "Человек проходит, человек уходит под воду, во время войны он сгорает на части."
+  
+ expedition_riddles.018.a.c: "Мост"
+ expedition_riddles.018.a.i1: "Гора"
+ expedition_riddles.018.a.i2: "Труп"
+ expedition_riddles.018.a.i3: "Деревня"
+ expedition_riddles.018.a.i4: "Дружба"
+  
+ expedition_riddles.019.q: "Ты видел меня там, где меня никогда не было и где я не мог быть. И все же в этом самом месте ты часто видишь мое лицо."
+  
+ expedition_riddles.019.a.c: "Отражение"
+ expedition_riddles.019.a.i1: "Статуя"
+ expedition_riddles.019.a.i2: "Тень"
+ expedition_riddles.019.a.i3: "Сомневаться"
+ expedition_riddles.019.a.i4: "Мечта"
+  
+ expedition_riddles.020.q: "Один за другим мы падаем с небес в глубины прошлого, И наш мир вечно переворачивается, чтобы еще какое-то время мы продержались."
+  
+ expedition_riddles.020.a.c: "Песок в песочных часах"
+ expedition_riddles.020.a.i1: "Снежинки в метель"
+ expedition_riddles.020.a.i2: "Листья осенью"
+ expedition_riddles.020.a.i3: "Звезды в небе"
+ expedition_riddles.020.a.i4: "Камни в лавине"
+  
+ expedition_riddles.021.q: "Я хожу кругами, Но всегда прямо, Никогда не жалуюсь, Куда бы меня ни повели."
+  
+ expedition_riddles.021.a.c: "Колесо"
+ expedition_riddles.021.a.i1: "Времена года"
+ expedition_riddles.021.a.i2: "Конь"
+ expedition_riddles.021.a.i3: "Река"
+ expedition_riddles.021.a.i4: "Аргумент"
+  
+ expedition_riddles.022.q: "Тысячи разноцветных складок тянутся к небу, На нежной пряди, Поднимаясь из земли, Пока не будут убиты девичьей рукой, Может быть, в знак любви, может быть, чтобы попрощаться."
+  
+ expedition_riddles.022.a.c: "Цветок"
+ expedition_riddles.022.a.i1: "Радуга"
+ expedition_riddles.022.a.i2: "Алмаз"
+ expedition_riddles.022.a.i3: "Холмы"
+ expedition_riddles.022.a.i4: "Письмо"
+  
+ expedition_riddles.023.q: "Поверну один раз, то, что снаружи, не войдет. Поверну еще раз, то, что внутри, не вылезет. Что я?"
+  
+ expedition_riddles.023.a.c: "Ключ"
+ expedition_riddles.023.a.i1: "Прилив"
+ expedition_riddles.023.a.i2: "Сезон"
+ expedition_riddles.023.a.i3: "Стол"
+ expedition_riddles.023.a.i4: "Болезнь"
+  
+ expedition_riddles.024.q: "Чем больше есть, тем меньше вы видите. Что это такое?"
+  
+ expedition_riddles.024.a.c: "Тьма"
+ expedition_riddles.024.a.i1: "Деревья"
+ expedition_riddles.024.a.i2: "Люди"
+ expedition_riddles.024.a.i3: "Облако"
+ expedition_riddles.024.a.i4: "Вино"
+  
+ expedition_riddles.025.q: "Красный при рождении, Масло делает меня тупым. Блестящий в старости, Вода краснеет. Что я?"
+  
+ expedition_riddles.025.a.c: "Меч"
+ expedition_riddles.025.a.i1: "Кровь"
+ expedition_riddles.025.a.i2: "Вино"
+ expedition_riddles.025.a.i3: "Золото"
+ expedition_riddles.025.a.i4: "Яблоко"
+  
+ expedition_riddles.026.q: "Это ответ на каждый ваш вопрос. Когда вы думаете, что у вас это есть, у вас этого нет. Что это такое?"
+  
+ expedition_riddles.026.a.c: "Знание"
+ expedition_riddles.026.a.i1: "Любовь"
+ expedition_riddles.026.a.i2: "Время"
+ expedition_riddles.026.a.i3: "Секрет"
+ expedition_riddles.026.a.i4: "Мотивация"
+  
+ expedition_riddles.027.q: "Океан – моя мать, А дети мои – озера и ручьи. Иногда одетый в серебро и золото, Многие до сих пор утверждают, что я скучен. Хотя я лишен всякого цвета, я даю жизнь всему зеленому."
+  
+ expedition_riddles.027.a.c: "Облака"
+ expedition_riddles.027.a.i1: "Рыба"
+ expedition_riddles.027.a.i2: "Эрозия"
+ expedition_riddles.027.a.i3: "Река"
+ expedition_riddles.027.a.i4: "Корабль"
+  
+ expedition_riddles.028.q: "Я сияю ярче всего в темноте. Хотя я там, меня не видно. Обладание мной тебе ничего не стоит. А без меня ты потеряешь все. Что я?"
+  
+ expedition_riddles.028.a.c: "Надеяться"
+ expedition_riddles.028.a.i1: "Свеча"
+ expedition_riddles.028.a.i2: "Звездный свет"
+ expedition_riddles.028.a.i3: "Семья"
+ expedition_riddles.028.a.i4: "Время"
+  
+ expedition_riddles.029.q: "Найден мудрыми, Потерян слабыми, Сломан, не поврежден, Несён, не тронут, Сладок, не вкусен, Уникальный, но универсальный. Что я?"
+  
+ expedition_riddles.029.a.c: "Голос"
+ expedition_riddles.029.a.i1: "Власть"
+ expedition_riddles.029.a.i2: "Победа"
+ expedition_riddles.029.a.i3: "Любовь"
+ expedition_riddles.029.a.i4: "Обида"
+  
+ expedition_riddles.030.q: "Многие слышали меня, но никто меня не видел. Я никогда не отвечаю, если со мной не обращаются. Что я?"
+  
+ expedition_riddles.030.a.c: "Эхо"
+ expedition_riddles.030.a.i1: "Призрак"
+ expedition_riddles.030.a.i2: "Тень"
+ expedition_riddles.030.a.i3: "Слух"
+ expedition_riddles.030.a.i4: "Безумие"
+  
+ expedition_riddles.031.q: "Что имеет корни, которых никто не видит, Разве выше деревьев, Оно поднимается вверх, вверх, но никогда не растет?"
+  
+ expedition_riddles.031.a.c: "Гора"
+ expedition_riddles.031.a.i1: "Эго"
+ expedition_riddles.031.a.i2: "Сказка"
+ expedition_riddles.031.a.i3: "Семья"
+ expedition_riddles.031.a.i4: "Солнце"
+  
+ expedition_riddles.032.q: "Тридцать белых коней на красной горке, Сначала чавкают, Потом топают, Потом стоят на месте."
+  
+ expedition_riddles.032.a.c: "Зубы"
+ expedition_riddles.032.a.i1: "Кавалерийская атака"
+ expedition_riddles.032.a.i2: "лавина"
+ expedition_riddles.032.a.i3: "Овца"
+ expedition_riddles.032.a.i4: "мрамор"
+  
+ expedition_riddles.033.q: "Его нельзя увидеть, нельзя пощупать, Нельзя услышать, нельзя понюхать, Оно лежит за звездами и под холмами, И пустые дыры заполняет, Оно приходит первым и следует за ним, Кончает жизнь, убивает смех."
+  
+ expedition_riddles.033.a.c: "Темный"
+ expedition_riddles.033.a.i1: "Опасность"
+ expedition_riddles.033.a.i2: "Ветер"
+ expedition_riddles.033.a.i3: "Время"
+ expedition_riddles.033.a.i4: "Ненавидеть"
+  
+ expedition_riddles.034.q: "Это существо все пожирает Птиц, зверей, деревьев, цветов; Грызет железо, кусает сталь; Перемалывает твердый камень в муку; Убивает короля, разрушает город И сбивает высокую гору."
+  
+ expedition_riddles.034.a.c: "Время"
+ expedition_riddles.034.a.i1: "Вода"
+ expedition_riddles.034.a.i2: "Чума"
+ expedition_riddles.034.a.i3: "Огонь"
+ expedition_riddles.034.a.i4: "Дракон"
+  
+ expedition_riddles.035.q: "Что имеет города, но не имеет домов; леса, но нет деревьев; и вода, но нет рыбы?"
+  
+ expedition_riddles.035.a.c: "Карта"
+ expedition_riddles.035.a.i1: "Ванна"
+ expedition_riddles.035.a.i2: "Муравьи"
+ expedition_riddles.035.a.i3: "Сборник рассказов"
+ expedition_riddles.035.a.i4: "Лед"

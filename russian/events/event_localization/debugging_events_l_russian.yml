@@ -1,0 +1,6 @@
+﻿l_russian:
+ debugging_events.001.title: "ОТЛАДКА — качайте весы"
+ debugging_events.001.desc: "Раскачайте весы власти Регентства"
+ debugging_events.001.increase: "+10"
+ debugging_events.001.decrease: "-10"
+ debugging_events.001.done: "СДЕЛАННЫЙ"

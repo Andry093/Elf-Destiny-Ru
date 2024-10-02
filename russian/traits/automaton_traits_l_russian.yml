@@ -1,0 +1,10 @@
+﻿l_russian:
+  # 
+ trait_stone_automaton: "Каменный автомат"
+ trait_stone_automaton_desc: "Фигура полностью сделанная из камня! Оживленный скрытой магией Божественной Искры."
+  
+ trait_marble_automaton: "Мраморный автомат"
+ trait_marble_automaton_desc: "Фигурка полностью из мрамора! Оживленный скрытой магией Божественной Искры."
+  
+ trait_spiritual_projection: "Духовная проекция"
+ trait_spiritual_projection_desc: "Фигура, состоящая только из энергии Искры. Его физические взаимодействия в этом мире ограничены."

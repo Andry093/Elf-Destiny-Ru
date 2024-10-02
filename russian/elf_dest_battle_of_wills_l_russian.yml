@@ -1,0 +1,34 @@
+﻿l_russian:
+ battle_of_wills_modifiers_desc: "#T Модификаторы успеха «Битвы воли»#!#indent_newline:2 \n[SCOPE.Custom('BattleOfWillsMinorPositiveElfLevelModifier')][SCOPE.Custom('BattleOfWillsMinorPositiveSparkManipulationModifier')][SCOPE.Custom('BattleOfWillsMidPositiveElfLevelModifier')][SCOPE.Custom('BattleOfWillsMidPositiveMagicTrainingModifier')][SCOPE.Custom('BattleOfWillsMajorPositiveElfLevelModifier')][SCOPE.Custom('BattleOfWillsChallengerIsEnchantressModifier')][SCOPE.Custom('BattleOfWillsMinorNegativeElfLevelModifier')][SCOPE.Custom('BattleOfWillsMinorNegativeSparkManipulationModifier')]#!#indent_newline:20#!#indent_newline:21#!#indent_newline:22#!#indent_newline:23#!#indent_newline:24#!#indent_newline:25"
+  
+ battle_of_wills_attempt_modifiers: ""
+  
+ battle_of_wills_difference_in_elf_level.small_boost: "\n#P + Ваш уровень эльфа выше#!"
+ battle_of_wills_difference_in_elf_level.big_boost: "\n#P ++ Ваш уровень эльфа намного выше#!"
+ battle_of_wills_difference_in_elf_level.massive_boost: "\n#P +++ Ваш уровень эльфа намного выше#!"
+ battle_of_wills_difference_in_elf_level.small_penalty: "\n#N - Ваш уровень эльфа ниже#!"
+ battle_of_wills_difference_in_elf_level.big_penalty: "\n#N -- Ваш уровень эльфа намного ниже#!"
+ battle_of_wills_difference_in_elf_level.massive_penalty: "\n#N --- Ваш уровень эльфа намного ниже#!"
+  
+ battle_of_wills_difference_in_magic_talent.small_boost: "\n#P + Ваш талант манипулирования искрами стал сильнее#!"
+ battle_of_wills_difference_in_magic_talent.big_boost: "\n#P ++ Ваш талант манипулирования Искрой намного выше#!"
+ battle_of_wills_difference_in_magic_talent.massive_boost: "\n#P +++ Ваш талант манипулирования Искрой намного превосходит #!"
+ battle_of_wills_difference_in_magic_talent.small_penalty: "\n#N - Ваш талант манипуляции искрой ниже#!"
+ battle_of_wills_difference_in_magic_talent.big_penalty: "\n#N -- Ваш талант манипулирования искрой намного ниже#!"
+ battle_of_wills_difference_in_magic_talent.massive_penalty: "\n#N --- Ваш талант управления искрой намного слабее#!"
+  
+ battle_of_wills_difference_in_aeluron_order_level.small_boost: "\n#P + Ранг Ордена Элуран выше @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluron_order_level.big_boost: "\n#P ++ Ранг Ордена Элуран намного выше @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluron_order_level.massive_boost: "\n#P +++ Ранг Ордена Элуран намного выше @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluron_order_level.small_penalty: "\n#N - Ранг Ордена Элуран ниже @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluron_order_level.big_penalty: "\n#N -- Ранг Ордена Элуран намного ниже @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluron_order_level.massive_penalty: "\n#N --- Ранг Ордена Элуран намного ниже @aeluran_order_icon!#!"
+  
+ battle_of_wills_challenger_is_enchantress: "\n#P +++ Ты [GetTrait('enchantress').GetName( GetNullCharacter )] @enchantress_icon!#!"
+ battle_of_wills_defender_is_enchantress: "\n#N --- Ваша цель — @enchantress_icon! [GetTrait('enchantress').GetName( GetNullCharacter )]#!"
+  
+ battle_of_wills_challenger_is_magi: "\n#P ++ Вы [GetTrait('magi').GetName( GetNullCharacter )] @magi_icon!#!"
+ battle_of_wills_defender_is_magi: "\n#N -- Ваша цель – [GetTrait('magi').GetName( GetNullCharacter )] @magi_icon!#!"
+  
+  
+ current_aeluran_control_level: "#high Ваш текущий уровень контроля Элурана: #! [SCOPE.Custom('AeluranMatchmakingDominationScore')]"

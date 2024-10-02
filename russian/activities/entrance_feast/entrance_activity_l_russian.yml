@@ -1,0 +1,52 @@
+﻿l_russian:
+ plant_seed_attempt_phase: "Семя растения очарования"
+ plant_seed_attempt_phase_desc: "Коварный Пришельец начинает заманивать свою жертву в ловушку."
+  
+ complete_entrance_attempt_phase: "Попытка обеспечить вход"
+ complete_entrance_attempt_phase_desc: "Интриган пытается проникнуть в хозяина."
+  
+ feast_phase_meal_2: "Банкет"
+ feast_phase_meal_2_desc: "Еда, напитки и хорошая компания, #EMP, что может быть лучше?#!"
+  
+ ensnared_in_entrancement: "В плену очарования"
+  
+ entrance: "Вход"
+ entrance_action: "Вход"
+  
+ entrance_flavor: "Вы пытаетесь поймать цель, используя силу Искры!"
+  
+ entrance_attempt.success_1: "Вы успешно запечатлеваете свою сущность Искры в [victim.GetFullName]."
+ entrance_attempt.failure_1: "Вам не удалось запечатлеть свою сущность Искры в [victim.GetFullName]."
+ entrance_attempt.success_2: "Вы успешно привязываете [victim.GetFullName] к своей воле."
+ entrance_attempt.failure_2: "Вам не удалось привязать [victim.GetFullName]."
+  
+ entrance_modifiers_desc: "#T Модификаторы успеха при входе#!#indent_newline:2 \n[SCOPE.Custom('EntranceMinorPositiveElfLevelModifier')][SCOPE.Custom('EntranceMinorPositiveSparkManipulationModifier')][SCOPE.Custom('EntranceMidPositiveElfLevelModifier')][SCOPE.Custom('EntranceLoverModifier')][SCOPE.Custom('EntranceEnchanterIsMagiModifier')][SCOPE.Custom('EntranceMajorPositiveElfLevelModifier')][SCOPE.Custom('EntranceSoulMateModifier')][SCOPE.Custom('EntranceEnchanterIsEnchantressModifier')]#!#indent_newline:20#!#indent_newline:21#!#indent_newline:22#!#indent_newline:23#!#indent_newline:24#!#indent_newline:25#!#indent_newline:26#!#indent_newline:27"
+  
+ entrance_attempt_modifiers: ""
+  
+ entrance_difference_in_elf_level.small_boost: "\n#P + Ваш уровень эльфа выше#!"
+ entrance_difference_in_elf_level.big_boost: "\n#P ++ Ваш уровень эльфа намного выше#!"
+ entrance_difference_in_elf_level.massive_boost: "\n#P +++ Ваш уровень эльфа намного выше#!"
+ entrance_difference_in_elf_level.small_penalty: "\n#N - Ваш уровень эльфа ниже#!"
+ entrance_difference_in_elf_level.big_penalty: "\n#N -- Ваш уровень эльфа намного ниже#!"
+ entrance_difference_in_elf_level.massive_penalty: "\n#N --- Ваш уровень эльфа намного ниже #!"
+  
+ entrance_difference_in_magic_talent.small_boost: "\n#P + Ваш талант манипулирования искрами стал сильнее#!"
+ entrance_difference_in_magic_talent.big_boost: "\n#P ++ Ваш талант манипулирования Искрой намного выше#!"
+ entrance_difference_in_magic_talent.massive_boost: "\n#P +++ Ваш талант манипулирования Искрой намного превосходит #!"
+ entrance_difference_in_magic_talent.small_penalty: "\n#N - Ваш талант манипулирования искрой ниже#!"
+ entrance_difference_in_magic_talent.big_penalty: "\n#N -- Ваш талант манипулирования искрой намного ниже#!"
+ entrance_difference_in_magic_talent.massive_penalty: "\n#N --- Ваш талант манипулирования Искрой гораздо хуже#!"
+  
+ entrance_lover_boost: "\n#P ++ [victim.GetFirstName] Ваш [lover|E]#!"
+ entrance_soulmate_boost: "\n#P +++ [victim.GetFirstName] - это ваш [soulmate|E]#!"
+  
+ entrance_entrancer_is_enchantress: "\n#P +++ Ты [GetTrait('enchantress').GetName( GetNullCharacter )] @enchantress_icon!#!"
+ entrance_victim_is_enchantress: "\n#N --- Ваша цель — @enchantress_icon! [GetTrait('enchantress').GetName( GetNullCharacter )]#!"
+  
+ entrance_entrancer_is_magi: "\n#P ++ Вы [GetTrait('magi').GetName( GetNullCharacter )] @magi_icon!#!"
+ entrance_victim_is_magi: "\n#N -- Ваша цель – [GetTrait('magi').GetName( GetNullCharacter )] @magi_icon!#!"
+  
+ spacer: "\п"
+  
+ tried_to_entrance_me: "[TARGET_CHARACTER.GetShortUIName] попытался войти в [CHARACTER.GetShortUIName|U]."

@@ -1,0 +1,54 @@
+﻿l_russian:
+   # Trial of cunning 
+ expedition.00512.title: "Испытание хитрости"
+ expedition.00512.desc: "Вы входите в большую палату. В центре комнаты, похоже, находится какая-то игровая доска. Вы замечаете резные фигурки, изображающие самые разные фигуры. Кажется, вам нужно сыграть в какую-то игру, чтобы пройти это испытание. \n\nКакое произведение вы сыграете первым?"
+  
+ expedition.01512.desc: "Когда вы входите, вы видите слова, выгравированные на стене справа от вас. Говорят...\n\n #T Испытание хитрости#!\n$EFFECT_LIST_BULLET$ Победителем испытания становится тот, кто первым выиграет 4 раунда из 7.\n$EFFECT_LIST_BULLET$ Фигуры более высокого ранга побеждают фигуры более низкого ранга, за одним исключением что #bold Крестьянин#! побеждает #bold Короля#!.\n$EFFECT_LIST_BULLET$ Ваш советник может попытаться угадать следующий ход мраморной девушки по языку ее тела #warning, но может ошибаться!#! Чем выше интрига вашего советника навык @skill_intrigue_icon!# тем больше вероятность того, что их догадка окажется верной!"
+  
+ expedition.00512.intrigue_check: "#T Авантюрист с высшей интригой#! \: [cunning_advisor.GetFullName]\n#bold Значение\:#! @skill_intrigue_icon!#V [cunning_advisor.GetSkill( 'intrigue' )]#! | #bold Рейтинг\:#!"
+ expedition.00512.intrigue_check.rating.best: "#D Мастер #!"
+ expedition.00512.intrigue_check.rating.good: "#P Мудрый #!"
+ expedition.00512.intrigue_check.rating.mid: "#P Среднее #!"
+ expedition.00512.intrigue_check.rating.low: "#N Бедный #!"
+ expedition.00512.intrigue_check.rating.lowest: "#N Дурак #!"
+  
+ expedition.00512.advisor_advice: "\n\n#bold [cunning_advisor.GetFullName]\:#! #EMP \"M'[ROOT.Char.GetLadyLord], по выражению ее лица видно, что она выберет [SCOPE.GetFlagName('cunning_advisor_pick')]\"#!"
+  
+ expedition.00512.choice_tooltip: "Девушка выберет фигуру и определится победитель раунда."
+  
+ expedition.game_score: "Выбор игрока - [SCOPE.GetFlagName('player_choice_name')] | Выбор ИИ — [SCOPE.GetFlagName('ai_choice_name')] \n\nОчки игрока — [ROOT.Var('player_score').GetValue] | Оценка ИИ – [ROOT.Var('ai_score').GetValue]\n\n Опции игрока..."
+  
+ expedition.00512.chosen_pieces: "Ваш выбор - [SCOPE.GetFlagName('player_choice_name')] | Выбор противника - [SCOPE.GetFlagName('ai_choice_name')]"
+ expedition.00512.current_score: "\n\nВы набрали очки - [ROOT.Var('player_score').GetValue] | Противник - [ROOT.Var('ai_score').GetValue]"
+ expedition.00512.remaining_ai_pieces: "\n__ Оставшиеся фигуры противника __"
+ expedition.00512.king: "\nКороль"
+ expedition.00512.queen: "\nКоролева"
+ expedition.00512.priestess: "\nЖрица"
+ expedition.00512.noble: "\nБлагородный"
+ expedition.00512.knight: "\nРыцарь"
+ expedition.00512.bandit: "\nБандит"
+ expedition.00512.peasant: "\nКрестьянин"
+  
+ expedition.005121.title: "Испытание хитрости – результат раунда"
+ expedition.005121.tie: "\nНичья"
+ expedition.005121.player_won: "\nВы выиграли этот раунд!"
+ expedition.005121.ai_won: "\nВаш оппонент выиграл этот раунд"
+ expedition.005121.error: "что-то пошло не так ;( \n\n $expedition.game_score$"
+  
+ expedition.00512.rules: "#E Правила?#!"
+ expedition.00512.playKing: "Играй в короля"
+ expedition.00512.playQueen: "Играть в королеву"
+ expedition.00512.playPriestess: "Играть в Жрицу"
+ expedition.00512.playNoble: "Играть в Благородный"
+ expedition.00512.playKnight: "Играть в рыцаря"
+ expedition.00512.playBandit: "Играть в Бандита"
+ expedition.00512.playPeasant: "Играть в Крестьянина"
+  
+ expedition.005122.title: "Испытание хитрости – Победа!"
+ expedition.005122.desc: "Вы прошли Испытание Хитрости! Большая каменная дверь начинает медленно открываться, открывая за собой новую комнату."
+  
+ expedition.005122.ok: "Ура!"
+  
+ expedition.005123.title: "Испытание хитрости – провалено!"
+ expedition.005123.desc: "Вы провалили Испытание Хитрости! Камера за ней остается запечатанной"
+ expedition.005123.ok: "Наверняка обманули!"

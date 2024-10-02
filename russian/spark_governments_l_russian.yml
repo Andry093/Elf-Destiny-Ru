@@ -1,0 +1,54 @@
+﻿l_russian:
+   # Feyswood 
+ aeluran_weavers_government: "Домен Ковена"
+ aeluran_weavers_government_desc: "Таинственные и затворнические, Элуранские Ткачи — это шабаш ведьм, веками живших в Фейсвуде. Ходят слухи, что они обладают способностью видеть будущее и известны своим вмешательством в дела мира людей."
+  
+ advanced_tribal_government: "Вознесенное Племя"
+ advanced_tribal_government_adjective: "Вознесенный Племенной" #NT!
+ advanced_tribal_government_with_icon: "@government_type_feudal! $advanced_tribal_government$" #NT!
+ advanced_tribal_government_desc: "Это люди земли, обладающие всеми преимуществами, которыми обладают жители феодальных замков, но без их ошибочного высокомерия.\n\nВознесенные племенные правительства:\n$EFFECT_LIST_BULLET$Имеют доступ к еще двум уровням всех племенных построек и могут создавать новые племенные владения. !\n$EFFECT_LIST_BULLET$Сохраните способность совершать набеги.\n$EFFECT_LIST_BULLET$Получите некоторые преимущества, разработанные феодальными обществами, такие как власть короны, изменение законов о наследовании и создание кадетских отделений."
+  
+ government_is_advanced_tribal: "Тип [government|E] – [GetGovernment( 'advanced_tribal_government' ).GetName]."
+  
+ game_concept_advanced_tribal: "Вознесенное племя"
+ game_concept_advanced_tribal_government: "Вознесенное племенное правительство"
+ game_concept_advanced_tribal_desc: "Царства Вознесенных Племён имеют преимущества правительств [tribal|E] и [feudal|E], но не имеют недостатков. В отличие от племенного правительства, они не страдают от чахлости графства [development|E], могут пройти мимо племенной эпохи [innovations|E], могут строить новые [holdings|E] И могут разблокировать дополнительные уровни всех племенных построек, а также могут менять свои [succession_law|E].\n\nОднако как и племенное правительство. , они могут использовать [prestige|E] вместо [gold|E] для создания своих королевств и найма [men_at_arms|E], а также иметь доступ к большему количеству [casus_belli|E] по сравнению с [feudal|E] Царств."
+  
+ game_concept_aeluran_weavers_government: "$aeluran_weavers_government$"
+ game_concept_aeluran_weavers_government_desc: "$aeluran_weavers_government_desc$"
+  
+ aeluran_government_taxes: "[GetGovernment( 'aeluran_weavers_government' ).GetNameNoTooltip] [taxes|U]"
+ aeluran_tax_exempt: "[tax|E] Освобождение"
+ aeluran_tax_exempt_short: "Освобождать"
+ aeluran_tax_low: "Низкий $game_concept_taxes$"
+ aeluran_tax_low_short: "Низкий"
+ aeluran_tax_normal: "Нормальный $game_concept_taxes$"
+ aeluran_tax_normal_short: "Нормальный"
+ aeluran_tax_high: "Высокий $game_concept_taxes$"
+ aeluran_tax_high_short: "Высокий"
+ aeluran_tax_extortionate: "Вымогательство $game_concept_taxes$"
+ aeluran_tax_extortionate_short: "Вымогательский"
+  
+ aeluran_government_levies: "[GetGovernment( 'aeluran_weavers_government' ).GetNameNoTooltip] [levies|U]"
+ aeluran_levies_exempt: "Нет вклада"
+ aeluran_levies_exempt_short: "Никто"
+ aeluran_levies_low: "Низкий вклад $game_concept_levy$"
+ aeluran_levies_low_short: "Низкий"
+ aeluran_levies_normal: "Обычный вклад $game_concept_levy$"
+ aeluran_levies_normal_short: "Нормальный"
+ aeluran_levies_high: "Высокий вклад $game_concept_levy$"
+ aeluran_levies_high_short: "Высокий"
+ aeluran_levies_extortionate: "Огромный вклад $game_concept_levy$"
+ aeluran_levies_extortionate_short: "Массивный"
+  
+ aeluran_government_magi: "[aeluran_magi_regiments|E] Вклад"
+ aeluran_magi_exempt: "Нет вклада"
+ aeluran_magi_exempt_short: "Никто"
+ aeluran_magi_low: "Низкий вклад магов"
+ aeluran_magi_low_short: "Низкий"
+ aeluran_magi_normal: "Обычный вклад магов"
+ aeluran_magi_normal_short: "Нормальный"
+ aeluran_magi_high: "Высший вклад магов"
+ aeluran_magi_high_short: "Высокий"
+ aeluran_magi_extortionate: "Огромный вклад магов"
+ aeluran_magi_extortionate_short: "Массивный"

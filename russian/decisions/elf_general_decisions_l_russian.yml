@@ -1,0 +1,7 @@
+﻿l_russian:
+ adopt_elven_elective: "Принять эльфийский факультатив"
+ adopt_elven_elective_decision_desc: "#EMP Пути людей порочны и противоестественны. Лидер должен быть выбран из величайших среди нас.#!\n\n#tooltip_heading @elf_icon! Эльфийские выборные#!\n$EFFECT_LIST_BULLET$Candidates выбираются из семьи держателя титула и [de_jure|E] [direct_vassals|E] титула.\n$EFFECT_LIST_BULLET$[electors|E] являются [de_jure|E] эльфийским титулом [holders|E] титула.\n\n#BOL Эльфы ценят как кровь, так и достоинство превыше всего.#!\n$EFFECT_LIST_BULLET$В дополнение к личным предпочтениям, эльф [electors|E] будет голосовать за кандидатов на основе маркеров их достоинства, включая их уровень эльфа, родословную и общее генетическое качество."
+ adopt_elven_elective_decision_tooltip: "Ваш [primary_title|E] принимает [GetLaw('elf_elective_succession_law').GetName] [succession_law|E]"
+ adopt_elven_elective_confirm: "Принять [GetLaw('elf_elective_succession_law').GetName] [succession_law|E]"
+  
+ adopt_elven_elective_effect: "Принять [GetLaw('elf_elective_succession_law').GetName] [succession_law|E]"

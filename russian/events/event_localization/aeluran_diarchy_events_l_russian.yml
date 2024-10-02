@@ -1,0 +1,46 @@
+﻿l_russian:
+ aeluran_diarchy.100.title: "Из трона Верховного Матриарха"
+ aeluran_diarchy.100.desc: "[ROOT.Char.GetFullName]\n\nМы назначили новую Красную Сестру вашим советником и представителем Ордена в вашем дворе.\n\n"
+  
+ aeluran_diarchy.100.desc.sent_from_deepwood: "[aeluran_sister_advisor.GetName] — талантливая женщина, недавно получившая ранг сестры. Она будет хорошо вам служить. Она покинет Дипвуд и сразу же отправится в ваше царство."
+  
+ aeluran_diarchy.100.desc.vassal: "Ваш вассал [aeluran_sister_advisor.GetName] — сестра великой мудрости. Она будет верно служить вашему королевству."
+ aeluran_diarchy.100.desc.courtier: "Сестра вашего двора [aeluran_sister_advisor.GetName] подает большие надежды и хорошо послужит вашему королевству."
+ aeluran_diarchy.100.ok: "Посмотрим..."
+  
+ new_aeluran_advisor_is_on_the_way: "Ваш новый элуранский советник, [aeluran_sister_advisor.GetName], отправляется в ваше царство из Дипвуда."
+ new_aeluran_advisor_is_on_the_way_tt: "Ваш новый элуранский советник, [aeluran_sister_advisor.GetName], отправляется в ваше царство из Дипвуда."
+  
+ aeluran_diarchy.101.title: "Элуранское прибытие"
+ aeluran_diarchy.101.desc: "Сегодня утром в вашем владении был переполох, и вы подтвердили свои подозрения, войдя в палаты совета. Перед вами стоит женщина в красном. Кажется, прибыл ваш новый [aeluran_advisor|E].\n\n\"M'[ROOT.Char.GetLadyLord|U]\", — говорит она, — \"Я Сестра [aeluran_sister_advisor.GetFirstNameNoTooltip]. Я была отправлена ​​сюда по приказу Верховного Матриарха, чтобы служить вашим новым советником и голосом Ордена Аэлура. За последние недели я много узнала о вас и вашей семье. Я уверена, что с должным руководством мы вместе построим светлое будущее для всех эльфов\"."
+ aeluran_diarchy.101.ok: "Добро пожаловать, сестра [aeluran_sister_advisor.GetFirstNameNoTooltip]."
+  
+ aeluran_diarchy.1011.title: "Советник назначен"
+ aeluran_diarchy.1011.desc: "Вскоре после получения известия о вашем новом назначении [aeluran_advisor|E] от Элуранского Ордена вас приветствует сама [aeluran_sister_advisor.GetName]. \n\n\"M'[ROOT.Char.GetLadyLord|U]\", - говорит она, - "Я уже была служанкой вашего королевства, но для меня большая честь, что меня также выбрали представлять мой орден на вашей стороне. С несколькими предложениями #EMP #!, Я уверен, что мы сможем навести здесь надлежащий порядок и создать процветающее будущее для всех Эльфов.»"
+ aeluran_diarchy.1011.ok: "Я с нетерпением жду этого, сестра [aeluran_sister_advisor.GetFirstNameNoTooltip]."
+  
+ aeluran_diarchy.103.title: "Вопрос земли"
+ aeluran_diarchy.103.desc: "Ваша [aeluran_advisor|E], Сестра [aeluran_sister_advisor.GetFirstName], ищет вас, чтобы обсудить важный вопрос.\n\n\"M'[ROOT.Char.GetLadyLord]\" она говорит: \"Нам ещё предстоит обсудить, где будет располагаться штаб-квартира моего Ордена в вашем королевстве. вы знаете, что от Льежа ожидается, что он предоставит там [aeluran_advisor|E] землю для строительства храма и надзора как [aeluran_weavers_government|E] [vassal|E].\n\nВы можете либо предоставить мне существующий храм, либо мой орден будет готов спонсировать строительство новый храм в подарок вашему народу в честь принятия Сестринства в королевстве»."
+ aeluran_diarchy.103.church_1: "Возьмите [church_barony_1.GetName] в качестве своего дома."
+ aeluran_diarchy.103.church_2: "Подарю заказ [church_barony_2.GetName]."
+ aeluran_diarchy.103.church_3: "[church_barony_3.GetName] — подходящий храм"
+ aeluran_diarchy.103.undeveloped_holding: "Орден может построить новый храм в [undeveloped_holding.GetName]."
+ aeluran_diarchy.103.will_assign: "Мне нужно время, чтобы решить, с каким титулом расстаться"
+  
+ aeluran_diarchy.1031.title: "Вопрос земли – Храм завершен"
+ aeluran_diarchy.1031.desc: "Ваша [aeluran_advisor|E] Сестра [aeluran_sister_advisor.GetFirstName] ищет слова.\n\n\"M'[ROOT.Char.GetLadyLord], я рад сообщить, что строительство нового храма завершено. Я немедленно поселюсь в доме. Новый бастион, из которого исходит свет Божественного Искра должна распространиться»."
+ aeluran_diarchy.1031.desc.no_longer_owned: "Ваша [aeluran_advisor|E] Сестра [aeluran_sister_advisor.GetFirstName] ищет слово.\n\n\"M'[ROOT.Char.GetLadyLord], новый храм завершен; Но, как вы знаете, он больше не является частью вашего домена. Мне по-прежнему потребуется храмовое владение для моего ордена\""
+ aeluran_diarchy.1031.ok: "Как ты говоришь, сестра [aeluran_sister_advisor.GetFirstName]"
+ aeluran_diarchy.1031.no_longer_owned: "Извините за задержку, сестра [aeluran_sister_advisor.GetFirstName]"
+  
+ aeluran_diarchy.1032.title: "Вопрос о земле - отложено"
+ aeluran_diarchy.1032.desc: "«Хорошо, М'[ROOT.Char.GetLadyLord]. Не задерживайтесь слишком долго, мой орден не будет терпеть эту договоренность бесконечно. Если она не будет решена в течение нескольких лет, вопрос будет поднят снова»."
+ aeluran_diarchy.1032.ok: "Как ты говоришь, сестра [aeluran_sister_advisor.GetFirstName]"
+  
+ aeluran_diarchy.1033.title: "Вопрос земли"
+ aeluran_diarchy.1033.desc: "Подходит ваша [aeluran_advisor|E] сестра [aeluran_sister_advisor.GetFirstName]. «M'[ROOT.Char.GetLadyLord], мой приказ был терпелив, но я напоминаю вам, что совершенно неприлично иметь Красную Сестру без земли. Вы уже нашли для меня храм, где я могу пополнить свои владения?»"
+ aeluran_diarchy.1033.church_1: "Возьмите [church_barony_1.GetName] в качестве своего дома."
+ aeluran_diarchy.1033.church_2: "Подарю заказ [church_barony_2.GetName]."
+ aeluran_diarchy.1033.church_3: "[church_barony_3.GetName] — подходящий храм"
+ aeluran_diarchy.1033.undeveloped_holding: "Орден может построить новый храм в [undeveloped_holding.GetName]."
+ aeluran_diarchy.1033.will_assign: "Мне все еще нужно больше времени, сестра [aeluran_sister_advisor.GetFirstName]"

@@ -1,0 +1,65 @@
+﻿l_russian:
+ elf_finder_elf_count: "[Select_CString( LessThan_CFixedPoint( GetGlobalVariable( 'elf_finder_selected_count' ).GetValue, GetGlobalVariable('elf_finder_total_number_of_characters').GetValue ), '#high', '#low' )] [GetGlobalVariable( 'elf_finder_selected_count' ).GetValue|0] #!of [GetGlobalVariable('elf_finder_total_number_of_characters').GetValue|0] Эльфы"
+  
+ elf_filter_title_rank_crown: "[Character.Custom('Title_Rank_Icon')]"
+ elf_filter_title_icon_empire: "@empire_icon!"
+ elf_filter_title_icon_kingdom: "@kingdom_icon!"
+ elf_filter_title_icon_duchy: "@duchy_icon!"
+ elf_filter_title_icon_county: "@county_icon!"
+  
+ selected_elf_filter_gender: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_gender_filter_male' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_gender_filter_female' ).GetValue, '(CFixedPoint)1' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_gender_filter_male' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_gender_male', 'selected_elf_filter_gender_female' ), 'selected_elf_filter_gender_both' )]"
+  
+ selected_elf_filter_gender_male: "Только для мужчин"
+ selected_elf_filter_gender_female: "Только для женщин"
+ selected_elf_filter_gender_both: "Мужчина и женщина"
+  
+ selected_elf_filter_diplomacy_range: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_diplo_range' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_diplo_range' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_diplo_range' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_diplomacy_range_inside', 'selected_elf_filter_diplomacy_range_outside' ), 'selected_elf_filter_diplomacy_range_both' )]"
+  
+ selected_elf_filter_diplomacy_range_inside: "Внутри диапазона дипломатии"
+ selected_elf_filter_diplomacy_range_outside: "Вне диапазона дипломатии"
+ selected_elf_filter_diplomacy_range_both: "Внутри и за пределами дипломатии"
+  
+ selected_elf_filter_is_courtier: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_courtier' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_courtier' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_courtier' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_is_courtier_yes', 'selected_elf_filter_is_courtier_no' ), 'selected_elf_filter_is_courtier_both' )]"
+  
+ selected_elf_filter_is_courtier_yes: "Ваши придворные"
+ selected_elf_filter_is_courtier_no: "Не-придворные"
+ selected_elf_filter_is_courtier_both: "Придворные и не придворные"
+  
+ selected_elf_filter_is_ruler: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_ruler' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_ruler' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_ruler' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_is_ruler_yes', 'selected_elf_filter_is_ruler_no' ), 'selected_elf_filter_is_ruler_both' )]"
+  
+ selected_elf_filter_is_ruler_yes: "Линейки"
+ selected_elf_filter_is_ruler_no: "Неправители"
+ selected_elf_filter_is_ruler_both: "Правители и не-правители"
+  
+ selected_elf_filter_elf_artifacts: "[SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_artifacts' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_elf_artifacts_holder', 'selected_elf_filter_elf_artifacts_both' )]"
+  
+ selected_elf_filter_elf_artifacts_holder: "Владельцы уникальных эльфийских артефактов"
+ selected_elf_filter_elf_artifacts_both: "Владельцы артефактов и не владельцы артефактов"
+  
+ selected_elf_filter_can_marry: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_can_marry' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_can_marry' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_can_marry' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_can_marry_yes', 'selected_elf_filter_can_marry_no' ), 'selected_elf_filter_can_marry_both' )]"
+  
+ selected_elf_filter_can_marry_yes: "Возможность жениться"
+ selected_elf_filter_can_marry_no: "Невозможно жениться"
+ selected_elf_filter_can_marry_both: "Способные и неспособные вступать в брак"
+  
+ selected_elf_filter_is_lover: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_lover' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_lover' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_lover' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_is_lover_yes', 'selected_elf_filter_is_lover_no' ), 'selected_elf_filter_is_lover_both' )]"
+  
+ selected_elf_filter_is_lover_yes: "Ваши любовники"
+ selected_elf_filter_is_lover_no: "Не твои любовники"
+ selected_elf_filter_is_lover_both: "Ваши любовники и нелюбовники"
+  
+ selected_elf_filter_is_friend: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_friend' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_friend' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_friend' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_is_friend_yes', 'selected_elf_filter_is_friend_no' ), 'selected_elf_filter_is_friend_both' )]"
+  
+ selected_elf_filter_is_friend_yes: "Ваши друзья"
+ selected_elf_filter_is_friend_no: "Не твои друзья"
+ selected_elf_filter_is_friend_both: "Ваши друзья и не друзья"
+  
+ selected_elf_filter_is_enemy: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_enemy' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_enemy' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_enemy' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_is_enemy_yes', 'selected_elf_filter_is_enemy_no' ), 'selected_elf_filter_is_enemy_both' )]"
+  
+ selected_elf_filter_is_enemy_yes: "Ваши враги"
+ selected_elf_filter_is_enemy_no: "Не ваши враги"
+ selected_elf_filter_is_enemy_both: "Ваши враги и не враги"
+  
+ #  selected_elf_filter_player_dynasty: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_player_dynasty_filter' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_player_dynasty_filter' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_player_dynasty_filter' ).GetValue, '(CFixedPoint)1' ), 'Your Dynasty Members', 'Non Dynasty Members' ), 'Your Dynasty Members and Non Dynasty Members' )]"
+  
+ #  selected_elf_filter_player_house: "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_player_house_filter' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_player_house_filter' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_player_house_filter' ).GetValue, '(CFixedPoint)1' ), 'Your House Members', 'Non House Members' ), 'Your House Members and Non House Members' )]"

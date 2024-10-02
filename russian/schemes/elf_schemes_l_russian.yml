@@ -1,0 +1,17 @@
+﻿l_russian:
+ scheme_beauty_good_4: "[GetTrait('beauty_good_4').GetName( owner.Self )]: $VALUE|+0=$"
+  
+ SCHEME_ENTRANCE_SPOUSE_OPINION_PENALTY: "[target.GetTitledFirstName] любит [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
+  
+ # entrance: "Вход" #NT!
+ entrance_interaction: "Вход #weak (Схема)#!"
+ entrance_interaction_notification: "Вход"
+ entrance_invalid: "Я прекращаю попытки очаровать [target.GetShortUIName|U]." #NT!
+  
+ ENTRANCE_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] становится [GetTrait('entranced').GetName( GetNullCharacter )], и вы получаете за них [perpetual_hook|E]."
+ SCHEME_ENCHANTESS_TRAIT: "[GetTrait('enchantress').GetName( owner.Self )]: $VALUE|+0=$" #NT!
+  
+ planning_feast: "Планируем праздник"
+ planning_feast_desc: "Этот персонаж планирует сезонное застолье!"
+  
+ ALREADY_ENTRANCED: "[TARGET_CHARACTER.GetShortUIName|U] уже в трансе"

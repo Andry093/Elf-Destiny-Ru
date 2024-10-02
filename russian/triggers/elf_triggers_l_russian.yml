@@ -1,0 +1,7 @@
+﻿l_russian:
+ is_below_top_elf_type: "Вы #bold Эльф #! и не достигли вершины #bold Вознесения #!."
+ is_any_elf_type: "Вы #bold Эльф #!"
+ is_spark_talented: "Способен манипулировать Искрой"
+ entrance_interaction_tt_entrance_approved: "Попытайтесь проникнуть в [recipient.GetShortUINameNoTooltip] через свою соблазнительную ауру и силу искры, надежно поставив [recipient.GetHerHim] под свой контроль. Вы получите [strong_hook|E]#weak (Зачарованный)#! на [recipient.GetShortUINameNoTooltip], а они получат черту [GetTrait('entranced').GetName( GetNullCharacter )]."
+  
+ NOT_SPARK_TALENTED: "[TARGET_CHARACTER.GetShortUIName|U] не может управлять Искрой"

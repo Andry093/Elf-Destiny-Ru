@@ -1,0 +1,5 @@
+﻿l_russian:
+ dutiful_to_the_aelurans_modifier: "Послушанный элуранцам"
+ dutiful_to_the_aelurans_modifier_desc: "Я известен среди эльфов как Лорд, который оказывает должное уважение и почтение Ордену Элурана.\n\n#medium Уважение к Элурану: @aeluran_order_1_icon! #P +[EmptyScope.ScriptValue('dutiful_to_aelurans_modifier_bonus')|2]#!/month#!"
+  
+ donated_title_to_order: "Дал титул Элуранскому ордену."

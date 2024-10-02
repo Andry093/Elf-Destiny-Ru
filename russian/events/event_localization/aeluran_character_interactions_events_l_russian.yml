@@ -1,0 +1,39 @@
+﻿l_russian:
+ AELURAN_ACTIONS: "действия элуранцев"
+  
+ aeluran_character_interaction.001.title: "Расскажи мне о Божественной Искре"
+ aeluran_character_interaction.001.desc: "В последнее время вы много размышляли. Сомнения терзают ваши мысли. Многие при вашем дворе говорят об Ордене Элуранских Ткачей и Божественной Искре, которой они поклоняются. Ваше любопытство перерастает в действие, когда вы начинаете верить, что элуранцы могут иметь право на многое.\n\n[recipient.GetFullName|U], жрица веры, предложила лично научить меня их путям и принять в свою паству."
+ aeluran_character_interaction.001.convert: "Покажи мне свет Божественной Искры"
+ aeluran_character_interaction.001.nvm: "Я должен пересмотреть..."
+  
+ aeluran_character_interaction.002.title: "Ничего не оставляйте судьбе"
+ aeluran_character_interaction.002.intro: "Мой ребенок растет, а вместе с ним и мои надежды на его будущее, но зачем оставлять это на произвол богов?\n\n"
+  
+ aeluran_character_interaction.002.player_is_mother: "Я обучена путям сестер Элуран и обладаю способностью контролировать, будет ли ребенок лордом или девушкой, если я применю правильные методы."
+  
+ aeluran_character_interaction.002.not_mother: "[recipient.GetFullName|U], мать ребенка, обучена мистическим техникам сестер Элуран. Она может использовать свои способности, чтобы контролировать, будет ли ребенок лордом или девушкой, если я попрошу ее об этом."
+  
+ aeluran_character_interaction.002.girl: "У нас будет девочка."
+ aeluran_character_interaction.002.boy: "У нас будет мальчик."
+ aeluran_character_interaction.002.nvm: "В конце концов, лучше оставить это на произвол судьбы"
+  
+ set_baby_to_girl: "Ваш будущий ребенок будет #D девочкой#!."
+ set_baby_to_boy: "Ваш будущий ребенок будет #E мальчиком#!."
+  
+ aeluran_character_interaction.003.title: "Битва завещаний"
+ aeluran_character_interaction.003.desc: "Вы чувствуете, как ваша хватка в вашем царстве ослабевает. Корни вашего [aeluran_advisor|E] [aeluran_sister_advisor.GetNamePossessive] влияния ушли глубоко. Если вы не примете меры в ближайшее время, вы боитесь, что можете стать сюзереном только по имени.\n\n"
+ aeluran_character_interaction.003.bow_learning: "Ты столкнешься с [aeluran_sister_advisor.GetFirstName] и задашь новый тон для управления твоим королевством. Ты направишь чистую силу своей воли против ее и вернешь все в надлежащий порядок!"
+ aeluran_character_interaction.003.bow_intrigue_diplomacy: "Вы столкнетесь с [aeluran_sister_advisor.GetFirstName] с опьяняющей тонкостью вашей Искры Ауры. Как только [aeluran_sister_advisor.GetSheHe] попадет под ваше обольстительное влияние, хотя бы на какое-то время, вы сможете навести порядок и задать новый тон управлению своим королевством!"
+ aeluran_character_interaction.003.challenge: "Сестра [aeluran_sister_advisor.GetFirstName], нам нужно поговорить."
+ aeluran_character_interaction.003.nvm: "Я не могу встретиться с ней сейчас."
+  
+ lord_defeats_advisor_battle_of_wills: "Вы подавляете волю [aeluran_sister_advisor.GetName] и снижаете контроль Элурана в своем королевстве."
+ lord_loses_to_advisor_battle_of_wills: "[aeluran_sister_advisor.GetName] подавляет вашу волю и увеличивает контроль Элурана в вашем мире."
+  
+ aeluran_character_interaction.0031.title: "Битва завещаний - Победа"
+ aeluran_character_interaction.0031.desc: "Дискуссия была напряженной, но словами, острыми, как лезвие, и твердыми, как молот, вам удалось разрушить защиту [aeluran_sister_advisor.GetNamePossessive]. Последним толчком ваша Искра Аура рванулась вперед, погасив внутреннее пламя [aeluran_sister_advisor.GetHerHis]. Обеспечив победу, вы объясняете своему только что запуганному советнику, как в дальнейшем дела здесь будут идти по-другому.\n\n[aeluran_sister_advisor.GetFirstName] соглашается, просто говоря: «\Будет так, как вы говорите M'[ROOT.Char.GetLadyLord]... #EMP на данный момент#!\""
+ aeluran_character_interaction.0031.ok: "Действительно, так и будет."
+  
+ aeluran_character_interaction.0032.title: "Битва завещаний — поражение"
+ aeluran_character_interaction.0032.desc: "Вы начали разговор смело и уверенно, однако обе эмоции вскоре покидают вас, поскольку [aeluran_sister_advisor.GetName] начинает опровергать ваши требования. Вы находите ее логику неоспоримой, и с каждым опровержением вашего приказа вы чувствуете, как ваша Искра Аура угасает, пока не погаснет полностью с последним хныканьем.\n\nС пренебрежительной ухмылкой [aeluran_sister_advisor.GetFirstName] говорит: \"Теперь, когда мы уладили вашу истерику, У меня #BOL есть #! идеи, как улучшить #BOL наше #! царство...\""
+ aeluran_character_interaction.0032.ok: "А-Как скажешь, сестра [aeluran_sister_advisor.GetFirstNameNoTooltip]."

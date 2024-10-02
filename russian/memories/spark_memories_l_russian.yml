@@ -1,0 +1,17 @@
+﻿l_russian:
+   # 
+ slayed_knight_in_battle: "Убил рыцаря в бою"
+ slayed_knight_in_battle_desc_1: "Я убил могучего [slayed_knight.GetTitledFirstName] в бою"
+ slayed_knight_in_battle_desc_2: "Я одержал победу над [slayed_knight.GetTitledFirstName] в бою, его смерть была быстрой"
+ slayed_knight_in_battle_desc_second_perspective_1: "Вы убили [slayed_knight.GetTitledFirstName]"
+ slayed_knight_in_battle_desc_second_perspective_2: "Вы оборвали жизнь [slayed_knight.GetTitledFirstName] в бою"
+ slayed_knight_in_battle_desc_third_perspective_1: "[owner.GetName] убит [slayed_knight.GetTitledFirstName]"
+ slayed_knight_in_battle_desc_third_perspective_2: "[owner.GetName] убит [slayed_knight.GetTitledFirstName] в бою"
+  
+ slayed_opponent_in_single_combat: "Убить противника в единоборстве"
+ slayed_opponent_in_single_combat_desc_1: "Я убил могучего [slayed_opponent.GetTitledFirstName] в единоборстве"
+ slayed_opponent_in_single_combat_desc_2: "Я одержал победу над [slayed_opponent.GetTitledFirstName] в единоборстве, его смерть была быстрой"
+ slayed_opponent_in_single_combat_desc_second_perspective_1: "Вы убили [slayed_opponent.GetTitledFirstName]"
+ slayed_opponent_in_single_combat_desc_second_perspective_2: "Вы оборвали жизнь [slayed_opponent.GetTitledFirstName] в единоборстве"
+ slayed_opponent_in_single_combat_desc_third_perspective_1: "[owner.GetName] убит [slayed_opponent.GetTitledFirstName]"
+ slayed_opponent_in_single_combat_desc_third_perspective_2: "[owner.GetName] убил [slayed_opponent.GetTitledFirstName] в единоборстве"

@@ -1,0 +1,36 @@
+﻿l_russian:
+ elf_elective_succession_law: "Эльфийский факультатив"
+ elf_elective_electors: "Эльфийские де-юре вассалы"
+ elf_elective_electors_tooltip: "Чтобы быть действительным [elector|E] в Эльфийском выборном, вассал должен соответствовать всем следующим условиям:\n$EFFECT_LIST_BULLET$Быть эльфом\n$EFFECT_LIST_BULLET$Быть [de_jure|E] вассалом титула"
+ elf_elective_candidates: "Семья эльфийского лорда и де-юре прямые вассалы"
+ elf_elective_candidates_tooltip: "Чтобы быть действительным кандидатом на должность Эльфийского выборного, персонаж должен быть эльфом и соответствовать одному из следующих условий:\n$EFFECT_LIST_BULLET$Быть законным членом [close_family|E] текущего правителя, чей [primary_title|E] ниже или равен [title_tier|E] избранного титула.\n$EFFECT_LIST_BULLET$Быть законным членом [extended_family|E] текущего правителя, который является [unlanded|E] и не находится в очереди на наследование Теократии или Республики.\n$EFFECT_LIST_BULLET$Быть [claimant|E] титула, который не находится в очереди на наследование Теократии или Республики.\n$EFFECT_LIST_BULLET$Быть прямым вассалом титула de jure"
+  
+ tooltip_elven_vote_strength_aeluran_order_vassal: "Вассал Элурана - Контроль Лорда: [holder.Custom('AeluranMatchmakingDominationScore')] : $VALUE|=+0$"
+  
+  
+  
+ tooltip_basic_genetic_electability_modifier_bonus_desc: "[candidate.GetFirstNameNicknamedPossessive] Генетическая благоприятность: $VALUE|=+0$"
+ tooltip_has_valerith_bloodline_modifier_bonus_desc: "[candidate.GetSheHe|U] принадлежит @bloodline_valerith_icon! Кровь Валерита: $VALUE|=+0$"
+ tooltip_has_serelion_bloodline_modifier_bonus_desc: "[candidate.GetSheHe|U] принадлежит @bloodline_serelion_icon! Кровь Serelion: $VALUE|=+0$"
+ tooltip_has_gwynthorn_bloodline_modifier_bonus_desc: "[candidate.GetSheHe|U] принадлежит @bloodline_gwynthorn_icon! Кровь Гвинторна: $VALUE|=+0$"
+ tooltip_has_thundarael_bloodline_modifier_bonus_desc: "[candidate.GetSheHe|U] принадлежит @bloodline_thundarael_icon! Кровь Тундараэля: $VALUE|=+0$"
+ tooltip_has_daelurin_bloodline_modifier_bonus_desc: "[candidate.GetSheHe|U] принадлежит @bloodline_daelurin_icon! Кровь Даэлурина: $VALUE|=+0$"
+  
+ tooltip_is_human_modifier_bonus_desc: "[candidate.GetSheHe|U] — это скромный @human_icon! человек: $VALUE|=+0$"
+ tooltip_elf_blood_modifier_bonus_desc: "[candidate.GetSheHe|U] имеет только некоторые @elf_blood_icon! Кровь эльфа: $VALUE|=+0$"
+ tooltip_elf_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @elf_icon! Эльф: $VALUE|=+0$"
+ tooltip_high_elf_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @elf_icon! Высокий эльф: $VALUE|=+0$"
+ tooltip_true_elf_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @fae_tier_icon! Настоящий эльф: $VALUE|=+0$"
+ tooltip_fae_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @fae_tier_icon! Фейри: $VALUE|=+0$"
+ tooltip_fae_radiant_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @fae_tier_icon! Fae Radiant: $VALUE|=+0$"
+ tooltip_celestial_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @celestial_tier_icon! Небесный: $VALUE|=+0$"
+ tooltip_seraphic_celestial_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @celestial_tier_icon! Небесный серафим: $VALUE|=+0$"
+ tooltip_eldar_modifier_bonus_desc: "[candidate.GetSheHe|U] — это значок @celestial_tier_icon! Эльдар: $VALUE|=+0$"
+ tooltip_maiar_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @ainur_tier_icon! Майар: $VALUE|=+0$"
+ tooltip_valar_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @ainur_tier_icon! Валар: $VALUE|=+0$"
+ tooltip_aratar_modifier_bonus_desc: "[candidate.GetSheHe|U] — это значок @ainur_tier_icon! Аратар: $VALUE|=+0$"
+  
+ tooltip_aeluran_prefers_sister_modifier_bonus_desc: "[candidate.GetSheHe|U] — это @aeluran_sister_icon! Элуранская сестра: $VALUE|=+0$"
+ tooltip_aeluran_prefers_matron_modifier_bonus_desc: "[candidate.GetSheHe|U] — это значок @aeluran_matron_icon! Матрона Элурана: $VALUE|=+0$"
+ tooltip_aeluran_prefers_matriarch_modifier_bonus_desc: "[candidate.GetSheHe|U] — это значок @aeluran_matriarch_icon! Матриарх Aeluran: $VALUE|=+0$"
+  

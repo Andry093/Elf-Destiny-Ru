@@ -1,0 +1,29 @@
+﻿l_russian:
+   # ========= CULTURES ========= 
+  
+ culture_elf: "Эльфы"
+ culture_elf_prefix: "Эльфийско"
+ culture_elf_collective_noun: "Фейск"
+  
+ elf_culture_gwynthorn: "Туата Де Дананны"
+ elf_culture_gwynthorn_prefix: "Туатано"
+ elf_culture_gwynthorn_collective_noun: "Туатиск"
+  
+ elf_culture_daelurin: "Альфары"
+ elf_culture_daelurin_prefix: "Альфарийско"
+ elf_culture_daelurin_collective_noun: "Альфарийск"
+  
+ elf_culture_serelion: "Ромавиры"
+ elf_culture_serelion_prefix: "Ромавиро"
+ elf_culture_serelion_collective_noun: "Ромавирийск"
+  
+ elf_culture_thundarael: "Астрионы"
+ elf_culture_thundarael_prefix: "Астрионо"
+ elf_culture_thundarael_collective_noun: "Астрионск"
+  
+ elf_culture_valerith: "Эльфы Леса"
+ elf_culture_valerith_prefix: "Лесно"
+ elf_culture_valerith_collective_noun: "Лесн"
+  
+ heritage_elf_name: "Эльфийск"
+ heritage_elf_collective_noun: "Эльфийск"

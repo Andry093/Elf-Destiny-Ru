@@ -1,0 +1,89 @@
+﻿l_russian:
+ aeluran_diarchy_mandate.1002.title: "Раскрыты скрытые истины"
+ aeluran_diarchy_mandate.1002.desc: "Ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] ищет вас по деликатному вопросу.\n\n\"M'[ROOT.Char.GetLadyLord], сестры, которым я поручил следить за владениями ваших вассалов, шептали мне весьма тревожные слухи.\n\nОни обнаружили [vassal.GetName] [vassal_secret.GetDesc|l]!\n\nЯ предоставлю на ваше усмотрение, что делать с этим грешником.\""
+ aeluran_diarchy_mandate.1002.ok: "Самое тревожное..."
+  
+ aeluran_diarchy_mandate.1003.title: "Укрепление вашей хватки"
+ aeluran_diarchy_mandate.1003.desc: "Ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] поговорит с вами после вашего последнего заседания совета.\n\n\"M'[ROOT.Char.GetLadyLord], у нас больше не должно возникнуть проблем с сохранением контроля в [county_to_control.GetName]. Я послал доверенных сестер моего Ордена разобраться с ситуацией. диссидентов и подчинить местных жителей. \"\n\n\"Я получил сообщения об их успехе\""
+ aeluran_diarchy_mandate.1003.ok: "Хорошо, нам нужен порядок!"
+  
+ aeluran_diarchy_mandate.1004.title: "Балансирующие книги"
+ aeluran_diarchy_mandate.1004.desc: "Ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] просит слова.\n\n"M'[ROOT.Char.GetLadyLord], в этом сезоне я лично объездил владения [vassal.GetName]. Проведя тщательную проверку земель [vassal.GetHerHis], я обнаружил #EMP несоответствий#! в § _4 бухгалтерский учет, созданный много лет назад, [vassal.GetName] утверждает, что это честная ошибка, но я не до конца убежден.\n\nПо праву я мог бы скорректировать [vassal.GetHerHis] [aeluran_sister_advisor.GetName]0, чтобы компенсировать это несоответствие, или, возможно, мы могли бы игнорировать это нарушение как средство получить на них какое-то влияние.\n\nКак нам действовать?»"
+ aeluran_diarchy_mandate.1004.contract: "Давайте скорректируем их контракт"
+ aeluran_diarchy_mandate.1004.hook: "Давайте простим, но не забудем."
+  
+ aeluran_diarchy_mandate.1005.title: "Пылкие клятвы"
+ aeluran_diarchy_mandate.1005.desc: "Ваш вассал [vassal.GetName] приближается к вам, а ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] следует за ним. Прежде чем вы успеваете сказать хоть слово, [vassal.GetFirstName] падает на одно колено.\n\n\"M'[ROOT.Char.GetLadyLord]\" [vassal.GetSheHe] говорит: \"Большую часть дня я советовался с сестрой [aeluran_sister_advisor.GetFirstName]. [aeluran_sister_advisor.GetSheHe] мне помог Видите ясно, какой вы действительно достойный сюзерен. Я смиренно говорю, что я не был тем преданным вассалом, каким должен был быть. Клянусь вам, я поступлю лучше!"
+ aeluran_diarchy_mandate.1005.ok: "Прекрасно сказано [vassal.GetName]"
+  
+ aeluran_diarchy_mandate.1006.title: "Послушная дань уважения"
+ aeluran_diarchy_mandate.1006.desc: "Вы встречаетесь со своим [aeluran_advisor|E] [aeluran_sister_advisor.GetName], чтобы обсудить управление королевством.\n\n\"M'[ROOT.Char.GetLadyLord]\" [aeluran_sister_advisor.GetSheHe] говорит: \"Во время моего последнего путешествия по вашему вассальному домену [vassal.GetNamePossessive] я предоставил [vassal.GetHerHim] столь необходимые § _6 консультирование#!. [vassal.GetSheHe|U] теперь считает, что уместна дополнительная дань их достойному Льежу, и предлагает послать золото для пополнения казны королевства. \"\n\n\"В качестве альтернативы вы можете отказаться от этого жеста, настаивая на их верной службе. Это была уже достаточная дань уважения. Это может усилить их любовь к вашему [ROOT.Char.GetLadyLord]кораблю»."
+ aeluran_diarchy_mandate.1006.accept_tribute: "Я с радостью принимаю их дань уважения"
+ aeluran_diarchy_mandate.1006.decline_tribute: "[vassal.GetName] должен инвестировать в свои земли"
+  
+ aeluran_diarchy_mandate.1007.title: "Консолидирующий мастер"
+ aeluran_diarchy_mandate.1007.desc: "\"M'[ROOT.Char.GetLadyLord]\" [aeluran_sister_advisor.GetSheHe] говорит: \"Ваш вассал [vassal.GetName] сумел заручиться поддержкой гильдии каменщиков с довольно хорошей репутацией, и они собираются начать строительство своей новой региональной штаб-квартиры в столице [vassal.GetFirstNamePossessive]\".\n\n\"Разве такое благо не должно быть использовано вместо этого на благо великого королевства? Я связался с этой гильдией, и после убедительных переговоров с лидером гильдии, за справедливую цену, они окажут вам честь, основав свою новую штаб-квартиру в ваших личных владениях.\""
+ aeluran_diarchy_mandate.1007.yes: "Очень хорошо, королевство Льежа должно быть на первом месте."
+ aeluran_diarchy_mandate.1007.no: "Пусть [vassal.GetName] сохранит [vassal.GetHerHis] производителей кирпича"
+  
+ aeluran_diarchy_mandate.1008.title: "Неверующий переворот"
+ aeluran_diarchy_mandate.1008.desc: "[aeluran_sister_advisor.GetName] приближается. \"M'[ROOT.Char.GetLadyLord] ваше царство больше не может принимать еретические пути [vassal.GetNamePossessive]! Их практика [vassal.GetFaith.GetName] сбивает с толку и сбивает с пути ваших подданных.\n\nВы должны приказать [vassal.GetName] оставить свои богохульства и ходить во свете. Я бы хотел позаботьтесь о преобразовании [vassal.GetHerHis] лично.\n\nВ качестве альтернативы, если вы чувствуете, что [vassal.GetSheHe] не подлежит выкупу, мой орден позиционирует себя так, чтобы иметь возможность законно конфисковать земли [vassal.GetHerHis] по религиозным мотивам. Титулы будут принадлежать Элуранскому Ордену, и я бы это сделал. Я должен передать их одной из моих сестер. Но я уверен, что ты не станешь возражать против более сильного влияния Элура в твоем королевстве»."
+ aeluran_diarchy_mandate.1008.convert: "[vassal.GetName] еще можно сохранить. Укажите [vassal.GetHerHim] путь!"
+ aeluran_diarchy_mandate.1008.take_title: "Покончив с еретиками, я поручаю Элуранскому Ордену управлять этими землями."
+ aeluran_diarchy_mandate.1008.no: "Пусть [vassal.GetName] верят во что хотят, меня это не беспокоит"
+ fail_to_convert: "[aeluran_sister_advisor.GetName] не может преобразовать [vassal.GetName]"
+  
+ aeluran_diarchy_mandate.1009.title: "Обнаружены темные дела"
+ aeluran_diarchy_mandate.1009.desc: "[aeluran_sister_advisor.GetName] приближается к вам с серьезным выражением лица.\n\n\"M'[ROOT.Char.GetLadyLord] Я узнала о темном предательстве. Пока мы говорим, ваш вассал [traitor.GetName] организует заговор против вас [SCOPE.Custom('MurderOrKidnap')]!\n\nМы должны действовать быстро, мои Сестры готовы принять [traitor.GetLadyLord] [traitor.GetFirstNameBase] и положить конец этому самому гнусному предательству»."
+ aeluran_diarchy_mandate.1009.imprison: "[traitor.GetSheHe|U] сгниет за это в моих темницах!"
+ aeluran_diarchy_mandate.1009.execute: "Не надо пленять, казните предателя!"
+ aeluran_diarchy_mandate.1009.forgive: "Должно быть недоразумение! Я пока не буду предпринимать никаких действий"
+ murder_or_kidnap_murder: "убийство"
+ murder_or_kidnap_kidnap: "похитить"
+  
+ attempted_abduct_me_crime_execute: "$attempted_abduct_me$"
+  
+ aeluran_diarchy_mandate.1010.title: "Разрыв фракций"
+ aeluran_diarchy_mandate.1010.desc: "Вы были удивлены, увидев, как ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] быстро приближается в сопровождении охраны. [traitor.GetName] следует за связанными цепями руками.\n\n\"M'[ROOT.Char.GetLadyLord], как видите, я пришёл с подарком и хорошими новостями. Мои агенты обнаружили, что [traitor.GetName] был лидером [faction.GetName], бросающим вызов вашему правило.\n\nК счастью, никто не может ускользнуть от нашей хватки, и предатель схвачен, возможно, какое-то время в ваших камерах научит [traitor.GetHerHim] лояльности.\""
+ aeluran_diarchy_mandate.1010.ok: "Предателю подземелий"
+ aeluran_diarchy_mandate.1010.stong_hook: "Может быть, я смогу начать прощать, если будут даны правильные клятвы."
+ forgiven_traitor: "Прощенный предатель"
+  
+ aeluran_diarchy_mandate.1011.title: "Ваша репутация приносит вам прибыль"
+ aeluran_diarchy_mandate.1011.desc: "Вы находитесь в совете со своим [aeluran_advisor|E] [aeluran_sister_advisor.GetName]. \n\n\"M'[ROOT.Char.GetLadyLord], мой надзор за вашими владениями был довольно строгим, и ваши вассалы проявляли должное уважение к вашей власти.\n\nПохоже, нам удалось завоевать вашу твердую руку и репутацию. Все так и должно быть»"
+ aeluran_diarchy_mandate.1011.ok: "Хорошо, мои вассалы должны знать правильный порядок вещей."
+ aeluran_diarchy_mandate.1011.nvm: "Мы не должны быть такими властными. Давайте вместо этого ослабим узду."
+ hard_but_fair_lord_modifier: "Жесткий, но справедливый правитель"
+  
+ aeluran_diarchy_mandate.1012.title: "Обеспечение соответствия"
+ aeluran_diarchy_mandate.1012.desc: "После вашего последнего заседания совета ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] просит поговорить наедине.\n\n\"M'[ROOT.Char.GetLadyLord], [vassal.GetNamePossessive] открыто враждебное мнение о вас меня очень беспокоит. Они одни из ваших самых могущественных вассалов и игнорируют такую ​​наглость. позволит только вызвать измену в рядах. Чтобы обеспечить лояльность [vassal.GetHerHis], я рекомендую вам взять наследника [vassal.GetHerHis] [unliked_powerful_vassal_heir.GetName], поскольку ваш [hostage|E] не посмеет выступить против вас, если наследование [vassal.GetHerHis] окажется под угрозой.\n\nВ качестве альтернативы мы. вместо этого вы могли бы привлечь [vassal.GetHerHis] лучших кузнецов и мастеров к непосредственному обслуживанию вашего [ROOT.Char.GetLadyLord]корабля. Это потребовало бы некоторых затрат, но без надлежащего оружия и оборудования [aeluran_sister_advisor.GetName]2 было бы труднее всего собрать надлежащие сборы»."
+ aeluran_diarchy_mandate.1012.hostage: "Мудрая предосторожность, [unliked_powerful_vassal_heir.GetName] будет моим постоянным гостем."
+ aeluran_diarchy_mandate.1012.undermine: "Давайте #EMP одолжим#! [vassal.GetHerHis] кузнецов."
+ aeluran_diarchy_mandate.1012.murder: "Я бы предпочел решить эту проблему старым способом."
+ murder_Scheme_progresses_half_way: "[GetScheme('murder').GetTypeName] [scheme|E] проходит половину пути"
+  
+ aeluran_diarchy_mandate.1013.title: "Умерение темперамента"
+ aeluran_diarchy_mandate.1013.desc: "Ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] просит слова.\n\n\"M'[ROOT.Char.GetLadyLord], как вы, несомненно, уже заметили, [vassal.GetName] часто демонстрирует поведение, неподходящее для настоящего вассала. Основная причина кроется в самой их личности и [aeluran_sister_advisor.GetName]. _4 лечение #! такого недуга, боюсь, дело непростое.\n\nЯ советую вам подписать этот приказ. Он предписывает [vassal.GetName] начать регулярные консультации с Элуранским Орденом. [vassal.GetName] может поначалу сопротивляться, но я уверен, что мои сестры. в мгновение ока исправлю [vassal.GetHerHim]»."
+ aeluran_diarchy_mandate.1013.ok: "Как говорится, нужна твердая рука"
+ aeluran_diarchy_mandate.1013.nvm: "я бы не был таким навязчивым"
+ vassal_enters_aeluran_counseling: "[vassal.GetName] начинает консультирование Элурана"
+  
+ aeluran_diarchy_mandate.1113.title: "Умерение темперамента"
+ aeluran_diarchy_mandate.1113.desc.success: "Вы удивлены, увидев, что ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] приближается, а ваш вассал [vassal.GetName] следует за ним.\n\n\"M'[ROOT.Char.GetLadyLord], я рад сообщить вам, что [vassal.GetName] здесь хорошо воспринял советы Ордена и теперь демонстрирует более удовлетворительное приличие.\n\n[vassal.GetName] шага вперед\n\n\"Мой господин, я должен вас поблагодарить. Поначалу я был настроен скептически, но сестры Элуран помогли мне стать лучше и лучше служить королевству»."
+ aeluran_diarchy_mandate.1113.desc.fail: "Вы удивлены, обнаружив, что [vassal.GetName] быстро приближается, а ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] следует за ним. Кажется, ни один из них не в хорошем настроении. \n\n«Мой сеньор» [vassal.GetName] говорит: «Я больше ни дня не вынесу унижения этих Красных Ведьм. Я не ребенок, чтобы лепить, как глину. Не приставайте ко мне с такими неуважительными снисхождениями!"
+ aeluran_diarchy_mandate.1113.success: "Прекрасные новости: правильное управление начинается со здорового духа"
+ aeluran_diarchy_mandate.1113.fail: "К сожалению, мудрость элурианцев не смогла дойти до вас [vassal.GetFirstName]"
+  
+ resented_aeluran_counseling: "Возмущенное принудительное консультирование элуранцев"
+  
+ aeluran_diarchy_mandate.1014.title: "Браконьерство доблести"
+ aeluran_diarchy_mandate.1014.desc: "Вы встречаетесь со своим [aeluran_advisor|E] [aeluran_sister_advisor.GetName], чтобы обсудить управление королевством.\n\n\"M'[ROOT.Char.GetLadyLord]\" [aeluran_sister_advisor.GetSheHe] говорит: \"Я только что вернулся из своего последнего тура по владениям [vassal.GetNamePossessive]. Находясь там, я был очень В частности, впечатленный качеством свиты [vassal.GetHerHis] присягнувших [ROOT.Char.Custom('KnightCulture')], он был прекрасным образцом великого таланта.\n\nНе должен ли такой воин одолжить свой клинок там, где он может лучше всего послужить королевству? ... поощрение... к [vassal.GetName], чтобы [vassal.GetSheHe] мог соответствовать нашему мышлению и вместо этого предложить вам услугу [knight.GetName]»."
+ aeluran_diarchy_mandate.1014.ok: "Мудрое предложение"
+ aeluran_diarchy_mandate.1014.nvm: "Вместо этого давайте сосредоточим наше внимание на лучшей подготовке воинов, которые у нас есть."
+  
+ poached_knight: "браконьерский рыцарь"
+  
+ aeluran_diarchy_mandate.1015.title: "Постоянная бдительность"
+ aeluran_diarchy_mandate.1015.desc: "Ваш [aeluran_advisor|E] [aeluran_sister_advisor.GetName] просит конфиденциального слова.\n\n\"M'[ROOT.Char.GetLadyLord], ваш народ становится всё более верным Божественной Искре и учениям Элуранского Ордена, но всё ещё есть те, кто остаётся непокорным. Мои Сестры и я вырастил группу исключительно пылких простых людей, которые иногда выступают в качестве глаз и ушей Ордена в ваших землях.\n\nЕсли бы вы предоставили дополнительное финансирование, мы могли бы создать более надежную сеть информаторов, чтобы помочь нам более эффективно выявлять подстрекателей вашего королевства. Давайте искореним инакомыслящих."
+ aeluran_diarchy_mandate.1015.ok: "Контроль стоит любой цены."
+ aeluran_diarchy_mandate.1015.nvm: "Я бы не стал сеять недоверие среди крестьянства!"

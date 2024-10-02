@@ -1,0 +1,11 @@
+﻿l_russian:
+   # Feyswood 
+ d_martyuba: "Фейсвуд"
+ d_martyuba_adj: "Фейс"
+ c_cykma: "Глубокий лес"
+ c_cykma_adj: "Глубокий лес"
+ c_martyuba: "Приземление духов"
+ c_martyuba_adj: "духи"
+   # Special 
+ c_high_matriarch: "Верховная Матрона"
+ c_high_matriarch_adj: "Верховная Матрона"

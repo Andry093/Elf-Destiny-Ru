@@ -1,0 +1,4 @@
+﻿l_russian:
+   ### DEBUG ### 
+ checkScopeValue: "Ваше значение [ROOT.Var(treasure_weight).GetValue]"
+ checkScopeValueYee: "Ваша ценность — да"

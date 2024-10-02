@@ -1,0 +1,5 @@
+﻿l_russian:
+   # 
+ scheme_power_against_lover_add: "[scheme_power|E] против вашего [lovers|E]"
+ max_seduce_schemes_add: "Макс [GetScheme('seduce').GetTypeName] [schemes|E]"
+ seduce_scheme_resistance_add: "[GetScheme('seduce').GetTypeName] [scheme_resistance|E]"

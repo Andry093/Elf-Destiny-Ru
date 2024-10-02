@@ -1,0 +1,15 @@
+﻿l_russian:
+ sister_convert_me_to_aeluran_interaction: "Преврати меня"
+ matron_convert_me_to_aeluran_interaction: "Преврати меня"
+ matriarch_convert_me_to_aeluran_interaction: "Преврати меня"
+ convert_me_to_aeluran_desc: "Спроси, обратит ли она меня в Элуранскую веру!"
+  
+ sister_change_gender_of_unborn: "Изменить пол ребенка"
+ matron_change_gender_of_unborn: "Изменить пол ребенка"
+ matriarch_change_gender_of_unborn: "Изменить пол ребенка"
+ change_gender_of_unborn_desc: "Спросите, будет ли она использовать свои элуранские способности, чтобы изменить пол нашего ребенка."
+  
+ request_matchmaking_interaction: "Запросить подбор игроков"
+ request_matchmaking_desc: "Запросить подбор игроков"
+  
+ CANT_CONVERT_AELURAN_ORDER_MEMBER: "[recipient.GetShortUIName|U] является членом @aeluran_experiment_icon! Ордена Aeluran"

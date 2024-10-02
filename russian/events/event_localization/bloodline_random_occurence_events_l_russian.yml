@@ -1,0 +1,77 @@
+﻿l_russian:
+ bloodline_random.001.title: "Мольба о помощи"
+ bloodline_random.001.desc.intro: "[adviser.GetTitledFirstName] приближается к вам в кабинете.\n\n \"M'[ROOT.Char.GetLadyLord] ребенок забрел в наше владение в довольно плохом состоянии.\n\nПо всей видимости, караван [orphan.GetSheHe] с наемным проездом попал в засаду бандитов и [orphan.GetSheHe] был единственный выживший.\n\n[orphan.GetSheHe|U] ничего не скажет, но [orphan.GetSheHe] сжимал в руках это письмо, адресованное тебе.\""
+ bloodline_random.001.read_letter: "Позвольте мне прочитать это письмо"
+  
+ bloodline_random.001.desc.orphan: ""
+  
+ bloodline_random.0011.title: "Мольба о помощи"
+ bloodline_random.0011.desc: "Уважаемому [ROOT.Char.GetLadyLord] [ROOT.Char.GetFullName]\n\nМеня зовут [orphan_mother.GetLadyLord] [orphan_mother.GetFullName], я глава небольшого, давно забытого дома. Я пишу вам с большой скорбью, потому что мои целители говорят мне, что мне осталось недолго в этом мире.\n\nДитя, мой [orphan.Custom('GetDaughterSon')] — это все, что у меня осталось. [orphan.GetHerHis] отец давно умер и больше никого нет. [orphan.GetTitledFirstName] — последний представитель нашей династии, и его следует воспитывать в надлежащем доме благородных эльфов. [orphan.GetSheHe] несет в жилах [orphan.GetHerHis] кровь великого дома и обладает свирепым духом. [orphan.GetSheHe] сослужит вам добрую службу, если вы дадите [ROOT.Char.GetFullName]0 шанс.\nХотя мы никогда не встречались, я прошу вас, пожалуйста, даруйте мне это последняя услуга....\nМоему любимому [orphan.GetTitledFirstName], я люблю тебя и всегда буду с тобой"
+ bloodline_random.0011.a: "Закрыть письмо"
+  
+ bloodline_random.0012.title: "Мольба о помощи"
+ bloodline_random.0012.desc: "Ну М'[ROOT.Char.GetLadyLord]? Что будет с этим ребенком"
+  
+ bloodline_random.0012.a1: "Я возьму ребенка под свою опеку"
+ bloodline_random.0012.a2: "Мы найдем для них место в моем дворе."
+ bloodline_random.0012.a3: "У нас нет места для благотворительности"
+  
+ bloodline_random.0013.title: "Мольба о помощи"
+ bloodline_random.0013.desc: "Ребенок говорит: «Я тебя не подведу M'[ROOT.Char.GetLadyLord]»"
+ bloodline_random.0013.a1: "Я верю в это!"
+  
+ bloodline_event: "Встреча эльфа родословной"
+ bloodline_event_desc: "Вы встретили эльфа благородного происхождения."
+  
+  
+ bloodline_random.002.title: "Прибытие чемпиона"
+ bloodline_random.002.desc.intro: "Волна волнения захлестнула ваш двор. Ходят слухи, что в городе остановился чемпион турнира.\n\nЭто не кто иной, как известный [champion.GetFullName]."
+  
+ bloodline_random.002.desc.intro.bow: "лучники и восходящая звезда соревнований по стрельбе из лука #bold#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+ bloodline_random.002.desc.intro.board_game: "стратег и восходящая звезда конкурсов #bold по настольной игре#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+ bloodline_random.002.desc.intro.duel: "фехтовальщики и восходящая звезда дуэльных состязаний #bold#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+ bloodline_random.002.desc.intro.horse: "наездник и восходящая звезда соревнований #bold скачек#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+ bloodline_random.002.desc.intro.melee: "воин и восходящая звезда состязаний #bold ближнего боя#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+ bloodline_random.002.desc.intro.recital: "вокалист и восходящая звезда конкурсов #bold сольный концерт#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+ bloodline_random.002.desc.intro.wrestling: "борец и восходящая звезда соревнований по борьбе #bold#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+ bloodline_random.002.desc.intro.joust: "всадники и восходящая звезда рыцарских состязаний #bold#!. [champion.GetSheHe|U] – настоящий фаворит публики."
+  
+ bloodline_random.002.desc.continued: "\n\nО происхождении [champion.GetHerHis] мало что известно, кроме слухов о том, что [champion.GetSheHe] принадлежит к действительно древнему и благородному эльфийскому происхождению.\n\nТакой человек, несомненно, станет прекрасным дополнением к двору любого лорда или леди."
+  
+ bloodline_random.002.recruit: "Нужно найти [champion.GetHerHim]"
+ bloodline_random.002.ignore: "У меня уже достаточно придворных"
+  
+ bloodline_random.0021.title: "Прибытие чемпиона"
+ bloodline_random.0021.desc: "Вы находите [champion.GetFullName] в местной таверне, окруженной толпой обожающих его зрителей. После нескольких кратких представлений вы спрашиваете, не разделит ли [champion.GetSheHe] с вами выпивку. \n\nЧерез несколько кружек вы переходите к делу и выражаете заинтересованность в том, чтобы [champion.GetFirstName] присоединился к вашему двору.\n\n\"Вам повезло\" [champion.GetSheHe] говорит:\"Мой последний лорд больше не мог позволить себе мое спонсорство и освободил меня от своей службы. Я горжусь служить благородному эльфийскому [ROOT.Char.GetLadyLord|U], такому как вы, но предупреждаю вас, я не простой придворный, и мои услуги недешевы"
+  
+ bloodline_random.0021.pay: "Я уверен, что ты того стоишь"
+ bloodline_random.0021.haggle: "Это действительно ваша окончательная цена?"
+ bloodline_random.0021.haggle_victory: "[champion.GetFirstName] принимает ваше более низкое предложение"
+ bloodline_random.0021.haggle_loss: "[champion.GetFirstName] обижается и требует большего"
+ bloodline_random.0021.nvm: "Это просто слишком высокая стоимость"
+  
+ bloodline_random.0021.outcome.pay: "Вы воспользовались услугами известного чемпиона за 100 @gold_icon!"
+ bloodline_random.0021.outcome.haggle_victory: "Торг успехов! - Вы воспользовались услугами известного чемпиона"
+ bloodline_random.0021.outcome.haggle_loss: "Торговаться не удалось — вы воспользовались услугами известного чемпиона."
+  
+ bloodline_random.0031.title: "Трагедия влюбленных, попавших под несчастье" #NT!
+ bloodline_random.0031.desc.intro: "В последнее время ведение суда было необычайно напряженным, и поэтому вы отправляетесь на прогулку по сельской местности вокруг вашего поместья, чтобы проветрить голову. Вы не успели далеко зайти в глушь, как наткнулись на лагерь, который на вид выглядит довольно жалко. В одиночестве сидит молодая женщина, глядящая на вас со страхом. Когда вы называете себя и осторожно приближаетесь, вы можете сказать, что она не в лучшем состоянии. Вы спрашиваете ее, что она делает здесь одна\n\n\"Меня зовут леди [pregnant_elf.GetFullName]\", — говорит она. \"Я убегаю от людей моего отца. Я влюбилась в парня из дома, с которым моя семья была смертельными врагами на протяжении поколений. Когда мой отец узнал об этом, он схватил и казнил моего любимого [pregnant_elf_dead_husband.GetFirstName]. Я никогда не смогу вернуться, и, что еще хуже, я беременна и не знаю, что буду делать...\"" #NT!
+ bloodline_random.0031.recruit: "Присоединяйтесь к моему двору, и я дам вам убежище." #NT!
+ bloodline_random.0031.donate: "Извините, миледи, я могу предложить вам только пожертвование." #NT!
+ bloodline_random.0031.ignore: "Я не буду в это вмешиваться." #NT!
+  
+ bloodline_random.0032.title: "Трагедия влюбленных, попавших под несчастье" #NT!
+ bloodline_random.0032.desc.intro: "Спасибо, M'[ROOT.Char.GetLadyLord]! Я любезно принимаю! Хотя я беспокоюсь, что защита меня может навлечь на вас беду от моего Отца." #NT!
+ bloodline_random.0032.ok: "Не волнуйся, я с этим разберусь." #NT!
+  
+ bloodline_random.0033.title: "Трагедия влюбленных, попавших под несчастье" #NT!
+ bloodline_random.0033.desc.intro: "[mother.GetFullName], женщины, которым ты дал приют, тоже родили!\n\nНо радостный момент длится недолго. Ее отец узнал о ее местонахождении и прибыл к твоему двору, прося немедленной аудиенции." #NT!
+ bloodline_random.0033.ok: "Давайте решим этот вопрос." #NT!
+  
+ bloodline_random.0034.title: "Трагедия влюбленных, попавших под несчастье" #NT!
+ bloodline_random.0034.desc.intro: "[mother.GetFirstNamePossessive] отец входит в ваш зал суда и приближается. \n\n\"M'[ROOT.Char.GetLadyLord] Я благодарю вас за заботу о моей дочери и приношу извинения за то, что вовлек вас в это деликатное дело. Я умоляю вас сейчас отпустить ее обратно ко мне, чтобы я мог забрать ее и детей домой. Я полагаю, что Кристалл Искры будет достаточно подходящей платой за нарушение, которое я вызвал в вашем суде?\"" #NT!
+ bloodline_random.0034.refuse: "Убирайся из моих земель. [mother.GetFirstName] останется здесь." #NT!
+ bloodline_random.0034.accept: "Очень хорошо, действительно справедливая цена." #NT!
+  
+ friend_saved_from_father: "[CHARACTER.GetShortUIName|U] была спасена от отца [TARGET_CHARACTER.GetShortUIName]." #NT!
+ you_receive_spark_crystal: "Вы получаете [newly_created_elf_artifact.GetName]" #NT!

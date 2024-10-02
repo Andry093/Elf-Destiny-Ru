@@ -1,0 +1,10 @@
+﻿l_russian:
+ aeluran_hud_tt: "ЭЛУРАНСКИЙ НАЗВАНИЕ"
+ # aeluran_hud_tt: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )] Линейка [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )]"
+ aeluran_hud_tt_subheading: "ЭЛЮРАН СУБТИТРЫ"
+ # aeluran_hud_tt_subheading: "[legitimacy_level|E] для [LegitimacyType.GetName]"
+  
+ magi_levy_county_contribution_breakdown: "Распределение вкладов"
+ owned_counties: "Принадлежащие округа"
+ magi_per_county: "Маги Пер Каунти"
+ magi_per_county_value: "None"

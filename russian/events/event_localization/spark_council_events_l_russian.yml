@@ -1,0 +1,88 @@
+﻿l_russian:
+   ### MAGISTRATION ### 
+   # New Magi is recruited 
+ aeluran_advisor_task.0101.t: "В наши ряды пополняется новый волхв!"
+ aeluran_advisor_task.0101.desc: "[councillor.GetTitledFirstName] убедил могущественного мага, известного как %NEW_MAGI%, присоединиться к вашему ядру магов!"
+ aeluran_advisor_task.0101.a: "Молодец [councillor.GetTitledFirstName]! Мы становимся все более могущественными"
+ aeluran_advisor_task.0101.b: "Нам такие волхвы не нужны, отправьте их прочь"
+  
+ aeluran_advisor_task.01011.t: "Ухаживание за ковеном элуранских магов"
+ aeluran_advisor_task.01011.desc: "[councillor.GetTitledFirstName] приветствует вас в вашей комнате совета.\n\nM'[ROOT.Char.GetLadyLord], Великий Матриарх послал новый шабаш Сестер, талантливых магов, чтобы укрепить ряды нашего Магического Ядра. Они по-прежнему верны Ордену, но будут действовать как ваши вассалы и выполнять ваши команды."
+ aeluran_advisor_task.01011.a: "Наша сила растет! Молодец [councillor.GetTitledFirstName]!"
+  
+ total_magi_reinforcements_header: "#T #medium_glow Всего элуранских вассальных магических сборов#!#!"
+ total_magi_reinforcements: "#T #difficulty_easy #game_link [GetPlayer.MakeScope.ScriptValue('total_aeluran_magi_reinforcements')|0]#!#!#!"
+  
+ regiment_breakdown_header: "#high Типовая разбивка полка призыва магов#!"
+  
+ regiment_breakdown_war_magi: "$EFFECT_LIST_BULLET$ #high [GetMaA('aeluran_war_magi').GetName]#!"
+ regiment_breakdown_war_magi_value: "#highlight [GetPlayer.MakeScope.ScriptValue('aeluran_war_magi_reinforcements')|0]#!"
+  
+   ## FOR DEBUGGING ## 
+ # regiment_breakdown_war_magi_value: "#highlight [GetPlayer.MakeScope.ScriptValue('aeluran_war_magi_reinforcements')|3] [GetPlayer.MakeScope.ScriptValue('aeluran_war_magi_reinforcements_modulo')|3] [GetPlayer.MakeScope.ScriptValue('aeluran_war_magi_reinforcements_decimal_remainder')|3]#!"
+  
+ regiment_breakdown_magi_artillery: "$EFFECT_LIST_BULLET$ #high [GetMaA('aeluran_artillery').GetName]#!"
+ regiment_breakdown_magi_artillery_value: "#highlight [GetPlayer.MakeScope.ScriptValue('aeluran_magi_artillery_reinforcements')|0]#!"
+   ## FOR DEBUGGING ## 
+ # regiment_breakdown_magi_artillery_value: "#highlight [GetPlayer.MakeScope.ScriptValue('aeluran_magi_artillery_reinforcements')|3] [GetPlayer.MakeScope.ScriptValue('aeluran_magi_artillery_reinforcements_modulo')|3] [GetPlayer.MakeScope.ScriptValue('aeluran_magi_artillery_reinforcements_decimal_remainder')|3]#!"
+  
+  
+ magi_contribution_percent_lvl_0: "#N 0% #!"
+ magi_contribution_percent_lvl_1: "#N 50% #!"
+ magi_contribution_percent_lvl_2: "#P 100% #!"
+ magi_contribution_percent_lvl_3: "#P 150% #!"
+ magi_contribution_percent_lvl_4: "#P 200% #!"
+  
+   # advisor heals child of devotee_target 
+ aeluran_advisor_task.01021.t: "Религиозное возвышение!"
+ aeluran_advisor_task.01021.desc: "Это чудо! Ребенок [devotee_target.GetName] был исцелен [councillor.GetTitledFirstName]!"
+ aeluran_advisor_task.01021.a: "Молодец [councillor.GetTitledFirstName]! Они будут благодарны всю жизнь"
+   # advisor has private session with devotee_target 
+ aeluran_advisor_task.01022.t: "Религиозное возвышение!"
+ aeluran_advisor_task.01022.desc: "Выйдя из приватного сеанса с [councillor.GetTitledFirstName], [devotee_target.GetName] сделал новый шаг."
+ aeluran_advisor_task.01022.a: "Вы хорошо сделали [councillor.GetTitledFirstName], что вызвали такую ​​преданность."
+   # advisor mesmerizes crowd with spark 
+ aeluran_advisor_task.01023.t: "Религиозное возвышение!"
+ aeluran_advisor_task.01023.desc: "Толпа загипнотизирована выступлением [councillor.GetTitledFirstName]."
+ aeluran_advisor_task.01023.a: "Хвала, я воспользуюсь их преданностью."
+  
+   # Increase Control in random counties 
+ aeluran_advisor_task.0103.t: "Люди служат"
+ aeluran_advisor_task.0103.desc: "[councillor.GetTitledFirstName] обратил людей на нашу сторону."
+ aeluran_advisor_task.0103.a: "Молодец [councillor.GetTitledFirstName]!"
+  
+ received_aeluran_magi_recently: "Недавно получил от Великого Матриарха шабаш магов, обученных на Элуранах."
+ received_aeluran_magi_recently_desc: "Я получил подкрепление магов от Ордена Элурана."
+  
+   ### UNDERMINE ### 
+ aeluran_advisor_task.0301.t: "Кому на самом деле принадлежит эта земля?"
+ aeluran_advisor_task.0301.desc: "[councillor.GetTitledFirstName] подходит к вам и шепчет вам на ухо.\n\n Мои верные последователи обосновались в [county.GetName] и распространяют правду среди скромного народа. Не существует истинного [ROOT.Char.GetLadyLord|U] из [county.GetName], но вы"
+ aeluran_advisor_task.0301.a: "Молодец [councillor.GetTitledFirstName]! [county.GetName] скоро будет моим, как и люди"
+ aeluran_advisor_task.0301.b: "Я ценю ваши усилия [councillor.GetTitledFirstName], но пока не буду соваться дальше"
+  
+ aeluran_advisor_task.0302.t: "Кому на самом деле принадлежит эта земля!?"
+ aeluran_advisor_task.0302.desc: "[councillor.GetTitledFirstName] приближается к вам с широкой ухмылкой.\n\n Мои [ROOT.Char.GetLadyLord|U], верные последователи привели крестьян [county.GetName] в безумие. Они не только кричат ​​о вашем лидерстве, но и все герцогство перешло под наш контроль. Им не нужен никакой [ROOT.Char.GetLadyLord|U], кроме тебя!"
+ aeluran_advisor_task.0302.a: "Замечательная работа [councillor.GetTitledFirstName]! Герцогство скоро перейдет ко мне."
+ aeluran_advisor_task.0302.b: "Я ценю ваши усилия [councillor.GetTitledFirstName], но пока не буду соваться дальше"
+  
+ aeluran_advisor_task.03011.t: "Подрывать - Их люди идут по пути"
+ aeluran_advisor_task.03011.desc: "[councillor.GetTitledFirstName] распространял пути Божественной Искры в [county.GetName], и округ увидел свет! Большинство местных жителей обратились в истинную веру, и [county_lord.GetName] наверняка будет недоволен.\n\nКак долго такое разделенное королевство сможет оставаться вместе?"
+ aeluran_advisor_task.03011.a: "Отличная работа [councillor.GetTitledFirstName]!"
+  
+ aeluran_advisor_task.03012.t: "Undermine — новое дитя Искры"
+ aeluran_advisor_task.03012.desc: "[councillor.GetTitledFirstName] утвердилась при дворе [county_lord.GetName] и тонко распространяет истинное слово Божественной Искры.\n\nУ нее тоже есть аудитория, поскольку [lords_heir.GetName], наследница [county_lord.GetName], увидела истину и обратилась в [root.GetFaith.GetName]. !\n\nО, какой хаос принесет эта преемственность!"
+ aeluran_advisor_task.03012.a: "Молодец [councillor.GetTitledFirstName]!"
+  
+ aeluran_advisor_task.03013.t: "Подрывать - Огонь растет"
+ aeluran_advisor_task.03013.desc: "[councillor.GetTitledFirstName] продолжает распространять праведную волю Божественной Искры в [county.GetName]. Местные жители стали ревностными последователями, ловя каждое ее слово.\n\nГнев, а затем и ярость кипят среди людей из-за несправедливых поступков, которые их Господь [county_lord.GetName] налагает на них. Разве [county_lord.GetSheHe] не видит истинного пути? [county_lord.GetSheHe|U] игнорирует волю Божественной Искры и обрекает нас всех!\n\nНезадолго до того, как начинает формироваться полноценная крестьянская революция."
+ aeluran_advisor_task.03013.a: "Похоже, [county_lord.GetTitledFirstName] будет занят [county_lord.GetHerHis], выдающаяся работа [councillor.GetTitledFirstName]!"
+ aeluran_advisor_task.03013.a.tt: "[peasant_faction|E] поднимется против [county_lord.GetName] в [county.GetNameNoTierNoTooltip]"
+  
+   ### INDOCTRINATE ### 
+ aeluran_advisor_task.0303.t: "Индоктринация – усиление контроля"
+ aeluran_advisor_task.0303.desc: "По мере того как [councillor.GetTitledFirstName] распространяет весть о славе Божественной Искры по всему [county.GetName], она начинает собирать группу верных последователей. Эта стая с большим рвением помогает Сестре распространять волю Божественной Искры.\n\nБудь то близкая семья или давние друзья, никто не избежен их осуждения. Вскоре обычные преступления практически исчезли, и вы получили полный контроль над регионом."
+ aeluran_advisor_task.0303.a: "Прекрасная работа, сестра!"
+  
+ aeluran_advisor_task.0304.t: "Индоктринация – формирование поведения"
+ aeluran_advisor_task.0304.desc: "[councillor.GetTitledFirstName] продолжает свою работу по распространению воли Божественной Искры в [county.GetName]. Местные жители одновременно боятся ее и восхищаются ею. Хотя она не спрашивает об этом открыто, многие местные жители начали перенимать ее образ жизни, пытаясь завоевать ее расположение.\n\nНезадолго до того, как в регионе произошел фундаментальный культурный сдвиг, поскольку те, кто не хочет подчиняться новым обычаям, становятся изгнаны из общества."
+ aeluran_advisor_task.0304.a: "Теперь они ведут себя как следует [lord.GetCulture.GetCollectiveNoun], молодец, сестра!"

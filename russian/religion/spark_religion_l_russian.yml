@@ -1,0 +1,271 @@
+﻿l_russian:
+   #Common Christian Localization 
+ rf_spark: "Эльфийская"
+ spark_religion: "Эльфийск"
+ spark_religion_adj: "Божественная Искра"
+ spark_religion_adherent: "Адепт"
+ spark_religion_adherent_plural: "Адепт"
+ spark_religion_desc: "Божественная Искра символизирует источник всех живых сущностей и природных явлений. Она представляет могущество, жизненный дух и гармонию всего сущего во всех мирах. Эльфы верят, что Божественная Искра является священной энергией, которая дарует им силу, мудрость и вдохновение."
+ spark_high_god_name: "Божественная Искра"
+ spark_high_god_name_possessive: "Божественная Искра"
+ spark_high_god_name_alternate: "Великая Искра"
+ spark_high_god_name_alternate_possessive: "Великая Искра"
+ spark_death_deity_name: "Тень"
+ spark_death_deity_name_possessive: "Тень"
+ spark_house_of_worship: "узел"
+ spark_house_of_worship_plural: "узлы"
+ spark_religious_symbol: "кандалы"
+ spark_religious_text: "мне"
+ spark_religious_head_title: "Высокий"
+ spark_religious_head_title_name: "Конкубинатус"
+ spark_devotee_male: "скромный"
+ spark_devotee_male_plural: "скромные"
+ spark_devotee_female: "сияющий"
+ spark_devotee_female_plural: "сияющие"
+ spark_devotee_neuter: "сияющий"
+ spark_devotee_neuter_plural: "сияющие"
+ spark_priest_male: "жрец"
+ spark_priest_male_plural: "жрецы"
+ spark_priest_female: "жрица"
+ spark_priest_female_plural: "жрицы"
+ spark_priest_alternate_plural: "сияющие пастыри"
+ spark_bishop: "Верховная жрица"
+ spark_bishop_plural: "верховные жрицы"
+ spark_witchgodname_the_horned_god: "Царственная Моргана"
+ spark_creator_god_name: "Регалант первого императора Вендарис"
+ spark_creator_god_name_possessive: "$spark_high_god_name_possessive$"
+ spark_health_god_name: "Царственная Серафина"
+ spark_health_god_name_possessive: "Серафины"
+ spark_fertility_god_name: "Царственная Лепорина"
+ spark_fertility_god_name_possessive: "Лепориной"
+ spark_wealth_god_name: "Регалантная Меллона"
+ spark_wealth_god_name_possessive: "Меллоны"
+ spark_household_god_name: "Царственная Мэйбелла"
+ spark_household_god_name_possessive: "Мэйбеллы"
+ spark_fate_god_name: "Царственная Фелиция"
+ spark_fate_god_name_possessive: "Фелисии"
+ spark_knowledge_god_name: "Царственная Гламура"
+ spark_knowledge_god_name_possessive: "Гламуры"
+ spark_war_god_name: "Регалант Ликс"
+ spark_war_god_name_possessive: "Ликса"
+ spark_trickster_god_name: "Царственная Мелодия"
+ spark_trickster_god_name_possessive: "Мелоди"
+ spark_night_god_name: "Царственная Ноктюрна"
+ spark_night_god_name_possessive: "Ноктюрна"
+ spark_water_god_name: "Царственная Флувелла"
+ spark_water_god_name_possessive: "Флувелла"
+  
+ doctrine_spark_core_tenets: "ТЕСТИРОВАНИЕ ТЕСТИРОВАНИЕ"
+ doctrine_spark_core_tenets_name: "ТЕСТИРОВАНИЕ ТЕСТИРОВАНИЕ!!"
+  
+ doctrine_coven_of_seven_name: "Ковен Семи"
+ doctrine_coven_of_seven_desc: "Ковен Семи — это группа из семи ведьм. Они самые могущественные представители веры и единственные, кто может выполнять самые мощные ритуалы."
+  
+ elf_default: "Эльфийск"
+ elf_default_adj: "Эльфийская"
+ elf_default_desc: "Благородные и могущественные, Высшие Эльфы — хозяева мира. Все преклонят колени и, преклонив колени, обретут экстаз."
+ elf_default_adherent: "Эльф"
+ elf_default_adherent_plural: "Эльфы"
+  
+ aeluran_weavers: "Элуранск"
+ aeluran_weavers_adj: "Элуранские ткачи"
+  
+ aeluran_weavers_old: "Старый Элуран"
+ aeluran_weavers_old_adj: "Оле Элуран"
+  
+ aeluran_weavers_desc: "Создатели родословных и вмешивающиеся в судьбу, Элуранские Ткачи — один из важнейших орденов в мире,после закрытия врат. Они выступают в качестве сватов для самых могущественных правителей,желая вырастить оптимальных лидеров для эльфийских народов."
+ aeluran_weavers_adherent: "Сестра"
+ aeluran_weavers_adherent_plural: "Сестры"
+  
+ old_aeluran_weavers_adj: "Старый Элуран"
+ old_aeluran_religion: "Происхождение Элуран"
+  
+ tenet_children_of_the_divine_spark: "Дети Божественной Искры"
+ tenet_children_of_the_divine_spark_name: "Дети Божественной Искры"
+ tenet_children_of_the_divine_spark_desc: "Божественная Искра – источник всей жизни. Он дарует верным великую силу, и верующие должны ответить взаимностью на этот дар."
+ doctrine_parameter_spark_sacrifice_active: "Заключенных можно приносить в жертву Божественной Искре"
+ # doctrine_parameter_mystic_birthright_active: "Дети редко рождаются с чертой [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )], [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] также встречается чаще и дает дополнительные бонусы."
+  
+ tenet_the_fecund_season: "Плодородный сезон"
+ tenet_the_fecund_season_name: "Плодородный сезон"
+ tenet_the_fecund_season_desc: "Каждую весну Божественная Искра дает о себе знать. Эльфийские последователи войдут в жар как божественное поощрение идти вперед и высвобождать глубокую жизненную энергию рождения в этос. Многие дети верующих рождаются для дальнейшего расширения воли Божественной Искры."
+  
+ tenet_divinic_endearment: "Божественная нежность"
+ tenet_divinic_endearment_name: "Божественная нежность"
+ tenet_divinic_endearment_desc: "Практикующие веру осторожны в своих религиозных проявлениях перед посторонними. Чтобы избежать нежелательных трений, они адаптируют свои учения так, чтобы они не сильно отклонялись от местных норм."
+  
+ tenet_divinic_empowerment: "Божественное могущество"
+ tenet_divinic_empowerment_name: "Божественное могущество"
+ tenet_divinic_empowerment_desc: "Те, кто истинно верен божественной искре, иногда обладают даром демонстрировать свою пылкость."
+  
+   ## HOLY SITES 
+  
+ holy_site_ruins_of_valfuria_name: "Руины Вальфурии"
+ holy_site_ruins_of_valfuria_effect_name: "Из [holy_site|E] #weak ($holy_site_ruins_of_valfuria_name$)#!"
+  
+ holy_site_spire_citadel_name: "Шпильная цитадель"
+ holy_site_spire_citadel_effect_name: "Из [holy_site|E] #weak ($holy_site_spire_citadel_name$)#!"
+  
+ holy_site_grand_portal_name: "Руины Великого Портала"
+ holy_site_grand_portal_effect_name: "Из [holy_site|E] #weak ($holy_site_grand_portal_name$)#!"
+  
+ holy_site_proving_fields_name: "Испытательные поля"
+ holy_site_proving_fields_effect_name: "Из [holy_site|E] #weak ($holy_site_proving_fields_name$)#!"
+  
+ holy_site_fortress_tomb_of_the_dead_emperor_name: "Крепость-Гробница Последнего Императора"
+ holy_site_fortress_tomb_of_the_dead_emperor_effect_name: "Из [holy_site|E] #weak ($holy_site_proving_fields_name$)#!"
+  
+ holy_site_volcanic_forge_name: "Вулканическая кузница мастера Смита Келебрима"
+ holy_site_volcanic_forge_effect_name: "Из [holy_site|E] #weak ($holy_site_volcanic_forge_name$)#!"
+  
+ holy_site_noble_wood_name: "Благородное Дерево"
+ holy_site_noble_wood_effect_name: "Из [holy_site|E] #weak ($holy_site_noble_wood_name$)#!"
+  
+ holy_site_high_harbor_name: "Хай-Харбор"
+ holy_site_high_harbor_effect_name: "Из [holy_site|E] #weak ($holy_site_high_harbor_name$)#!"
+  
+ holy_site_citadel_of_bear_king_thul_name: "Цитадель Короля Медведей Тула"
+ holy_site_citadel_of_bear_king_thul_effect_name: "Из [holy_site|E] #weak ($holy_site_citadel_of_bear_king_thul_name$)#!"
+  
+ holy_site_archipelago_of_duck_duke_vega_name: "Архипелаг Дак Дюк Вега"
+ holy_site_archipelago_of_duck_duke_vega_effect_name: "Из [holy_site|E] #weak ($holy_site_archipelago_of_duck_duke_vega_name$)#!"
+  
+ holy_site_tomb_of_ale_the_dragon_slayer_name: "Гробница Але Убийцы Драконов"
+ holy_site_tomb_of_ale_the_dragon_slayer_effect_name: "Из [holy_site|E] #weak ($holy_site_tomb_of_ale_the_dragon_slayer_name$)#!"
+  
+ holy_site_ruins_of_the_runic_city_of_anundshog_name: "Руины рунического города Анундшог"
+ holy_site_ruins_of_the_runic_city_of_anundshog_effect_name: "Из [holy_site|E] #weak ($holy_site_ruins_of_the_runic_city_of_anundshog_name$)#!"
+  
+ holy_site_tomb_of_the_lights_champions_name: "Чемпионы Гробницы Света"
+ holy_site_tomb_of_the_lights_champions_effect_name: "Из [holy_site|E] #weak ($holy_site_tomb_of_the_lights_champions_name$)#!"
+  
+ holy_site_black_palace_of_dark_queen_hekla_name: "Черный дворец Темной королевы Геклы"
+ holy_site_black_palace_of_dark_queen_hekla_effect_name: "Из [holy_site|E] #weak ($holy_site_black_palace_of_dark_queen_hekla_name$)#!"
+  
+ holy_site_newgrange_temple_name: "Храм Ньюгрейндж"
+ holy_site_newgrange_temple_effect_name: "Из [holy_site|E] #weak ($holy_site_newgrange_temple_name$)#!"
+  
+ holy_site_burrens_bastion_name: "Бастион Буррена"
+ holy_site_burrens_bastion_effect_name: "Из [holy_site|E] #weak ($holy_site_burrens_bastion_name$)#!"
+  
+ holy_site_skip_gates_of_camelot_name: "Пропустить ворота Камелота"
+ holy_site_skip_gates_of_camelot_effect_name: "Из [holy_site|E] #weak ($holy_site_skip_gates_of_camelot_name$)#!"
+  
+ holy_site_great_obelisk_of_the_pictish_name: "Большой обелиск пиктов"
+ holy_site_great_obelisk_of_the_pictish_effect_name: "Из [holy_site|E] #weak ($holy_site_great_obelisk_of_the_pictish_name$)#!"
+  
+ holy_site_labyrinth_gateway_of_the_altamirans_name: "Лабиринт-ворота альтамирцев"
+ holy_site_labyrinth_gateway_of_the_altamirans_effect_name: "Из [holy_site|E] #weak ($holy_site_labyrinth_gateway_of_the_altamirans_name$)#!"
+  
+ holy_site_grazing_villages_of_the_great_herds_name: "Выпас деревень великих стад"
+ holy_site_grazing_villages_of_the_great_herds_effect_name: "Из [holy_site|E] #weak ($holy_site_grazing_villages_of_the_great_herds_name$)#!"
+  
+ holy_site_hunting_grounds_of_the_greater_drakes_name: "Охотничьи угодья больших драконов"
+ holy_site_hunting_grounds_of_the_greater_drakes_effect_name: "Из [holy_site|E] #weak ($holy_site_hunting_grounds_of_the_greater_drakes_name$)#!"
+  
+ holy_site_ancient_city_of_glanum_name: "Древний город Гланум"
+ holy_site_ancient_city_of_glanum_effect_name: "Из [holy_site|E] #weak ($holy_site_ancient_city_of_glanum_name$)#!"
+  
+ holy_site_ancient_mega_city_of_myropillya_name: "Древний мегаполис Мирополье"
+ holy_site_ancient_mega_city_of_myropillya_effect_name: "Из [holy_site|E] #weak ($holy_site_ancient_mega_city_of_myropillya_name$)#!"
+  
+ holy_site_temple_of_the_mages_court_name: "Храм Суда Магов"
+ holy_site_temple_of_the_mages_court_effect_name: "Из [holy_site|E] #weak ($holy_site_temple_of_the_mages_court_name$)#!"
+  
+ holy_site_seat_of_the_storm_king_name: "Престол Короля Шторма"
+ holy_site_seat_of_the_storm_king_effect_name: "Из [holy_site|E] #weak ($holy_site_seat_of_the_storm_king_name$)#!"
+  
+ holy_site_cradle_of_the_first_elves_name: "Колыбель первых эльфов"
+ holy_site_cradle_of_the_first_elves_effect_name: "Из [holy_site|E] #weak ($holy_site_cradle_of_the_first_elves_name$)#!"
+  
+ holy_site_apadana_palace_name: "Ападана Палас"
+ holy_site_apadana_palace_effect_name: "Из [holy_site|E] #weak ($holy_site_apadana_palace_name$)#!"
+  
+ holy_site_ancient_city_of_bosra_name: "Древний город Босра"
+ holy_site_ancient_city_of_bosra_effect_name: "Из [holy_site|E] #weak ($holy_site_ancient_city_of_bosra_name$)#!"
+  
+ holy_site_ancient_city_of_babylon_name: "Древний город Вавилон"
+ holy_site_ancient_city_of_babylon_effect_name: "Из [holy_site|E] #weak ($holy_site_ancient_city_of_babylon_name$)#!"
+  
+ holy_site_library_of_alexandria_name: "Александрийская библиотека"
+ holy_site_library_of_alexandria_effect_name: "Из [holy_site|E] #weak ($holy_site_library_of_alexandria_name$)#!"
+  
+ holy_site_harkonnens_foley_name: "Харконненс Фоли"
+ holy_site_harkonnens_foley_effect_name: "Из [holy_site|E] #weak ($holy_site_harkonnens_foley_name$)#!"
+  
+ holy_site_shattered_spire_of_veldric_name: "Расколотый шпиль Вельдрика"
+ holy_site_shattered_spire_of_veldric_effect_name: "Из [holy_site|E] #weak ($holy_site_shattered_spire_of_veldric_name$)#!"
+  
+ holy_site_the_grand_blood_alter_name: "Великий алтарь крови"
+ holy_site_the_grand_blood_alter_effect_name: "Из [holy_site|E] #weak ($holy_site_the_grand_blood_alter_name$)#!"
+  
+ holy_site_labyrinth_gateway_of_the_ajantas_name: "Лабиринт Ворота Аджанты"
+ holy_site_labyrinth_gateway_of_the_ajantas_effect_name: "Из [holy_site|E] #weak ($holy_site_labyrinth_gateway_of_the_ajantas_name$)#!"
+  
+ holy_site_ancient_holy_city_of_madurai_name: "Древний священный город Мадурай"
+ holy_site_ancient_holy_city_of_madurai_effect_name: "Из [holy_site|E] #weak ($holy_site_ancient_holy_city_of_madurai_name$)#!"
+  
+ holy_site_ancient_fortress_of_mahasthangarh_name: "Древняя крепость Махастхангарх"
+ holy_site_ancient_fortress_of_mahasthangarh_effect_name: "Из [holy_site|E] #weak ($holy_site_ancient_fortress_of_mahasthangarh_name$)#!"
+  
+ holy_site_mythical_spiritual_kingdom_of_shambhala_name: "Мифическое духовное царство Шамбала"
+ holy_site_mythical_spiritual_kingdom_of_shambhala_effect_name: "Из [holy_site|E] #weak ($holy_site_mythical_spiritual_kingdom_of_shambhala_name$)#!"
+  
+ holy_site_domain_of_the_forest_spirit_eleke_sazy_name: "Владения Лесного Духа Элеке Сазы"
+ holy_site_domain_of_the_forest_spirit_eleke_sazy_effect_name: "Из [holy_site|E] #weak ($holy_site_domain_of_the_forest_spirit_eleke_sazy_name$)#!"
+  
+ holy_site_ancient_faerie_groves_name: "Древние Волшебные Рощи"
+ holy_site_ancient_faerie_groves_effect_name: "Из [holy_site|E] #weak ($holy_site_ancient_faerie_groves_name$)#!"
+  
+ holy_site_overwatch_fortress_name: "Смотровая Крепость"
+ holy_site_overwatch_fortress_effect_name: "Из [holy_site|E] #weak ($holy_site_overwatch_fortress_name$)#!"
+  
+ holy_site_wraith_wood_name: "Призрачный лес"
+ holy_site_wraith_wood_effect_name: "Из [holy_site|E] #weak ($holy_site_wraith_wood_name$)#!"
+  
+ holy_site_matrons_hollow_name: "Лощина Матроны"
+ holy_site_matrons_hollow_effect_name: "Из [holy_site|E] #weak ($holy_site_matrons_hollow_name$)#!"
+  
+ holy_site_sealed_magic_armoury_name: "Запечатанный арсенал Третьей Великой Войны"
+ holy_site_sealed_magic_armoury_effect_name: "Из [holy_site|E] #weak ($holy_site_sealed_magic_armoury_name$)#!"
+  
+ holy_site_whisper_wood_name: "Шепчущий лес"
+ holy_site_whisper_wood_effect_name: "Из [holy_site|E] #weak ($holy_site_whisper_wood_name$)#!"
+  
+ holy_site_light_reach_citadel_name: "Цитадель Легкого Предела"
+ holy_site_light_reach_citadel_effect_name: "Из [holy_site|E] #weak ($holy_site_light_reach_citadel_name$)#!"
+  
+ holy_site_east_flaria_name: "Восточная Флария"
+ holy_site_east_flaria_effect_name: "Из [holy_site|E] #weak ($holy_site_east_flaria_name$)#!"
+  
+ holy_site_west_flaria_name: "Западная Флария"
+ holy_site_west_flaria_effect_name: "Из [holy_site|E] #weak ($holy_site_west_flaria_name$)#!"
+  
+ holy_site_wratislaw_magi_academy_name: "Академия Вратиславских Волхвов"
+ holy_site_wratislaw_magi_academy_effect_name: "Из [holy_site|E] #weak ($holy_site_wratislaw_magi_academy_name$)#!"
+  
+ holy_site_noble_wood_name: "Благородное Дерево"
+ holy_site_noble_wood_effect_name: "Из [holy_site|E] #weak ($holy_site_noble_wood_name$)#!"
+  
+ building_type_holy_site_spark_grand_temple_01: "Великий Храм Божественной Искры"
+ building_type_holy_site_spark_grand_temple_01_desc: "[holy_site|E] в этой области привлекает толпы верующих. Величественный храм покрыт богато украшенной резьбой, изображающей героические деяния как богов, так и полубогов. Массивные костры поднимают клубы дыма вверх к самим богам, а святые люди благословляют всех, кто почитает духов."
+ building_holy_site_spark_grand_temple_01: "Великий Храм Божественной Искры"
+ building_holy_site_spark_grand_temple_01_desc: "$building_type_holy_site_spark_grand_temple_01_desc$"
+  
+ tenet_aeluran_sisters_name: "Элуранские сестры"
+ tenet_aeluran_sisters_desc: "Эта вера находится под управлением сестер Элуран. Из них получаются отличные сваты и мудрые советники,поддерживающие стабильность в эльфийских землях"
+  
+ tenet_elf_hostlity_name: "Отказ от искры"
+ tenet_elf_hostlity_desc: "Эльфийские верования кощунственны. Их ложный Бог-Искра оскорбляет нашу праведную веру в истинную Божественность."
+  
+ tenet_elf_syncretism_name: "Искра синкретизма"
+ tenet_elf_syncretism_desc: "Эльфы говорят о странных верованиях, но иногда то, что они говорят, звучит правдоподобно. Возможно, их Божественная Искра и мой Бог не так уж и отличаются. Мы не должны позволять таким незначительным различиям вызывать конфликт."
+  
+ holy_order_divine_vanguard: "Божественный авангард"
+ holy_order_high_purifiers: "Высокие очистители"
+ holy_order_radiant_blades: "Сияющие клинки"
+ holy_order_high_knights_of_the_empress_guard: "Высокая гвардия Императрицы"
+ holy_order_radiant_wardens: "Сияющие Стражи"
+ holy_order_celestial_paladins: "Паладины Искры"
+ holy_order_order_of_the_radiant_sun: "Солнца сияния"
+ holy_order_divine_conclave: "Божественный Конклав"

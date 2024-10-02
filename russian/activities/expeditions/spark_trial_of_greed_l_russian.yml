@@ -1,0 +1,51 @@
+﻿l_russian:
+     # Trial of Greed 
+ expedition.00513.title: "Испытание Жадности @gold_icon!"
+ expedition.00513.desc: "Ваша группа попадает в большое помещение. В центре вы видите кучу сокровищ, сложенных высоко @gold_icon! @gold_icon! @gold_icon!.\n\nВы подозреваете, что что-то не так, и, конечно же, замечаете, что сокровище находится в ловушке из нажимной пластины.\n\nПохоже, вы можете удалить часть сокровищ, не поджигая его. Что вы первым делом схватите с верхушки кучи?"
+  
+ expedition.00513.stewardship_check: "#T Авантюрист с высшим управлением#! = [greed_advisor.GetFullName]\n#bold Значение = #! @skill_stewardship_icon!#V [greed_advisor.GetSkill( 'stewardship' )]#! | #bold Рейтинг = #!"
+ expedition.00513.stewardship_check.rating.best: "#D Потрясающий оценщик #!"
+ expedition.00513.stewardship_check.rating.good: "#P Мудрый #!"
+ expedition.00513.stewardship_check.rating.mid: "#P Среднее #!"
+ expedition.00513.stewardship_check.rating.low: "#N Бедный #!"
+ expedition.00513.stewardship_check.rating.lowest: "#N Дурак #!"
+  
+ expedition.00513.advisor_advice: "\n\n#bold [greed_advisor.GetFullName] = #! #EMP \"M'[ROOT.Char.GetLadyLord], Мне кажется#!"
+ expedition.00513.advisor_advice.take_a_lot: "#EMP ты все равно можешь взять гораздо больше сокровищ, #! #P эта пластина все еще довольно крепкая! #!"
+ expedition.00513.advisor_advice.take_a_little: "#EMP ты мог бы взять больше сокровищ, #! #highlight, но я бы не стал испытывать удачу! #!"
+ expedition.00513.advisor_advice.about_to_trigger: "#EMP ловушка вот-вот сработает, #! #N не следует искушать судьбу! #!"
+  
+ take_treasure: "Вы снимаете это сокровище с нажимной пластины. Это может привести к срабатыванию ловушки!"
+ party_members_may_be_wounded: "Каждый член группы пытается увернуться от ловушки, но может быть ранен!"
+ all_found_artifacts_lost: "Обнаруженные артефакты остались позади!"
+ all_found_gold_lost: "Обнаруженное золото осталось позади!"
+  
+ expedition.00513.leave: "Я не думаю, что стоит рисковать жизнью ради сокровищ."
+ expedition.00513.leaveLoop: "На данный момент у нас достаточно сокровищ."
+  
+ expedition.00513.debug: "\n\nГруз сокровищ - [ROOT.Var('treasure_weight').GetValue]\n\nНажимная пластина - [ROOT.Var('pressure_plate_limit').GetValue]"
+  
+ expedition.005131.title: "Испытание жадности, Жадность растет @gold_icon!"
+ expedition.005131.desc: "Вам пока повезло, осмелитесь ли вы взять еще? \n\n Что ты возьмешь дальше?"
+ expedition.005131.total_gold: "\n\nНа данный момент вам удалось взять [ROOT.Var('total_gold_gained').GetValue] @gold_icon!"
+ expedition.005131.round_reward_artifact: "Ловушка не сработала! Вы успешно вытащили из стопки [newly_created_elf_artifact.GetName]!\nСмеете ли вы испытать удачу дальше?"
+ expedition.005131.round_reward_gold.small_bag: "Ловушка не сработала! Вы успешно вытащили из кучи маленький мешочек с золотом!\nВ нем было 15 @gold_icon!!"
+ expedition.005131.round_reward_gold.large_bag: "Ловушка не сработала! Вы успешно вытащили из кучи большой мешок с золотом!\nВ нем было 100 @gold_icon!!"
+ expedition.005131.round_reward_gold.small_chest: "Ловушка не сработала! Вы успешно вытащили из кучи маленький сундук с золотом!\nВ нем было 50 @gold_icon!!"
+ expedition.005131.round_reward_gold.large_chest: "Ловушка не сработала! Вы успешно вытащили из кучи большой сундук с золотом!\nВ нем было 250 @gold_icon!!"
+ expedition.005131.round_reward_gold.gold_vase: "Ловушка не сработала! Вы успешно вытащили из кучи большой сундук с золотом!\nВ нем было 500 @gold_icon!!"
+  
+ expedition.005131.DEBUG: "ОТЛАДКА - [ROOT.Var('total_gold_gained').GetValue]"
+  
+ expedition.00513.small_bag: "Небольшой мешочек с золотом"
+ expedition.00513.large_bag: "Большой мешок, переполненный золотом."
+ expedition.00513.small_chest: "Небольшой сейф"
+ expedition.00513.large_chest: "Большой сундук"
+ expedition.00513.weapon_small: "Маленький клинок какой-то"
+ expedition.00513.weapon_large: "Большое оружие в ножнах"
+ expedition.00513.armor: "Часть брони"
+ expedition.00513.gold_vase: "Сияющая золотая ваза"
+  
+ expedition.005132.title: "Ловушка сработала!"
+ expedition.005132.desc: "Катастрофа! Нажимная пластина срабатывает! Копья летят из стен и поражают некоторых членов вашей группы. Кажется, твоя жадность дорого обошлась. Вы покидаете комнату, оставив все найденные сокровища, когда двери за вами захлопываются."
+ expedition.005132.ouch: "Я не мог устоять перед сладким очарованием золота!"

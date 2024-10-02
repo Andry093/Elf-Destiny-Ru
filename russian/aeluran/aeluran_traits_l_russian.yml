@@ -1,0 +1,30 @@
+﻿l_russian:
+     # Aeluran Order Traits 
+ trait_aeluran_servant: "Элуранский слуга"
+ trait_aeluran_servant_desc: "Элуранские Слуги — самые низшие и наиболее распространенные члены Элуранского Ордена. Они преданы своему служению Сестрам."
+ trait_aeluran_sister: "Элуранская сестра"
+ trait_aeluran_sister_desc: "С юности прошедшие обучение в Ордене Элуран, сестры Элуран стали могущественными магами и мудрыми советчиками."
+ trait_aeluran_matron: "Элуранская Матрона"
+ trait_aeluran_matron_desc: "Элуранские Матроны — элита и самая могущественная часть Элуранского Ордена. Они образуют руководящий совет ордена и зачастую гораздо более талантливы в управлении искрой, чем обычные сестры."
+ trait_aeluran_high_matriarch: "Элуранский верховный матриарх"
+ trait_aeluran_high_matriarch_desc: "Верховный Матриарх Элуранцев — бесспорный лидер Элуранцев. Выбранная советом Матрон Верховная Матриарх обычно является самой могущественной и мудрой сестрой во всем ордене."
+  
+ trait_born_in_the_red: "Рожденный в красном"
+ trait_born_in_the_red_desc: "Этот персонаж родился у элуранской матриархи, благословенного ребенка с большими ожиданиями."
+ trait_born_in_the_red_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] родился у элуранской матриархи, благословенного ребенка с большими надеждами."
+  
+ # TRAIT_DESC_POSITIVE_FOR_LIEGE: "Это нравится [CHARACTER.GetShortUIName], [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [liege|E] ([CHARACTER.GetFaith.GetAdjective])"
+ # TRAIT_DESC_POSIITIVE_FOR_THEM: "Это нравится [CHARACTER.GetShortUINamePossessiveNoTooltip] Вере ([CHARACTER.GetFaith.GetAdjective])"
+  
+ aeluran_weavers_government_vassal_opinion: "[aeluran_weavers_government|E] [vassal|E] Мнение"
+ aeluran_weavers_government_tax_contribution_mult: "[aeluran_weavers_government|E] [vassal|E] [tax|E] [modifier_contribution|E]"
+ aeluran_weavers_government_levy_contribution_mult: "[aeluran_weavers_government|E] [vassal|E] [levy|E] [modifier_contribution|E]"
+  
+ aeluran_respect_servant_bonus: "#medium Элуранское уважение: @aeluran_order_1_icon! #N -0,1#! месяца#!\n\n"
+ aeluran_respect_sister_bonus: "#medium Элуранское уважение: @aeluran_order_1_icon! #P +0.1#!/month#!\n\n"
+ aeluran_respect_matron_bonus: "#medium Элуранское уважение: @aeluran_order_1_icon! #P +0,25#!/month#!\n\n"
+ aeluran_respect_matriarch_bonus: "#medium Элуранское уважение: @aeluran_order_1_icon! #P +0,5#!/month#!\n\n"
+  
+ spark_wielders_maintenance_mult: "[spark_wielders|E] Техническое обслуживание"
+  
+ rf_spark_opinion: "\nМнение эльфийской веры"

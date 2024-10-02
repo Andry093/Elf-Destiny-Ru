@@ -1,0 +1,16 @@
+﻿l_russian:
+ rule_women_not_morphed_by_beauty_trait: "Женские персонажи, измененные чертой красоты"
+ setting_no_beauty_enabled: "Никаких изменений красоты"
+ setting_no_beauty_enabled_desc: "Женским персонажам с чертами красоты НЕ будут добавлены эффекты макияжа."
+ setting_no_beauty_disabled: "Изменения красоты включены"
+ setting_no_beauty_disabled_desc: "Женским персонажам с красивыми чертами БУДУТ добавлены эффекты макияжа."
+  
+ rule_women_not_morphed_by_prowess: "Женские персонажи, измененные доблестью"
+ setting_no_women_prowess_change_enabled: "Никаких изменений доблести"
+ setting_no_women_prowess_change_enabled_desc: "Женские персонажи НЕ будут увеличивать размер мышц с увеличением мастерства."
+ setting_no_women_prowess_change_disabled: "Изменение доблести включено"
+ setting_no_women_prowess_change_disabled_desc: "Женские персонажи БУДУТ получать увеличенный размер мышц с увеличением мастерства."
+  
+ decision_group_type_elf: "Эльфийские Решения" #NT!
+  
+ UNDER_CONSTRUCTION: "«Эта функция находится в разработке. Попробуйте еще раз позже» — The Architect" #NT!

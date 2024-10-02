@@ -1,0 +1,8 @@
+﻿l_russian:
+ REQUIRES_COVEN_OF_SEVEN: "Требуется [doctrine|E] Ковен Семи."
+ REQUIRES_FEMALE_DOMINATED: "Требуется [doctrine|E], в котором доминируют женщины."
+ REQUIRES_FEMALE_ONLY_CLERICAL_GENDER: "Требуется [doctrine|E] только женский канцелярский пол."
+ MARRY_DIFFERENT_FAITH_DIVINE_ENDEARMENT_REASON: "Божественная нежность - Хотя [recipient.GetShortUINamePossessive] [faith|E] отличается от вашего, у них есть почти духовный инстинкт принимать пары с вашей верой: $VALUE|+0$"
+  
+ deference_of_the_aelurans: "Почитание элуранцев"
+ deference_of_the_aelurans_desc: "Сестры Элуран доверили вам как Лорду Царства возможность сформировать Орден так, чтобы он лучше соответствовал новой эльфийской эпохе."

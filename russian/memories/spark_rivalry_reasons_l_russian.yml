@@ -1,0 +1,16 @@
+﻿l_russian:
+   # 
+ nemesis_disowned: "[TARGET_CHARACTER.GetShortUIName|U] отрекся и отказался признать меня своим законным наследником."
+ nemesis_disowned_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] отрекся и отказался признать меня своим законным наследником."
+  
+ nemesis_stole_birthright: "[TARGET_CHARACTER.GetShortUIName|U] украл мое наследство и право первородства."
+ nemesis_stole_birthright_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] украл мое наследство и право первородства."
+  
+ nemesis_evil_step_mother: "[TARGET_CHARACTER.GetShortUIName|U] настроил отца против меня."
+ nemesis_evil_step_mother_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] настроил отца против меня."
+  
+ bastard_claimant: "[TARGET_CHARACTER.GetShortUIName|U] отверг меня как наследника [TARGET_CHARACTER.GetHerHis], а затем пытался меня убить"
+ bastard_claimant_corresponding: "Мой незаконнорожденный [CHARACTER.GetShortUINamePossessive|U], хочет быть моим наследником. #italic представьте себе, незаконнорожденный наследник.#!"
+  
+ sheltered_bastard_claimant: "Я приютил ублюдка [TARGET_CHARACTER.GetShortUIName|U]"
+ sheltered_bastard_claimant_corresponding: "[CHARACTER.GetShortUINamePossessive|U] укрывает моего ублюдка."

@@ -1,0 +1,117 @@
+﻿l_russian:
+ trait_aeluran_order: "Элуранский Орден"
+  
+ artifact_elf_history_ancient_elf_title: "В древние времена"
+ artifact_elf_history_ancient_elf_desc: "Этот артефакт относится к древней истории, к старым временам. О его происхождении мало что известно, известно только то, что оно, по всей видимости, было творением древних эльфов."
+  
+   # Portal Components 
+ artifact_elf_history_portal_components_title: "$artifact_elf_history_ancient_elf_title$"
+ artifact_elf_history_portal_components_history_desc: "$artifact_elf_history_ancient_elf_desc$"
+  
+ portal_spark_capacitor: "Искровой конденсатор Великого портала"
+ portal_spark_capacitor_desc: "Большие, плотно закрученные спиральные катушки из блестящего золота, этот конденсатор может хранить огромное количество энергии искры. Он используется для поддержания необходимого уровня мощности для открытия портала."
+  
+ portal_navigation_relay: "Реле навигации Большого портала"
+ portal_navigation_relay_desc: "Любопытное устройство с непостижимыми изгибами и углами, это устройство позволяет подключить портал к межгалактической сети."
+  
+ sigil_of_the_realm_lord: "Символ Лорда Царства"
+ sigil_of_the_realm_lord_desc: "Кольцо со сверкающим драгоценным камнем чистой кристаллизованной искровой энергии. Он передает власть Лорда Царства."
+  
+ portal_schematics: "Схема портала"
+ portal_schematics_desc: "Толстый том, наполненный нарисованными от руки изображениями различных компонентов Великого Портала. Поля заполнены древним эльфийским письмом. Это настоящее чудо, что книга сохранилась так долго."
+  
+ spark_crystal: "Искра Кристалл"
+ spark_crystal_desc: "Маленький необработанный кристалл Искры. Создан из чистой энергии Искры, сконцентрированной глубоко под землей. Они ценятся магами и используют их для повышения эффективности своих заклинаний и ритуалов."
+  
+ lembas_satchel: "#highlight Ремень лепбаса пекаря#!"
+ lembas_satchel_desc: "Сумка искателя приключений, наполненная порцией волшебного эльфийского хлеба Лембас. Одного укуса достаточно, чтобы набить желудок взрослого человека.\n\n#highlight При экипировке экспедиции, организованные этим персонажем, снабжаются как минимум дополнительно#! #true_white две#! #highlight недель#!"
+  
+ vanas_foeglass: "#highlight Фостекло Ваны#!"
+ vanas_foeglass_desc: "Подаренный выдающемуся предку в далеком прошлом самой Богиней Ваной, он является заветной реликвией семьи Валерит. Помимо собственного отражения, при фокусировке Foeglass может показывать тени. Фантомы тех, чьи сердца держат зрителя как своего врага. Чем ближе угроза и сильнее ненависть, тем яснее они проявятся.\n\n#tooltip_subheading \"Видите их там, крадущихся? Я не в беде, пока не увижу белки их глаз.\"#!"
+  
+ artifact_elf_sword_name: "$artifact_name_prefix$ Эльфийский клинок"
+ artifact_elf_sword_description: "[SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'blade_metal' )] меч высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactSwordDecoration')]"
+  
+ artifact_elf_dagger_name: "$artifact_name_prefix$ Эльфийский кинжал"
+ artifact_elf_dagger_description: "[SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'blade_metal' )] кинжал высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactDaggerDecoration')]"
+  
+ artifact_elf_axe_name: "$artifact_name_prefix$ Эльфийский топор"
+ artifact_elf_axe_description: "Боевой топор [SCOPE.Custom('ArtifactQuality')] высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactAxeHeadDescription')] [newly_created_artifact.Custom('ArtifactAxeHaftDescription')]"
+  
+ artifact_elf_hammer_name: "$artifact_name_prefix$ Эльфийский молот"
+ artifact_elf_hammer_description: "Боевой молот [SCOPE.Custom('ArtifactQuality')] высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactHammerHeadDescription')] [newly_created_artifact.Custom('ArtifactHammerShaftDescription')]"
+  
+ artifact_elf_spear_name: "$artifact_name_prefix$ Эльфийское копье"
+ artifact_elf_spear_description: "[SCOPE.Custom('ArtifactQuality')] длинное копье мастерства. [newly_created_artifact.Custom('ArtifactSpearHeadDescription')] [newly_created_artifact.Custom('ArtifactSpearShaftDescription')]"
+  
+ artifact_elf_mace_name: "$artifact_name_prefix$ Эльфийская булава"
+ artifact_elf_mace_description: "Искусная булава с фланцами [SCOPE.Custom('ArtifactQuality')]. [newly_created_artifact.Custom('ArtifactMaceHeadDescription')] [newly_created_artifact.Custom('ArtifactMaceHandleDescription')]"
+  
+ artifact_elf_bow_name: "$artifact_name_prefix$ Эльфийский лук"
+ artifact_elf_bow_description: "[SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'blade_metal' )] лук высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactBowDecoration')]"
+  
+ artifact_elf_long_bow_name: "$artifact_name_prefix$ Эльфийский длинный лук"
+ artifact_elf_long_bow_description: "[SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'blade_metal' )] длинный лук высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactLongBowDecoration')]"
+  
+ artifact_elf_composite_bow_name: "$artifact_name_prefix$ Эльфийский составной лук"
+ artifact_elf_composite_bow_description: "[SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'blade_metal' )] составной лук высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactCompositeBowDecoration')]"
+  
+ artifact_elf_crossbow_bow_name: "$artifact_name_prefix$ Эльфийский арбалет"
+ artifact_elf_crossbow_bow_description: "[SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'blade_metal' )] арбалетный лук высочайшего эльфийского мастерства. [newly_created_artifact.Custom('ArtifactCrossbowBowDecoration')]"
+  
+ artifact_elf_armor_name: "$artifact_name_prefix$ Эльфийская броня"
+ artifact_elf_armor_description: "[SCOPE.Custom('ArtifactArmorDesc')]. [newly_created_artifact.GetFeatureText('armor_helmet')]. [newly_created_artifact.GetFeatureText('armor_decoration')]."
+  
+ artifact_elf_armor_mail_name: "$artifact_name_prefix$ Эльфийский кольчужный доспех"
+ artifact_elf_armor_mail_description: "Хотя звенья цепи не оставляют места для украшения, работа над клепками [SCOPE.Custom('ArtifactQuality')] отличает это изделие от обычной кольчуги."
+  
+ artifact_elf_armor_plate_name: "$artifact_name_prefix$ Эльфийский латный доспех"
+ artifact_elf_armor_plate_description: "Доспехи изготовлены из больших пластин [newly_created_artifact.GetFeatureText( 'armor_material' )], выкованных [SCOPE.Custom('ArtifactAdverbQuality')] так, чтобы полностью закрывать владельца."
+  
+ artifact_elf_armor_scale_name: "$artifact_name_prefix$ Эльфийский чешуйчатый доспех"
+ artifact_elf_armor_scale_description: "Доспехи изготовлены из [SCOPE.Custom('ArtifactAdverbQuality')] чешуек [newly_created_artifact.GetFeatureText( 'armor_material' )], прикрепленных к кожаной подложке."
+  
+ artifact_elf_armor_lamellar_name: "$artifact_name_prefix$ Эльфийский ламеллярный доспех"
+ artifact_elf_armor_lamellar_description: "Доспехи изготовлены из пластин [newly_created_artifact.GetFeatureText( 'armor_material' )], которые [SCOPE.Custom('ArtifactAdverbQuality')] связаны между собой шнурами из ткани [newly_created_artifact.GetFeatureText( 'generic_material_cordage' )], а отделка и подкладка вырезаны из тонкой ткани [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )]."
+  
+ artifact_elf_armor_laminar_name: "$artifact_name_prefix$ Эльфийская ламинарная броня"
+ artifact_elf_armor_laminar_description: "Броня состоит из горизонтально перекрывающихся полос [newly_created_artifact.GetFeatureText( 'armor_material' )], которые [SCOPE.Custom('ArtifactAdverbQuality')] переплетены шнурами [newly_created_artifact.GetFeatureText( 'generic_material_cordage' )], а отделка и подкладка вырезаны из тонких [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )]."
+  
+ artifact_elf_armor_brigandine_name: "$artifact_name_prefix$ Эльфийская панцирная броня"
+ artifact_elf_armor_brigandine_description: "[newly_created_artifact.GetFeatureText( 'armor_material' )] брони [SCOPE.Custom('ArtifactAdverbQuality')] облицован изнутри продолговатыми стальными пластинами и покрыт слоем [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )]."
+ artifact_elf_armor_fallback_description: "[SCOPE.Custom('ArtifactDecorationArmor')]."
+  
+ artifact_elf_regalia_name: "$artifact_name_prefix$ Эльфийские регалии"
+ artifact_elf_regalia_description: "[SCOPE.Custom('ArtifactArticleWealth')] набор регалий [SCOPE.Custom('ArtifactQuality')] мастерства. Он состоит из [newly_created_artifact.GetFeatureText( 'regalia_scepter' )], [newly_created_artifact.GetFeatureText( 'regalia_clothes' )] и [newly_created_artifact.GetFeatureText( 'regalia_accessory' )]."
+  
+ artifact_elf_crown_name: "$artifact_name_prefix$ Эльфийская Корона"
+ artifact_elf_crown_description: "[SCOPE.Custom('ArtifactArticleWealth')] корона [SCOPE.Custom('ArtifactQuality')] мастерства. Корона выкована из [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] и [newly_created_artifact.GetFeatureText( 'crown_decoration' )]."
+  
+ artifact_elf_brooch_name: "$artifact_name_prefix$ Эльфийская брошь"
+ artifact_elf_brooch_description: "[SCOPE.Custom('ArtifactArticleWealth')] брошь мастерства [SCOPE.Custom('ArtifactQuality')]. [newly_created_artifact.GetFeatureText( 'brooch_decoration' )]."
+  
+ artifact_elf_ring_name: "$artifact_name_prefix$ Эльфийское Кольцо"
+ artifact_elf_ring_description: "[SCOPE.Custom('ArtifactArticleWealth')] кольцо мастерства [SCOPE.Custom('ArtifactQuality')]. [newly_created_artifact.GetFeatureText( 'ring_decoration' )]."
+  
+ artifact_elf_necklace_name: "$artifact_name_prefix$ Эльфийское ожерелье"
+ artifact_elf_necklace_description: "[SCOPE.Custom('ArtifactArticleWealth')] ожерелье мастерства [SCOPE.Custom('ArtifactQuality')]. [newly_created_artifact.GetFeatureText( 'necklace_decoration' )]."
+  
+ artifact_elf_boots_name: "$artifact_name_prefix$ Сапоги [SCOPE.Custom('ElfArtifactArchetypeTitle')]"
+ artifact_elf_boots_description: "[SCOPE.Custom('ArtifactArticleWealth')] пара ботинок [SCOPE.Custom('ArtifactQuality')] эльфийского мастерства. [SCOPE.Custom('ElfArtifactArchetypeDescription')]"
+  
+   ## Archetypes 
+ archetype_ravager_title: "Опустошителя"
+ archetype_roadmen_title: "Дорожников"
+ archetype_paladin_title: "Паладина"
+ archetype_captain_title: "Капитана"
+ archetype_noble_title: "Благородного"
+ archetype_aeluran_title: "Из Элурана"
+ archetype_not_found_title: "Эльфийского простолюдина"
+  
+ archetype_ravager_description: "Этот артефакт когда-то принадлежал могущественному эльфийскому налетчику, пусть вы грабите земли, как это делали они."
+ archetype_roadmen_description: "Этот артефакт когда-то принадлежал ловкому эльфу-путешественнику, пусть вы исследуете земли, как они."
+ archetype_paladin_description: "Этот артефакт когда-то принадлежал отважному эльфийскому рыцарю, пусть вы защитите земли, как они."
+ archetype_captain_description: "Этот артефакт когда-то принадлежал мудрому эльфийскому офицеру, пусть вы завоюете земли, как они."
+ archetype_noble_description: "Этот артефакт когда-то принадлежал царственному королевскому эльфу, пусть вы наблюдаете за землями, как это делали они."
+ archetype_aeluran_description: "Этот артефакт когда-то принадлежал могущественной сестре Элуран, пусть вы наведете порядок в этих землях, как это сделали они."
+ archetype_not_found_desc: "Это ОШИБКА. Пожалуйста, сообщите об этом разработчику мода Elf Destiny."

@@ -1,0 +1,17 @@
+﻿l_russian:
+ elf_dest_youtube_tooltip: "#T Подпишитесь на канал Elf Destiny на YouTube!#!\nWatch Официальный трейлер мода и узнайте больше о модификациях от создателя!\n\n#P #I Ссылку можно найти на странице мода в Steam!\n\nИли посетите: § _4"
+ elf_dest_discord_tooltip: "#T Присоединяйтесь к каналу Elf Destiny Discord!#!\nCheck узнавайте о предстоящих функциях в дорожной карте мода, читайте дневники разработчиков, сообщайте о проблемах и общайтесь с другими фанатиками эльфов!!\n\n#P #I Ссылку можно найти в Steam мода Страница!\n\nИли посетите: #!#!https://discord.gg/elf-destiny-1179053540161880074"
+  
+ ELF_DLC_BUTTON_TOOLTIP: "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low [SelectLocalization(Or(EqualTo_string(DlcItem.GetDlc.GetName, 'Elf Destiny'), DlcItem.GetDlc.IsEnabled), 'ELF_DLC_ENABLED', 'DLC_NOT_ENABLED' )]#!\n#I [SelectLocalization(EqualTo_string(DlcItem.GetDlc.GetName, 'Elf Destiny'), 'VERSION_MSG', 'CLICK_MSG' )]#!"
+ ELF_DLC_ENABLED: "[SelectLocalization(EqualTo_string(DlcItem.GetDlc.GetName, 'Elf Destiny'), 'ELF_DLC_ENABLED_MSG', 'VANILLA_DLC_ENABLED_MSG' )]"
+ VANILLA_DLC_ENABLED_MSG: "Дополнение включено"
+ ELF_DLC_ENABLED_MSG: "Мод включен"
+ CLICK_MSG: "Нажмите, чтобы посетить магазин"
+ VERSION_MSG: "Версия - Beta_v1.5.0"
+  
+ REGENCY_SCALE_VANILLA: "[scales_of_power|E]"
+ REGENCY_SCALE_AELURAN: "Уровень #BOL #color_light_red Элуранский контроль#!#!"
+  
+ aeluran_adviser_and_spouse: "[spouse|E] и [aeluran_advisor|E]"
+  
+ battle_of_wills: "Битва Воли"
