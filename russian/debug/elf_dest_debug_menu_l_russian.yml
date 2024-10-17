@@ -1,82 +1,82 @@
 ﻿l_russian:
- rule_elf_dest_debug_menu: "Elf Destiny Debug Menu" #NT!
- setting_elf_dest_debug_menu_turned_off: "Off" #NT!
- setting_elf_dest_debug_menu_turned_off_desc: "The Elf Destiny Debug \"Cheat\" Menu will be hidden" #NT!
- setting_elf_dest_debug_menu_turned_on: "On" #NT!
- setting_elf_dest_debug_menu_turned_on_desc: "The Elf Destiny Debug \"Cheat\" Menu will be revealed" #NT!
+ rule_elf_dest_debug_menu: "Elf Destiny Debug Menu"
+ setting_elf_dest_debug_menu_turned_off: "Off"
+ setting_elf_dest_debug_menu_turned_off_desc: "The Elf Destiny Debug \"Cheat\" Menu will be hidden"
+ setting_elf_dest_debug_menu_turned_on: "On"
+ setting_elf_dest_debug_menu_turned_on_desc: "The Elf Destiny Debug \"Cheat\" Menu will be revealed"
   
- elf_debug_menu: "Elf Debug Menu" #NT!
- elf_debug_menu_tooltip: "A debug menu to manage Elf Destiny content!" #NT!
- elf_debug_menu_desc: "#tooltip_heading A Menu For Editing The Game State Of Elf Destiny!#!\n#tooltip_subheading See the character interaction menu for more options#!" #NT!
- elf_dest_debug_skip_story: "Skip Ahead in the Elf Destiny Storyline" #NT!
- elf_dest_debug_spawn_artifacts: "Spawn Special Elf Destiny Artifacts" #NT!
+ elf_debug_menu: "Elf Debug Menu"
+ elf_debug_menu_tooltip: "A debug menu to manage Elf Destiny content!"
+ elf_debug_menu_desc: "#tooltip_heading A Menu For Editing The Game State Of Elf Destiny!#!\n#tooltip_subheading See the character interaction menu for more options#!"
+ elf_dest_debug_skip_story: "Skip Ahead in the Elf Destiny Storyline"
+ elf_dest_debug_spawn_artifacts: "Spawn Special Elf Destiny Artifacts"
   
- elf_debug_menu_confirm: "Open Menu" #NT!
+ elf_debug_menu_confirm: "Open Menu"
   
- elf_destiny_debug_menu: "Elf Character Editor" #NT!
- elf_destiny_debug_menu_desc: "A debug menu to create the Elf of your dreams!" #NT!
+ elf_destiny_debug_menu: "Elf Character Editor"
+ elf_destiny_debug_menu_desc: "A debug menu to create the Elf of your dreams!"
   
- elf_destiny_debug_menu.01.title: "Elf Destiny Debug Menu" #NT!
- elf_destiny_debug_menu.01.desc: "Your not going to use this to cheat... #EMP #difficulty_hard are you#!#!?" #NT!
- elf_destiny_debug_menu.01.storyline: "Story Skips" #NT!
- elf_destiny_debug_menu.01.artifacts: "Spawn Artifacts" #NT!
+ elf_destiny_debug_menu.01.title: "Elf Destiny Debug Menu"
+ elf_destiny_debug_menu.01.desc: "Your not going to use this to cheat... #EMP #difficulty_hard are you#!#!?"
+ elf_destiny_debug_menu.01.storyline: "Story Skips"
+ elf_destiny_debug_menu.01.artifacts: "Spawn Artifacts"
   
- elf_destiny_debug_menu.011.title: "Elf Destiny Debug Menu - Story Skips" #NT!
- elf_destiny_debug_menu.011.desc: "Skip story sections" #NT!
- elf_destiny_debug_menu.011.skip_first_expedition: "Complete First Expedition" #NT!
- elf_destiny_debug_menu.011.visited_by_aelurans: "Visited By Aelurans" #NT!
- elf_destiny_debug_menu.011.complete_portal: "Restore The Grand Portal" #NT!
- elf_destiny_debug_menu.011.back: "<--- Back" #NT!
- elf_destiny_debug_menu.011.done: "Done" #NT!
+ elf_destiny_debug_menu.011.title: "Elf Destiny Debug Menu - Story Skips"
+ elf_destiny_debug_menu.011.desc: "Skip story sections"
+ elf_destiny_debug_menu.011.skip_first_expedition: "Complete First Expedition"
+ elf_destiny_debug_menu.011.visited_by_aelurans: "Visited By Aelurans"
+ elf_destiny_debug_menu.011.complete_portal: "Restore The Grand Portal"
+ elf_destiny_debug_menu.011.back: "<--- Back"
+ elf_destiny_debug_menu.011.done: "Done"
   
- elf_destiny_debug_menu.1111.title: "Elf Destiny Debug Menu - Story Skips - First Expedition" #NT!
- elf_destiny_debug_menu.1111.desc: "When You Found The Sigil, who was transformed into an Elf?" #NT!
- elf_destiny_debug_menu.1111.just_me: "Just Me" #NT!
- elf_destiny_debug_menu.1111.me_and_julia: "Julia and I" #NT!
- elf_destiny_debug_menu.1111.both_and_my_close_family: "Julia, Me, And My Family" #NT!
- elf_destiny_debug_menu.1111.noone: "No one is transformed" #NT!
+ elf_destiny_debug_menu.1111.title: "Elf Destiny Debug Menu - Story Skips - First Expedition"
+ elf_destiny_debug_menu.1111.desc: "When You Found The Sigil, who was transformed into an Elf?"
+ elf_destiny_debug_menu.1111.just_me: "Just Me"
+ elf_destiny_debug_menu.1111.me_and_julia: "Julia and I"
+ elf_destiny_debug_menu.1111.both_and_my_close_family: "Julia, Me, And My Family"
+ elf_destiny_debug_menu.1111.noone: "No one is transformed"
   
- elf_destiny_debug_menu.1112.title: "Elf Destiny Debug Menu - Story Skips - First Expedition" #NT!
- elf_destiny_debug_menu.1112.desc: "Did adopt Elven culture or modify your existing culture?" #NT!
- elf_destiny_debug_menu.1112.take_culture: "I Took Elven Culture" #NT!
- elf_destiny_debug_menu.1112.modify_existing_culture: "I Modified [ROOT.Char.GetCulture.GetName] Instead" #NT!
- elf_destiny_debug_menu.1112.skip_culture_change: "Skip Culture Modifications" #NT!
+ elf_destiny_debug_menu.1112.title: "Elf Destiny Debug Menu - Story Skips - First Expedition"
+ elf_destiny_debug_menu.1112.desc: "Did adopt Elven culture or modify your existing culture?"
+ elf_destiny_debug_menu.1112.take_culture: "I Took Elven Culture"
+ elf_destiny_debug_menu.1112.modify_existing_culture: "I Modified [ROOT.Char.GetCulture.GetName] Instead"
+ elf_destiny_debug_menu.1112.skip_culture_change: "Skip Culture Modifications"
   
- elf_destiny_debug_menu.2111.title: "Elf Destiny Debug Menu - Story Skips - Visited By Divine Spark" #NT!
- elf_destiny_debug_menu.2111.desc: "When visited in your dreams by The Divine Spark, what tradition did you choose?" #NT!
- elf_destiny_debug_menu.2111.open_hearted: "[GetCultureTradition('tradition_open_hearted').GetName]" #NT!
- elf_destiny_debug_menu.2111.elf_superiority: "[GetCultureTradition('tradition_elf_superiority').GetName]" #NT!
- elf_destiny_debug_menu.2111.skip_choice: "Skip Choice" #NT!
+ elf_destiny_debug_menu.2111.title: "Elf Destiny Debug Menu - Story Skips - Visited By Divine Spark"
+ elf_destiny_debug_menu.2111.desc: "When visited in your dreams by The Divine Spark, what tradition did you choose?"
+ elf_destiny_debug_menu.2111.open_hearted: "[GetCultureTradition('tradition_open_hearted').GetName]"
+ elf_destiny_debug_menu.2111.elf_superiority: "[GetCultureTradition('tradition_elf_superiority').GetName]"
+ elf_destiny_debug_menu.2111.skip_choice: "Skip Choice"
   
- elf_destiny_debug_menu.2112.title: "Elf Destiny Debug Menu - Story Skips - Visited By Aelurans" #NT!
- elf_destiny_debug_menu.2112.desc: "When the Aelurans visited you to lore dump exposition, did you convert to the Aeluran faith?" #NT!
- elf_destiny_debug_menu.2112.take_religion: "Convert To Aeluran" #NT!
- elf_destiny_debug_menu.2112.refuse_religion: "Keep old Faith" #NT!
+ elf_destiny_debug_menu.2112.title: "Elf Destiny Debug Menu - Story Skips - Visited By Aelurans"
+ elf_destiny_debug_menu.2112.desc: "When the Aelurans visited you to lore dump exposition, did you convert to the Aeluran faith?"
+ elf_destiny_debug_menu.2112.take_religion: "Convert To Aeluran"
+ elf_destiny_debug_menu.2112.refuse_religion: "Keep old Faith"
   
- elf_destiny_debug_menu.012.title: "Elf Destiny Debug Menu - Spawn Artifacts" #NT!
- elf_destiny_debug_menu.012.desc: "Spawn Elf Artifacts" #NT!
- elf_destiny_debug_menu.012.sigil_of_realm_lord: "Sigil Of The Realm Lord" #NT!
- elf_destiny_debug_menu.012.spark_capacitor: "Spark Capacitor" #NT!
- elf_destiny_debug_menu.012.navigation_relay: "Navigation Relay" #NT!
- elf_destiny_debug_menu.012.spark_crystal: "Spark Crystal" #NT!
- elf_destiny_debug_menu.012.lembas_belt: "Lembas Belt Of The Baker" #NT!
- elf_destiny_debug_menu.012.foeglass: "Foeglass of Vána" #NT!
- elf_destiny_debug_menu.012.back: "<--- Back" #NT!
- elf_destiny_debug_menu.012.done: "Done" #NT!
+ elf_destiny_debug_menu.012.title: "Elf Destiny Debug Menu - Spawn Artifacts"
+ elf_destiny_debug_menu.012.desc: "Spawn Elf Artifacts"
+ elf_destiny_debug_menu.012.sigil_of_realm_lord: "Sigil Of The Realm Lord"
+ elf_destiny_debug_menu.012.spark_capacitor: "Spark Capacitor"
+ elf_destiny_debug_menu.012.navigation_relay: "Navigation Relay"
+ elf_destiny_debug_menu.012.spark_crystal: "Spark Crystal"
+ elf_destiny_debug_menu.012.lembas_belt: "Lembas Belt Of The Baker"
+ elf_destiny_debug_menu.012.foeglass: "Foeglass of Vána"
+ elf_destiny_debug_menu.012.back: "<--- Back"
+ elf_destiny_debug_menu.012.done: "Done"
   
      # Character Menu ===================== 
   
      elf_destiny_debug_menu.02.title:0 "Elf Destiny Character Debug Menu 
- elf_destiny_debug_menu.02.desc: "Your not going to use this to cheat... #EMP #difficulty_hard are you#!#!?" #NT!
- elf_destiny_debug_menu.02.race_options: "Change Character's Race" #NT!
- elf_destiny_debug_menu.02.traits: "Change Character's Traits" #NT!
- elf_destiny_debug_menu.02.culture: "Change Character's Culture" #NT!
- elf_destiny_debug_menu.02.nvm: "Close Menu" #NT!
+ elf_destiny_debug_menu.02.desc: "Your not going to use this to cheat... #EMP #difficulty_hard are you#!#!?"
+ elf_destiny_debug_menu.02.race_options: "Change Character's Race"
+ elf_destiny_debug_menu.02.traits: "Change Character's Traits"
+ elf_destiny_debug_menu.02.culture: "Change Character's Culture"
+ elf_destiny_debug_menu.02.nvm: "Close Menu"
   
- elf_destiny_debug_menu.021.title: "Select Character Race" #NT!
- elf_destiny_debug_menu.021.desc: "Choose A Race" #NT!
- elf_destiny_debug_menu.021.race_options.done: "Done" #NT!
+ elf_destiny_debug_menu.021.title: "Select Character Race"
+ elf_destiny_debug_menu.021.desc: "Choose A Race"
+ elf_destiny_debug_menu.021.race_options.done: "Done"
   
- elf_destiny_debug_menu.022.title: "Select Character Traits" #NT!
- elf_destiny_debug_menu.022.desc: "          Choose Traits For [recipient.GetFullName]" #NT!
- elf_destiny_debug_menu.022.done: "Done" #NT!
+ elf_destiny_debug_menu.022.title: "Select Character Traits"
+ elf_destiny_debug_menu.022.desc: "          Choose Traits For [recipient.GetFullName]"
+ elf_destiny_debug_menu.022.done: "Done"

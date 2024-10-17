@@ -5,3 +5,14 @@
  adopt_elven_elective_confirm: "Принять [GetLaw('elf_elective_succession_law').GetName] [succession_law|E]"
   
  adopt_elven_elective_effect: "Принять [GetLaw('elf_elective_succession_law').GetName] [succession_law|E]"
+  
+ adopt_ascended_tribal: "Принять Вознесенное Племенное Правительство" #NT!
+ adopt_ascended_tribal_decision_desc: "#EMP Вера в то, что отказ от неявной мудрости природы ради безумия и упадка городской жизни есть прогресс, является извращенной догмой глупцов;\nОни пытаются претендовать на мантию цивилизации, но истинная цивилизация заключается в объятиях леса. Если мы хотим построить великие города и крепости, пусть они будут там!#!\n\n[GetGovernment('advanced_tribal_government').GetName] [government|E] имеет много сильных сторон и некоторые слабые стороны [feudal|E] и [tribal|E] [governments|E]:\n$EFFECT_LIST_BULLET$Всем графствам потребуется племенное владение в качестве основного [holding|E], но они могут строить и поддерживать дополнительные [feudal|E] [holdings|E].\n$EFFECT_LIST_BULLET$Открывает два дополнительных уровня зданий для племени [holdings|E].\n$EFFECT_LIST_BULLET$Правители с вознесенным племенем могут нанимать как #!\n\n[GetGovernment('advanced_tribal_government').GetName]3, так и #!\n\n[GetGovernment('advanced_tribal_government').GetName]4 в качестве #!\n\n[GetGovernment('advanced_tribal_government').GetName]5" #NT!
+  
+ adopt_ascended_tribal_decision_tooltip: "Измените [government|E] вашего имени и [vassals|E] на [GetGovernment('advanced_tribal_government').GetName]" #NT!
+  
+ adopt_ascended_tribal_decision_convert_holdings_tooltip: "Каждый [county|E] вашего [realm|E] будет либо иметь случайный пустой [barony|E], либо, если таковой недоступен, его столичное баронство, преобразованное в [tribal|E] [holding|E]." #NT!
+  
+  
+  
+ adopt_ascended_tribal_confirm: "Хватай мое копье!" #NT!

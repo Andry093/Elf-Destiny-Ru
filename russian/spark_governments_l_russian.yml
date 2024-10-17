@@ -1,14 +1,18 @@
 ﻿l_russian:
    # Feyswood 
  aeluran_weavers_government: "Домен Ковена"
+ aeluran_weavers_government_adjective: "Орден Элурана" #NT!
+ aeluran_weavers_government_with_icon: "@aeluran_experiment_icon! Заказ Aeluran" #NT!
+  
  aeluran_weavers_government_desc: "Таинственные и затворнические, Элуранские Ткачи — это шабаш ведьм, веками живших в Фейсвуде. Ходят слухи, что они обладают способностью видеть будущее и известны своим вмешательством в дела мира людей."
   
  advanced_tribal_government: "Вознесенное Племя"
- advanced_tribal_government_adjective: "Вознесенный Племенной" #NT!
- advanced_tribal_government_with_icon: "@government_type_feudal! $advanced_tribal_government$" #NT!
+ advanced_tribal_government_adjective: "Вознесенный Племенной"
+ advanced_tribal_government_with_icon: "@government_type_feudal! $advanced_tribal_government$"
  advanced_tribal_government_desc: "Это люди земли, обладающие всеми преимуществами, которыми обладают жители феодальных замков, но без их ошибочного высокомерия.\n\nВознесенные племенные правительства:\n$EFFECT_LIST_BULLET$Имеют доступ к еще двум уровням всех племенных построек и могут создавать новые племенные владения. !\n$EFFECT_LIST_BULLET$Сохраните способность совершать набеги.\n$EFFECT_LIST_BULLET$Получите некоторые преимущества, разработанные феодальными обществами, такие как власть короны, изменение законов о наследовании и создание кадетских отделений."
   
- government_is_advanced_tribal: "Тип [government|E] – [GetGovernment( 'advanced_tribal_government' ).GetName]."
+ advanced_tribal_government_opinion: "[advanced_tribal_government|E] Мнение правителя" #NT!
+ advanced_tribal_government_levy_contribution_mult: "[advanced_tribal|E] [vassal|E] [levy|E] [modifier_contribution|E]" #NT!
   
  game_concept_advanced_tribal: "Вознесенное племя"
  game_concept_advanced_tribal_government: "Вознесенное племенное правительство"
