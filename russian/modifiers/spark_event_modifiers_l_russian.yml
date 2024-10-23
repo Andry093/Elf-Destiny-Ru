@@ -7,8 +7,8 @@
  superior_elf_king_modifier: "Эльфийский король, превосходящий людей"
  superior_elf_emperor_modifier: "Эльфийский император, превосходящий людей"
   
- chieftain_visionary_modifier: "Дальновидный вождь" #NT!
- chieftain_visionary_modifier_desc: "Этот персонаж привел их королевство в форму [advanced_tribal|E] [government|E]. Все будут помнить Вождя с видением, которое привело их в правильное соответствие с природой!" #NT!
+ chieftain_visionary_modifier: "Дальновидный вождь"
+ chieftain_visionary_modifier_desc: "Этот персонаж привел их королевство в форму [advanced_tribal|E] [government|E]. Все будут помнить Вождя с видением, которое привело их в правильное соответствие с природой!"
   
  increased_supplies_modifier: "Реквизированный мастер"
  undermined_supplies_modifier: "Подорванные припасы"

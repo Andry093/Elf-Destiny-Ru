@@ -29,6 +29,16 @@
  elf_destiny_debug_menu.011.back: "<--- Back"
  elf_destiny_debug_menu.011.done: "Done"
   
+ elf_destiny_debug_menu.1110.title: "Меню отладки Elf ​​Destiny - Пропуски сюжета - Первая экспедиция" #NT!
+ elf_destiny_debug_menu.1110.desc: "Где была найдена Печать Владыки Царства?" #NT!
+ elf_destiny_debug_menu.1110.b_bellinzona: "[GetTitleByKey('b_bellinzona').GetName]" #NT!
+ elf_destiny_debug_menu.1110.b_intarta: "[GetTitleByKey('b_intarta').GetName]" #NT!
+ elf_destiny_debug_menu.1110.b_simbiling: "[GetTitleByKey('b_simbiling').GetName]" #NT!
+ elf_destiny_debug_menu.1110.b_dayan: "[GetTitleByKey('b_dayan').GetName]" #NT!
+ elf_destiny_debug_menu.1110.b_atakpame: "[GetTitleByKey('b_atakpame').GetName]" #NT!
+ elf_destiny_debug_menu.1110.b_kasriskari: "[GetTitleByKey('b_kasriskari').GetName]" #NT!
+ elf_destiny_debug_menu.1110.b_northri_gudbrandsdali: "[GetTitleByKey('b_northri_gudbrandsdali').GetName]" #NT!
+  
  elf_destiny_debug_menu.1111.title: "Elf Destiny Debug Menu - Story Skips - First Expedition"
  elf_destiny_debug_menu.1111.desc: "When You Found The Sigil, who was transformed into an Elf?"
  elf_destiny_debug_menu.1111.just_me: "Just Me"

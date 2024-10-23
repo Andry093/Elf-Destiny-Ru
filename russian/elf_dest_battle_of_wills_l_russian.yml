@@ -17,12 +17,12 @@
  battle_of_wills_difference_in_magic_talent.big_penalty: "\n#N -- Ваш талант манипулирования искрой намного ниже#!"
  battle_of_wills_difference_in_magic_talent.massive_penalty: "\n#N --- Ваш талант управления искрой намного слабее#!"
   
- battle_of_wills_difference_in_aeluran_order_level.small_boost: "\n#P + Ранг Ордена Аэлурана больше @aeluran_order_icon!#!" #NT!
- battle_of_wills_difference_in_aeluran_order_level.big_boost: "\n#P ++ Ранг ордена Аэлурана намного выше @aeluran_order_icon!#!" #NT!
- battle_of_wills_difference_in_aeluran_order_level.massive_boost: "\n#P +++ Ранг ордена Аэлурана намного выше @aeluran_order_icon!#!" #NT!
- battle_of_wills_difference_in_aeluran_order_level.small_penalty: "\n#N - Ранг ордена Аэлурана ниже @aeluran_order_icon!#!" #NT!
- battle_of_wills_difference_in_aeluran_order_level.big_penalty: "\n#N -- Ранг ордена Аэлурана намного ниже @aeluran_order_icon!#!" #NT!
- battle_of_wills_difference_in_aeluran_order_level.massive_penalty: "\n#N --- Ранг ордена Аэлурана намного ниже @aeluran_order_icon!#!" #NT!
+ battle_of_wills_difference_in_aeluran_order_level.small_boost: "\n#P + Ранг Ордена Аэлурана больше @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluran_order_level.big_boost: "\n#P ++ Ранг ордена Аэлурана намного выше @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluran_order_level.massive_boost: "\n#P +++ Ранг ордена Аэлурана намного выше @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluran_order_level.small_penalty: "\n#N - Ранг ордена Аэлурана ниже @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluran_order_level.big_penalty: "\n#N -- Ранг ордена Аэлурана намного ниже @aeluran_order_icon!#!"
+ battle_of_wills_difference_in_aeluran_order_level.massive_penalty: "\n#N --- Ранг ордена Аэлурана намного ниже @aeluran_order_icon!#!"
   
  battle_of_wills_challenger_is_enchantress: "\n#P +++ Ты [GetTrait('enchantress').GetName( GetNullCharacter )] @enchantress_icon!#!"
  battle_of_wills_defender_is_enchantress: "\n#N --- Ваша цель — @enchantress_icon! [GetTrait('enchantress').GetName( GetNullCharacter )]#!"

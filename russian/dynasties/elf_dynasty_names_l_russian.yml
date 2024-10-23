@@ -5,12 +5,16 @@
   
  # dynnp_matron: "Матрона"
  dynn_Valerith: "Валерит"
+ dynn_Vaeldrik: "Ваелдрик" #NT!
   
  dynn_Daelurin: "Даэлурин"
  dynn_Morozov: "Морозов"
  dynn_Greywood: "Грейвуд"
   
+ dynn_Hyperion: "Гиперион" #NT!
+  
  dynn_Serelion: "Серелион"
+ # dynn_Hyperin: "Гиперион" #NT!
   
  dynn_Gwynthorn: "Гвинторн"
  dynn_Verlline: "Верлин"

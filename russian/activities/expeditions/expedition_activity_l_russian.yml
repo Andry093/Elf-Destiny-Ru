@@ -70,6 +70,8 @@
   
    expedition_site_proving_fields_desc:0 "#difficulty_medium The Proving Fields#! - Ancient stone barracks are all that remains of this once vast compound. Ages ago it was the headquarters of a famous martial order, but has long since been left to the whims of nature. The greatest warriors of the world would gather here to sharpen their skills and watch the true elites of the world spar. 
   
+ expedition_site_undiscovered_fortress_tomb_of_the_dead_emperor_desc: "#difficulty_medium Древние эльфийские руины#! - Возможное важное место, оставленное эльфами." #NT!
+  
  expedition_site_fortress_tomb_of_the_dead_emperor_desc: "#difficulty_medium Крепость-Гробница Последнего Императора#! — место последнего упокоения последнего эльфийского императора Земли. Он отступил в эту крепость одиночества после предательства и полного поражения от Великого Восстания."
   
  expedition_site_volcanic_forge_desc: "#difficulty_medium Вулканическая кузница Келебрима#! - Здесь, глубоко в вулкане, по слухам, находится кузница и мастерская Келебрима; Величайший ремесленник, которого когда-либо видели эльфы Земли. Император с радостью отказался бы от королевства ради простого шанса владеть одним из чудесных творений Келебрима, и за власть, которой обладают некоторые из них, ведутся войны."

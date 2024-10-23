@@ -11,19 +11,19 @@
  ENTRANCE_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] становится [GetTrait('entranced').GetName( GetNullCharacter )], и вы получаете за них [perpetual_hook|E]."
  SCHEME_ENCHANTESS_TRAIT: "[GetTrait('enchantress').GetName( owner.Self )]: $VALUE|+0=$"
   
- entrance_odds.elf_level_value: "Разница в уровне эльфа" #NT!
- entrance_odds.magic_talent_value: "Разница в таланте манипуляции искрой" #NT!
- entrance_odds.you_are_magi: "Вы обученный [GetTrait('magi').GetName( GetNullCharacter )], [target.GetFirstName] нет" #NT!
- entrance_odds.they_are_magi: "[target.GetFirstName] - обученный [GetTrait('magi').GetName( GetNullCharacter )], вы - нет" #NT!
- entrance_odds.you_are_enchantress: "Вы [GetTrait('enchantress').GetName( GetNullCharacter )], [target.GetFirstName] — нет" #NT!
- entrance_odds.they_are_enchantress: "[target.GetFirstName] — это [GetTrait('enchantress').GetName( GetNullCharacter )], вы — нет" #NT!
- entrance_odds.they_are_your_lover: "[target.GetFirstName] твой любовник" #NT!
- entrance_odds.they_are_your_soulmate: "[target.GetFirstName] — твоя родственная душа" #NT!
- entrance_odds.they_are_your_rival: "[target.GetFirstName] — твой соперник" #NT!
- entrance_odds.they_are_your_nemesis: "[target.GetFirstName] — твой враг" #NT!
- entrance_odds.not_attracted_to_your_gender: "[target.GetFirstName] — это [target.GetSexuality]" #NT!
- entrance_odds.you_are_more_attractive_than_target: "Ты привлекательнее, чем [target.GetFirstName]" #NT!
- entrance_odds.you_are_less_attractive_than_target: "Вы менее привлекательны, чем [target.GetFirstName]" #NT!
+ entrance_odds.elf_level_value: "Разница в уровне эльфа"
+ entrance_odds.magic_talent_value: "Разница в таланте манипуляции искрой"
+ entrance_odds.you_are_magi: "Вы обученный [GetTrait('magi').GetName( GetNullCharacter )], [target.GetFirstName] нет"
+ entrance_odds.they_are_magi: "[target.GetFirstName] - обученный [GetTrait('magi').GetName( GetNullCharacter )], вы - нет"
+ entrance_odds.you_are_enchantress: "Вы [GetTrait('enchantress').GetName( GetNullCharacter )], [target.GetFirstName] — нет"
+ entrance_odds.they_are_enchantress: "[target.GetFirstName] — это [GetTrait('enchantress').GetName( GetNullCharacter )], вы — нет"
+ entrance_odds.they_are_your_lover: "[target.GetFirstName] твой любовник"
+ entrance_odds.they_are_your_soulmate: "[target.GetFirstName] — твоя родственная душа"
+ entrance_odds.they_are_your_rival: "[target.GetFirstName] — твой соперник"
+ entrance_odds.they_are_your_nemesis: "[target.GetFirstName] — твой враг"
+ entrance_odds.not_attracted_to_your_gender: "[target.GetFirstName] — это [target.GetSexuality]"
+ entrance_odds.you_are_more_attractive_than_target: "Ты привлекательнее, чем [target.GetFirstName]"
+ entrance_odds.you_are_less_attractive_than_target: "Вы менее привлекательны, чем [target.GetFirstName]"
   
   
   

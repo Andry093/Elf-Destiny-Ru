@@ -183,7 +183,7 @@
  tradition_tribal_ascension_desc: "Только житель замка поверит, что жить по старым традициям ограниченно. Простой не значит слабый, это значит чистый. Люди этой культуры сильны и горды, и их не сдерживают атрибуты цивилизованного мира."
   
  culture_parameter_form_advanced_tribal_government: "Изменит правительство королевства на Вознесенное Племя."
- culture_parameter_unlock_maa_advanced_tribal: "Правители с [advanced_tribal|E] [government|E] могут нанимать как [GetMaA('warband_ravagers').GetName], так и [GetMaA('warband_vanguard').GetName] в качестве [men_at_arms|E]." #NT!
+ culture_parameter_unlock_maa_advanced_tribal: "Правители с [advanced_tribal|E] [government|E] могут нанимать как [GetMaA('warband_ravagers').GetName], так и [GetMaA('warband_vanguard').GetName] в качестве [men_at_arms|E]."
   
    # Blessing of Vána 
  tradition_blessing_of_vana_name: "Благословение Ваны"

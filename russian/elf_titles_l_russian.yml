@@ -1,0 +1,44 @@
+﻿l_russian:
+   # Feyswood 
+ d_martyuba: "Фейсвуд"
+ d_martyuba_adj: "Фейс"
+ c_cykma: "Глубокий лес"
+ c_cykma_adj: "Глубокий лес"
+ c_martyuba: "Приземление духов"
+ c_martyuba_adj: "духи"
+   # Special 
+ c_high_matriarch: "Верховная Матрона"
+ c_high_matriarch_adj: "Верховная Матрона"
+  
+ d_bargujin_tukum: "Высокие Холмы" #NT!
+ d_bargujin_tukum_adj: "Высокий Хиллиан" #NT!
+  
+ c_chuya: "Северный Лес" #NT!
+ c_karabaigal: "Королевский гребень" #NT!
+ c_vitim: "Ладонь гиганта" #NT!
+ c_kotera: "Верхний предел" #NT!
+  
+ c_malta: "Змеиный глаз" #NT!
+  
+ d_cyprus: "Логово Вирма" #NT!
+ c_nicosia: "Логово Вирма" #NT!
+ c_famagusta: "Белая Гавань" #NT!
+  
+ d_kazym: "Кристальные поляны" #NT!
+ c_kazym: "Звездопад" #NT!
+ c_sosva: "Тихий Лес" #NT!
+ c_koda: "Нортрест" #NT!
+  
+ c_ailech: "Эмайн Маха" #NT!
+ c_pagania: "Зелёные Берега" #NT!
+  
+ c_kevrola: "Альфхейм" #NT!
+  
+ d_laamp_belanor: "Банда ублюдков" #NT!
+ d_laamp_belanor_article: "$DEFAULT_TITLE_NAME_ARTICLE$" #NT!
+  
+ d_laamp_aubrey: "Прецессия ведьмы" #NT!
+ d_laamp_aubrey_article: "$DEFAULT_TITLE_NAME_ARTICLE$" #NT!
+  
+ d_laamp_heldrin: "Охотники за силой" #NT!
+ d_laamp_heldrin_article: "$DEFAULT_TITLE_NAME_ARTICLE$" #NT!
